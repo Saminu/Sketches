@@ -226,7 +226,7 @@
             titles = [];
 
     d3.queue()
-            .defer(d3.csv, "/data/mineralData.csv")
+            .defer(d3.csv, "data/mineralData.csv")
             .await(ready);
 
     function ready(error, data) {
