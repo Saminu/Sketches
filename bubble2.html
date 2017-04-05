@@ -191,55 +191,6 @@
 
     var alphabet = "abcdefghijklmnopqrstuvwxyz".split("");
 
-    var dataSets = [];
-    var titleArray;
-
-    d3.csv("/data/mineralData.csv", function (data) {
-
-        var keys = data.map(function (d) {
-            return Object.keys(d)
-        });
-        var cleanArray = keys[0].splice(1, (keys[0].length));
-        titleArray = cleanArray;
-
-        for(var i=0; i < cleanArray.length; i++){
-            console.log(cleanArray[i]);
-            console.log(data);
-        }
-
-        //clean data
-        data.forEach(function (d) {
-            var item = "Granite Aggregate";
-            var str = d[item];
-            str = str.replace(/[^\d\.\-]/g, "");
-            //
-            d.value = +str;
-
-            //links
-
-//            console.log(d);
-
-            return d;
-        });
-
-//        console.log(data);
-
-    });
-
-    function dataCln(d, parameters) {
-
-        var item = parameters["mineral"] || "Granite Aggregate";
-        var str = d[item];
-        str = str.replace(/[^\d\.\-]/g, "");
-        //
-        d.value = +str;
-        d.Call_Type = d["State"];
-
-        defaultData.push(d);
-
-        return d;
-    }
-
     var pack = d3.pack()
             .size([width, height])
             .padding(1.5);

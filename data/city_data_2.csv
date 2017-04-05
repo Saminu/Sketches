@@ -1,0 +1,2273 @@
+"city_state","num_projects","parent_category","statAmount"
+"Akron OH",7,"Art",0
+"Akron OH",1,"Comics",0
+"Akron OH",3,"Crafts",0
+"Akron OH",7,"Design",0
+"Akron OH",2,"Fashion",0
+"Akron OH",9,"Film & Video",0
+"Akron OH",6,"Food",0
+"Akron OH",3,"Games",0
+"Akron OH",14,"Music",0
+"Akron OH",4,"Publishing",0
+"Akron OH",6,"Technology",0
+"Albany NY",4,"Art",1
+"Albany NY",7,"Comics",0
+"Albany NY",1,"Crafts",0
+"Albany NY",3,"Dance",0
+"Albany NY",3,"Design",1
+"Albany NY",3,"Fashion",0
+"Albany NY",19,"Film & Video",0
+"Albany NY",1,"Food",1
+"Albany NY",12,"Games",0
+"Albany NY",52,"Music",1
+"Albany NY",2,"Photography",0
+"Albany NY",12,"Publishing",0
+"Albany NY",2,"Theater",1
+"Albuquerque NM",27,"Art",0
+"Albuquerque NM",7,"Comics",0
+"Albuquerque NM",3,"Crafts",0
+"Albuquerque NM",6,"Dance",0
+"Albuquerque NM",5,"Design",1
+"Albuquerque NM",3,"Fashion",1
+"Albuquerque NM",50,"Film & Video",0
+"Albuquerque NM",8,"Food",0
+"Albuquerque NM",26,"Games",0
+"Albuquerque NM",41,"Music",0
+"Albuquerque NM",2,"Photography",0
+"Albuquerque NM",21,"Publishing",0
+"Albuquerque NM",10,"Technology",0
+"Albuquerque NM",16,"Theater",0
+"Amherst MA",3,"Art",0
+"Amherst MA",1,"Comics",0
+"Amherst MA",6,"Dance",0
+"Amherst MA",16,"Film & Video",0
+"Amherst MA",2,"Food",0
+"Amherst MA",20,"Music",0
+"Amherst MA",1,"Photography",0
+"Amherst MA",10,"Publishing",0
+"Amherst MA",7,"Theater",0
+"Anaheim CA",3,"Art",0
+"Anaheim CA",5,"Comics",0
+"Anaheim CA",2,"Crafts",0
+"Anaheim CA",1,"Design",1
+"Anaheim CA",3,"Fashion",0
+"Anaheim CA",6,"Film & Video",0
+"Anaheim CA",4,"Food",0
+"Anaheim CA",18,"Games",1
+"Anaheim CA",13,"Music",0
+"Anaheim CA",1,"Photography",0
+"Anaheim CA",2,"Publishing",1
+"Anaheim CA",1,"Theater",1
+"Anchorage AK",10,"Art",0
+"Anchorage AK",3,"Comics",0
+"Anchorage AK",6,"Dance",0
+"Anchorage AK",1,"Design",1
+"Anchorage AK",1,"Fashion",1
+"Anchorage AK",11,"Film & Video",0
+"Anchorage AK",6,"Food",0
+"Anchorage AK",2,"Games",1
+"Anchorage AK",1,"Journalism",0
+"Anchorage AK",29,"Music",0
+"Anchorage AK",10,"Photography",1
+"Anchorage AK",8,"Publishing",0
+"Anchorage AK",1,"Technology",1
+"Anchorage AK",1,"Theater",1
+"Ann Arbor MI",16,"Art",0
+"Ann Arbor MI",2,"Comics",1
+"Ann Arbor MI",1,"Crafts",1
+"Ann Arbor MI",10,"Design",0
+"Ann Arbor MI",3,"Fashion",1
+"Ann Arbor MI",56,"Film & Video",0
+"Ann Arbor MI",15,"Food",0
+"Ann Arbor MI",16,"Games",0
+"Ann Arbor MI",1,"Journalism",0
+"Ann Arbor MI",78,"Music",1
+"Ann Arbor MI",2,"Photography",1
+"Ann Arbor MI",25,"Publishing",0
+"Ann Arbor MI",8,"Technology",0
+"Ann Arbor MI",19,"Theater",0
+"Asheville NC",17,"Art",0
+"Asheville NC",5,"Comics",0
+"Asheville NC",5,"Crafts",0
+"Asheville NC",4,"Dance",0
+"Asheville NC",11,"Design",0
+"Asheville NC",8,"Fashion",0
+"Asheville NC",27,"Film & Video",1
+"Asheville NC",14,"Food",0
+"Asheville NC",7,"Games",1
+"Asheville NC",3,"Journalism",0
+"Asheville NC",101,"Music",1
+"Asheville NC",3,"Photography",0
+"Asheville NC",10,"Publishing",1
+"Asheville NC",8,"Technology",0
+"Asheville NC",7,"Theater",0
+"Ashland OR",6,"Art",0
+"Ashland OR",3,"Crafts",0
+"Ashland OR",3,"Dance",0
+"Ashland OR",4,"Design",0
+"Ashland OR",13,"Film & Video",0
+"Ashland OR",2,"Food",0
+"Ashland OR",10,"Games",0
+"Ashland OR",1,"Journalism",0
+"Ashland OR",17,"Music",0
+"Ashland OR",11,"Publishing",0
+"Ashland OR",2,"Theater",0
+"Athens GA",12,"Art",0
+"Athens GA",1,"Crafts",0
+"Athens GA",3,"Design",1
+"Athens GA",2,"Fashion",0
+"Athens GA",10,"Film & Video",1
+"Athens GA",6,"Food",0
+"Athens GA",9,"Games",0
+"Athens GA",1,"Journalism",0
+"Athens GA",71,"Music",1
+"Athens GA",1,"Photography",0
+"Athens GA",12,"Publishing",0
+"Athens GA",1,"Technology",1
+"Atlanta GA",68,"Art",0
+"Atlanta GA",35,"Comics",0
+"Atlanta GA",12,"Crafts",0
+"Atlanta GA",17,"Dance",0
+"Atlanta GA",55,"Design",0
+"Atlanta GA",43,"Fashion",0
+"Atlanta GA",165,"Film & Video",0
+"Atlanta GA",39,"Food",0
+"Atlanta GA",89,"Games",1
+"Atlanta GA",4,"Journalism",0
+"Atlanta GA",260,"Music",0
+"Atlanta GA",31,"Photography",1
+"Atlanta GA",83,"Publishing",0
+"Atlanta GA",34,"Technology",0
+"Atlanta GA",27,"Theater",1
+"Austin TX",121,"Art",1
+"Austin TX",42,"Comics",1
+"Austin TX",7,"Crafts",1
+"Austin TX",35,"Dance",0
+"Austin TX",73,"Design",1
+"Austin TX",63,"Fashion",0
+"Austin TX",347,"Film & Video",0
+"Austin TX",68,"Food",1
+"Austin TX",116,"Games",0
+"Austin TX",12,"Journalism",0
+"Austin TX",581,"Music",1
+"Austin TX",40,"Photography",0
+"Austin TX",118,"Publishing",1
+"Austin TX",64,"Technology",0
+"Austin TX",69,"Theater",1
+"Baltimore MD",75,"Art",1
+"Baltimore MD",41,"Comics",1
+"Baltimore MD",7,"Crafts",0
+"Baltimore MD",12,"Dance",0
+"Baltimore MD",21,"Design",1
+"Baltimore MD",15,"Fashion",0
+"Baltimore MD",84,"Film & Video",1
+"Baltimore MD",27,"Food",0
+"Baltimore MD",37,"Games",0
+"Baltimore MD",1,"Journalism",1
+"Baltimore MD",160,"Music",0
+"Baltimore MD",13,"Photography",0
+"Baltimore MD",70,"Publishing",1
+"Baltimore MD",22,"Technology",0
+"Baltimore MD",19,"Theater",1
+"Baton Rouge LA",12,"Art",0
+"Baton Rouge LA",3,"Comics",0
+"Baton Rouge LA",3,"Crafts",0
+"Baton Rouge LA",4,"Design",0
+"Baton Rouge LA",1,"Fashion",0
+"Baton Rouge LA",10,"Film & Video",0
+"Baton Rouge LA",1,"Food",1
+"Baton Rouge LA",3,"Games",0
+"Baton Rouge LA",1,"Journalism",0
+"Baton Rouge LA",23,"Music",0
+"Baton Rouge LA",1,"Photography",0
+"Baton Rouge LA",7,"Publishing",0
+"Baton Rouge LA",1,"Technology",0
+"Baton Rouge LA",2,"Theater",0
+"Bellingham WA",5,"Art",1
+"Bellingham WA",13,"Comics",1
+"Bellingham WA",5,"Crafts",0
+"Bellingham WA",9,"Design",0
+"Bellingham WA",2,"Fashion",0
+"Bellingham WA",21,"Film & Video",0
+"Bellingham WA",9,"Food",0
+"Bellingham WA",10,"Games",0
+"Bellingham WA",29,"Music",0
+"Bellingham WA",3,"Photography",0
+"Bellingham WA",15,"Publishing",0
+"Bellingham WA",2,"Technology",0
+"Bellingham WA",7,"Theater",0
+"Berkeley CA",21,"Art",0
+"Berkeley CA",9,"Comics",0
+"Berkeley CA",8,"Crafts",0
+"Berkeley CA",9,"Dance",0
+"Berkeley CA",26,"Design",0
+"Berkeley CA",5,"Fashion",1
+"Berkeley CA",43,"Film & Video",0
+"Berkeley CA",15,"Food",0
+"Berkeley CA",11,"Games",1
+"Berkeley CA",1,"Journalism",0
+"Berkeley CA",67,"Music",0
+"Berkeley CA",11,"Photography",0
+"Berkeley CA",34,"Publishing",0
+"Berkeley CA",13,"Technology",0
+"Berkeley CA",12,"Theater",0
+"Birmingham AL",4,"Art",1
+"Birmingham AL",2,"Comics",0
+"Birmingham AL",3,"Crafts",0
+"Birmingham AL",2,"Dance",0
+"Birmingham AL",8,"Design",0
+"Birmingham AL",3,"Fashion",0
+"Birmingham AL",14,"Film & Video",0
+"Birmingham AL",5,"Food",0
+"Birmingham AL",8,"Games",0
+"Birmingham AL",39,"Music",0
+"Birmingham AL",3,"Photography",0
+"Birmingham AL",13,"Publishing",0
+"Birmingham AL",3,"Technology",0
+"Birmingham AL",4,"Theater",0
+"Black Rock City NV",152,"Art",1
+"Black Rock City NV",1,"Crafts",0
+"Black Rock City NV",2,"Dance",0
+"Black Rock City NV",1,"Design",1
+"Black Rock City NV",2,"Film & Video",1
+"Black Rock City NV",5,"Food",0
+"Black Rock City NV",1,"Music",1
+"Black Rock City NV",8,"Photography",0
+"Black Rock City NV",3,"Publishing",1
+"Bloomington IN",3,"Art",1
+"Bloomington IN",3,"Comics",0
+"Bloomington IN",1,"Crafts",0
+"Bloomington IN",1,"Dance",0
+"Bloomington IN",1,"Design",1
+"Bloomington IN",17,"Film & Video",0
+"Bloomington IN",10,"Food",0
+"Bloomington IN",10,"Games",0
+"Bloomington IN",57,"Music",1
+"Bloomington IN",11,"Publishing",0
+"Bloomington IN",2,"Technology",0
+"Boise ID",21,"Art",0
+"Boise ID",4,"Comics",0
+"Boise ID",3,"Crafts",0
+"Boise ID",3,"Dance",0
+"Boise ID",20,"Design",1
+"Boise ID",11,"Fashion",0
+"Boise ID",29,"Film & Video",0
+"Boise ID",18,"Food",1
+"Boise ID",12,"Games",0
+"Boise ID",1,"Journalism",0
+"Boise ID",21,"Music",1
+"Boise ID",6,"Photography",0
+"Boise ID",17,"Publishing",0
+"Boise ID",3,"Technology",1
+"Boise ID",9,"Theater",0
+"Boston MA",93,"Art",1
+"Boston MA",46,"Comics",1
+"Boston MA",16,"Crafts",1
+"Boston MA",22,"Dance",1
+"Boston MA",84,"Design",1
+"Boston MA",61,"Fashion",0
+"Boston MA",391,"Film & Video",1
+"Boston MA",51,"Food",1
+"Boston MA",84,"Games",1
+"Boston MA",10,"Journalism",0
+"Boston MA",628,"Music",1
+"Boston MA",25,"Photography",1
+"Boston MA",123,"Publishing",1
+"Boston MA",86,"Technology",1
+"Boston MA",62,"Theater",1
+"Boulder CO",22,"Art",0
+"Boulder CO",4,"Comics",1
+"Boulder CO",3,"Crafts",0
+"Boulder CO",23,"Dance",1
+"Boulder CO",28,"Design",0
+"Boulder CO",10,"Fashion",0
+"Boulder CO",50,"Film & Video",0
+"Boulder CO",25,"Food",0
+"Boulder CO",16,"Games",0
+"Boulder CO",2,"Journalism",0
+"Boulder CO",71,"Music",0
+"Boulder CO",7,"Photography",0
+"Boulder CO",24,"Publishing",0
+"Boulder CO",32,"Technology",1
+"Boulder CO",8,"Theater",1
+"Bozeman MT",8,"Art",0
+"Bozeman MT",1,"Crafts",0
+"Bozeman MT",4,"Dance",0
+"Bozeman MT",7,"Design",0
+"Bozeman MT",4,"Fashion",0
+"Bozeman MT",51,"Film & Video",1
+"Bozeman MT",6,"Food",0
+"Bozeman MT",2,"Games",1
+"Bozeman MT",1,"Journalism",0
+"Bozeman MT",16,"Music",1
+"Bozeman MT",9,"Photography",1
+"Bozeman MT",8,"Publishing",0
+"Bozeman MT",3,"Technology",0
+"Bozeman MT",3,"Theater",0
+"Buffalo NY",20,"Art",0
+"Buffalo NY",2,"Comics",1
+"Buffalo NY",6,"Crafts",0
+"Buffalo NY",6,"Design",0
+"Buffalo NY",4,"Fashion",0
+"Buffalo NY",29,"Film & Video",0
+"Buffalo NY",11,"Food",0
+"Buffalo NY",14,"Games",0
+"Buffalo NY",2,"Journalism",0
+"Buffalo NY",44,"Music",0
+"Buffalo NY",2,"Photography",0
+"Buffalo NY",17,"Publishing",0
+"Buffalo NY",2,"Technology",1
+"Buffalo NY",8,"Theater",0
+"Burbank CA",9,"Art",0
+"Burbank CA",10,"Comics",1
+"Burbank CA",2,"Crafts",0
+"Burbank CA",1,"Dance",0
+"Burbank CA",3,"Design",0
+"Burbank CA",34,"Film & Video",1
+"Burbank CA",2,"Food",0
+"Burbank CA",9,"Games",0
+"Burbank CA",1,"Journalism",0
+"Burbank CA",6,"Music",1
+"Burbank CA",6,"Publishing",0
+"Burbank CA",2,"Technology",0
+"Burbank CA",5,"Theater",0
+"Burlington VT",17,"Art",0
+"Burlington VT",2,"Comics",1
+"Burlington VT",1,"Crafts",0
+"Burlington VT",3,"Dance",0
+"Burlington VT",12,"Design",0
+"Burlington VT",6,"Fashion",0
+"Burlington VT",24,"Film & Video",0
+"Burlington VT",12,"Food",0
+"Burlington VT",13,"Games",0
+"Burlington VT",53,"Music",0
+"Burlington VT",3,"Photography",0
+"Burlington VT",13,"Publishing",0
+"Burlington VT",4,"Technology",0
+"Burlington VT",8,"Theater",0
+"Cambridge MA",22,"Art",0
+"Cambridge MA",2,"Comics",1
+"Cambridge MA",4,"Crafts",0
+"Cambridge MA",4,"Dance",0
+"Cambridge MA",24,"Design",1
+"Cambridge MA",3,"Fashion",1
+"Cambridge MA",33,"Film & Video",0
+"Cambridge MA",15,"Food",0
+"Cambridge MA",9,"Games",1
+"Cambridge MA",6,"Journalism",0
+"Cambridge MA",41,"Music",1
+"Cambridge MA",5,"Photography",0
+"Cambridge MA",24,"Publishing",0
+"Cambridge MA",30,"Technology",1
+"Cambridge MA",13,"Theater",0
+"Chapel Hill NC",3,"Art",1
+"Chapel Hill NC",4,"Comics",0
+"Chapel Hill NC",1,"Crafts",0
+"Chapel Hill NC",4,"Design",0
+"Chapel Hill NC",3,"Fashion",0
+"Chapel Hill NC",10,"Film & Video",1
+"Chapel Hill NC",5,"Food",0
+"Chapel Hill NC",7,"Games",0
+"Chapel Hill NC",2,"Journalism",0
+"Chapel Hill NC",32,"Music",0
+"Chapel Hill NC",1,"Photography",0
+"Chapel Hill NC",10,"Publishing",0
+"Chapel Hill NC",8,"Theater",0
+"Charleston SC",10,"Art",0
+"Charleston SC",2,"Comics",1
+"Charleston SC",3,"Dance",0
+"Charleston SC",10,"Design",0
+"Charleston SC",12,"Fashion",0
+"Charleston SC",18,"Film & Video",1
+"Charleston SC",12,"Food",0
+"Charleston SC",11,"Games",0
+"Charleston SC",41,"Music",0
+"Charleston SC",12,"Photography",1
+"Charleston SC",14,"Publishing",0
+"Charleston SC",5,"Technology",0
+"Charleston SC",9,"Theater",0
+"Charlotte NC",8,"Art",1
+"Charlotte NC",9,"Comics",0
+"Charlotte NC",5,"Crafts",0
+"Charlotte NC",1,"Dance",1
+"Charlotte NC",24,"Design",1
+"Charlotte NC",19,"Fashion",1
+"Charlotte NC",41,"Film & Video",0
+"Charlotte NC",16,"Food",0
+"Charlotte NC",24,"Games",0
+"Charlotte NC",1,"Journalism",0
+"Charlotte NC",53,"Music",0
+"Charlotte NC",2,"Photography",1
+"Charlotte NC",17,"Publishing",0
+"Charlotte NC",12,"Technology",0
+"Charlotte NC",8,"Theater",0
+"Charlottesville VA",13,"Art",0
+"Charlottesville VA",2,"Comics",1
+"Charlottesville VA",2,"Crafts",0
+"Charlottesville VA",3,"Dance",0
+"Charlottesville VA",5,"Design",1
+"Charlottesville VA",5,"Fashion",0
+"Charlottesville VA",12,"Film & Video",1
+"Charlottesville VA",10,"Food",0
+"Charlottesville VA",6,"Games",1
+"Charlottesville VA",1,"Journalism",0
+"Charlottesville VA",70,"Music",1
+"Charlottesville VA",5,"Photography",0
+"Charlottesville VA",23,"Publishing",0
+"Charlottesville VA",1,"Technology",1
+"Charlottesville VA",5,"Theater",0
+"Chattanooga TN",10,"Art",0
+"Chattanooga TN",5,"Comics",0
+"Chattanooga TN",1,"Crafts",0
+"Chattanooga TN",3,"Design",1
+"Chattanooga TN",1,"Fashion",1
+"Chattanooga TN",22,"Film & Video",0
+"Chattanooga TN",7,"Food",0
+"Chattanooga TN",4,"Games",0
+"Chattanooga TN",43,"Music",1
+"Chattanooga TN",5,"Publishing",1
+"Chattanooga TN",6,"Technology",0
+"Chattanooga TN",4,"Theater",0
+"Chicago IL",227,"Art",0
+"Chicago IL",132,"Comics",0
+"Chicago IL",23,"Crafts",1
+"Chicago IL",81,"Dance",1
+"Chicago IL",236,"Design",1
+"Chicago IL",89,"Fashion",0
+"Chicago IL",548,"Film & Video",0
+"Chicago IL",113,"Food",1
+"Chicago IL",170,"Games",1
+"Chicago IL",18,"Journalism",0
+"Chicago IL",590,"Music",1
+"Chicago IL",51,"Photography",0
+"Chicago IL",274,"Publishing",0
+"Chicago IL",65,"Technology",1
+"Chicago IL",328,"Theater",1
+"Cincinnati OH",35,"Art",0
+"Cincinnati OH",13,"Comics",0
+"Cincinnati OH",2,"Crafts",0
+"Cincinnati OH",28,"Design",0
+"Cincinnati OH",14,"Fashion",0
+"Cincinnati OH",43,"Film & Video",1
+"Cincinnati OH",12,"Food",0
+"Cincinnati OH",38,"Games",1
+"Cincinnati OH",89,"Music",0
+"Cincinnati OH",6,"Photography",0
+"Cincinnati OH",18,"Publishing",1
+"Cincinnati OH",11,"Technology",0
+"Cincinnati OH",12,"Theater",0
+"Cleveland OH",39,"Art",0
+"Cleveland OH",17,"Comics",0
+"Cleveland OH",2,"Crafts",0
+"Cleveland OH",5,"Dance",0
+"Cleveland OH",22,"Design",0
+"Cleveland OH",14,"Fashion",0
+"Cleveland OH",43,"Film & Video",1
+"Cleveland OH",18,"Food",0
+"Cleveland OH",21,"Games",0
+"Cleveland OH",4,"Journalism",0
+"Cleveland OH",103,"Music",1
+"Cleveland OH",6,"Photography",0
+"Cleveland OH",23,"Publishing",0
+"Cleveland OH",9,"Technology",0
+"Cleveland OH",8,"Theater",1
+"Colorado Springs CO",11,"Art",0
+"Colorado Springs CO",4,"Comics",0
+"Colorado Springs CO",1,"Crafts",0
+"Colorado Springs CO",1,"Dance",0
+"Colorado Springs CO",4,"Design",0
+"Colorado Springs CO",4,"Fashion",0
+"Colorado Springs CO",11,"Film & Video",1
+"Colorado Springs CO",4,"Food",0
+"Colorado Springs CO",14,"Games",0
+"Colorado Springs CO",1,"Journalism",0
+"Colorado Springs CO",37,"Music",0
+"Colorado Springs CO",2,"Photography",0
+"Colorado Springs CO",18,"Publishing",0
+"Colorado Springs CO",9,"Technology",0
+"Colorado Springs CO",1,"Theater",1
+"Columbia MO",3,"Art",0
+"Columbia MO",2,"Comics",0
+"Columbia MO",1,"Crafts",0
+"Columbia MO",1,"Dance",0
+"Columbia MO",1,"Design",1
+"Columbia MO",2,"Fashion",0
+"Columbia MO",24,"Film & Video",0
+"Columbia MO",4,"Food",0
+"Columbia MO",4,"Games",0
+"Columbia MO",26,"Music",0
+"Columbia MO",1,"Photography",0
+"Columbia MO",7,"Publishing",0
+"Columbia SC",8,"Art",0
+"Columbia SC",5,"Comics",0
+"Columbia SC",2,"Crafts",0
+"Columbia SC",1,"Dance",0
+"Columbia SC",3,"Design",1
+"Columbia SC",19,"Film & Video",0
+"Columbia SC",3,"Food",0
+"Columbia SC",1,"Games",1
+"Columbia SC",44,"Music",1
+"Columbia SC",13,"Photography",1
+"Columbia SC",17,"Publishing",0
+"Columbia SC",1,"Technology",1
+"Columbia SC",4,"Theater",0
+"Columbus OH",29,"Art",0
+"Columbus OH",49,"Comics",1
+"Columbus OH",5,"Crafts",0
+"Columbus OH",9,"Dance",0
+"Columbus OH",18,"Design",0
+"Columbus OH",15,"Fashion",0
+"Columbus OH",37,"Film & Video",1
+"Columbus OH",26,"Food",0
+"Columbus OH",40,"Games",0
+"Columbus OH",3,"Journalism",0
+"Columbus OH",110,"Music",0
+"Columbus OH",4,"Photography",1
+"Columbus OH",43,"Publishing",0
+"Columbus OH",16,"Technology",0
+"Columbus OH",14,"Theater",1
+"Dallas TX",29,"Art",1
+"Dallas TX",25,"Comics",0
+"Dallas TX",10,"Crafts",0
+"Dallas TX",23,"Dance",1
+"Dallas TX",49,"Design",0
+"Dallas TX",21,"Fashion",0
+"Dallas TX",105,"Film & Video",1
+"Dallas TX",19,"Food",1
+"Dallas TX",117,"Games",1
+"Dallas TX",2,"Journalism",0
+"Dallas TX",166,"Music",0
+"Dallas TX",7,"Photography",1
+"Dallas TX",55,"Publishing",0
+"Dallas TX",31,"Technology",0
+"Dallas TX",26,"Theater",0
+"Dayton OH",2,"Art",1
+"Dayton OH",6,"Comics",0
+"Dayton OH",4,"Crafts",0
+"Dayton OH",10,"Design",0
+"Dayton OH",5,"Fashion",0
+"Dayton OH",10,"Film & Video",1
+"Dayton OH",9,"Food",0
+"Dayton OH",13,"Games",0
+"Dayton OH",23,"Music",0
+"Dayton OH",1,"Photography",0
+"Dayton OH",18,"Publishing",1
+"Dayton OH",6,"Technology",0
+"Dayton OH",3,"Theater",0
+"Denton TX",7,"Art",0
+"Denton TX",1,"Comics",1
+"Denton TX",2,"Dance",0
+"Denton TX",4,"Design",0
+"Denton TX",3,"Fashion",0
+"Denton TX",41,"Film & Video",1
+"Denton TX",6,"Food",0
+"Denton TX",8,"Games",0
+"Denton TX",1,"Journalism",0
+"Denton TX",41,"Music",0
+"Denton TX",1,"Photography",0
+"Denton TX",5,"Publishing",1
+"Denton TX",2,"Technology",0
+"Denton TX",2,"Theater",1
+"Denver CO",69,"Art",0
+"Denver CO",36,"Comics",0
+"Denver CO",10,"Crafts",0
+"Denver CO",12,"Dance",0
+"Denver CO",75,"Design",1
+"Denver CO",36,"Fashion",0
+"Denver CO",132,"Film & Video",1
+"Denver CO",56,"Food",0
+"Denver CO",63,"Games",0
+"Denver CO",4,"Journalism",0
+"Denver CO",255,"Music",1
+"Denver CO",18,"Photography",0
+"Denver CO",81,"Publishing",0
+"Denver CO",29,"Technology",0
+"Denver CO",22,"Theater",1
+"Des Moines IA",7,"Art",0
+"Des Moines IA",7,"Comics",0
+"Des Moines IA",2,"Design",0
+"Des Moines IA",6,"Fashion",0
+"Des Moines IA",11,"Film & Video",0
+"Des Moines IA",6,"Food",0
+"Des Moines IA",5,"Games",0
+"Des Moines IA",1,"Journalism",0
+"Des Moines IA",14,"Music",0
+"Des Moines IA",12,"Publishing",0
+"Des Moines IA",2,"Technology",0
+"Des Moines IA",4,"Theater",0
+"Detroit MI",71,"Art",1
+"Detroit MI",30,"Comics",0
+"Detroit MI",3,"Crafts",1
+"Detroit MI",3,"Dance",1
+"Detroit MI",28,"Design",0
+"Detroit MI",12,"Fashion",0
+"Detroit MI",83,"Film & Video",0
+"Detroit MI",23,"Food",0
+"Detroit MI",28,"Games",0
+"Detroit MI",2,"Journalism",0
+"Detroit MI",178,"Music",1
+"Detroit MI",12,"Photography",0
+"Detroit MI",40,"Publishing",0
+"Detroit MI",7,"Technology",1
+"Detroit MI",7,"Theater",1
+"Duluth MN",3,"Art",0
+"Duluth MN",4,"Comics",0
+"Duluth MN",2,"Crafts",0
+"Duluth MN",1,"Design",1
+"Duluth MN",1,"Fashion",0
+"Duluth MN",12,"Film & Video",0
+"Duluth MN",5,"Food",0
+"Duluth MN",3,"Games",0
+"Duluth MN",22,"Music",0
+"Duluth MN",1,"Photography",0
+"Duluth MN",4,"Publishing",0
+"Durham NC",15,"Art",0
+"Durham NC",4,"Comics",0
+"Durham NC",6,"Crafts",0
+"Durham NC",8,"Dance",0
+"Durham NC",7,"Design",0
+"Durham NC",3,"Fashion",1
+"Durham NC",19,"Film & Video",1
+"Durham NC",18,"Food",1
+"Durham NC",20,"Games",0
+"Durham NC",1,"Journalism",0
+"Durham NC",58,"Music",0
+"Durham NC",3,"Photography",0
+"Durham NC",14,"Publishing",0
+"Durham NC",6,"Technology",0
+"Durham NC",12,"Theater",0
+"Eugene OR",21,"Art",0
+"Eugene OR",3,"Comics",0
+"Eugene OR",2,"Crafts",0
+"Eugene OR",6,"Dance",0
+"Eugene OR",11,"Design",0
+"Eugene OR",7,"Fashion",0
+"Eugene OR",15,"Film & Video",1
+"Eugene OR",18,"Food",1
+"Eugene OR",10,"Games",0
+"Eugene OR",1,"Journalism",0
+"Eugene OR",40,"Music",0
+"Eugene OR",2,"Photography",0
+"Eugene OR",10,"Publishing",0
+"Eugene OR",2,"Technology",1
+"Eugene OR",5,"Theater",0
+"Evanston IL",3,"Art",1
+"Evanston IL",1,"Dance",0
+"Evanston IL",3,"Design",0
+"Evanston IL",4,"Fashion",0
+"Evanston IL",46,"Film & Video",1
+"Evanston IL",3,"Food",0
+"Evanston IL",9,"Games",0
+"Evanston IL",3,"Journalism",0
+"Evanston IL",9,"Music",1
+"Evanston IL",2,"Publishing",1
+"Evanston IL",2,"Technology",0
+"Evanston IL",18,"Theater",1
+"Fayetteville AR",8,"Art",0
+"Fayetteville AR",1,"Comics",0
+"Fayetteville AR",3,"Design",0
+"Fayetteville AR",2,"Fashion",0
+"Fayetteville AR",6,"Film & Video",1
+"Fayetteville AR",4,"Food",0
+"Fayetteville AR",3,"Games",0
+"Fayetteville AR",25,"Music",1
+"Fayetteville AR",1,"Photography",0
+"Fayetteville AR",5,"Publishing",0
+"Fayetteville AR",4,"Theater",0
+"Fort Collins CO",7,"Art",0
+"Fort Collins CO",3,"Comics",0
+"Fort Collins CO",2,"Dance",0
+"Fort Collins CO",5,"Design",0
+"Fort Collins CO",5,"Fashion",0
+"Fort Collins CO",6,"Film & Video",1
+"Fort Collins CO",5,"Food",0
+"Fort Collins CO",5,"Games",0
+"Fort Collins CO",1,"Journalism",0
+"Fort Collins CO",37,"Music",1
+"Fort Collins CO",1,"Photography",0
+"Fort Collins CO",9,"Publishing",0
+"Fort Collins CO",6,"Technology",0
+"Fort Collins CO",3,"Theater",0
+"Fort Lauderdale FL",7,"Art",0
+"Fort Lauderdale FL",8,"Comics",0
+"Fort Lauderdale FL",2,"Dance",0
+"Fort Lauderdale FL",8,"Design",0
+"Fort Lauderdale FL",3,"Fashion",0
+"Fort Lauderdale FL",17,"Film & Video",0
+"Fort Lauderdale FL",2,"Food",0
+"Fort Lauderdale FL",2,"Games",1
+"Fort Lauderdale FL",22,"Music",0
+"Fort Lauderdale FL",10,"Publishing",0
+"Fort Lauderdale FL",4,"Technology",0
+"Fort Lauderdale FL",5,"Theater",0
+"Fort Wayne IN",4,"Art",0
+"Fort Wayne IN",3,"Comics",0
+"Fort Wayne IN",5,"Design",0
+"Fort Wayne IN",4,"Fashion",0
+"Fort Wayne IN",7,"Film & Video",0
+"Fort Wayne IN",3,"Food",0
+"Fort Wayne IN",9,"Games",0
+"Fort Wayne IN",25,"Music",0
+"Fort Wayne IN",3,"Publishing",0
+"Fort Worth TX",5,"Art",1
+"Fort Worth TX",3,"Comics",0
+"Fort Worth TX",1,"Crafts",0
+"Fort Worth TX",8,"Design",0
+"Fort Worth TX",6,"Fashion",0
+"Fort Worth TX",24,"Film & Video",0
+"Fort Worth TX",5,"Food",0
+"Fort Worth TX",14,"Games",0
+"Fort Worth TX",54,"Music",1
+"Fort Worth TX",10,"Publishing",0
+"Fort Worth TX",5,"Technology",0
+"Fresno CA",9,"Art",0
+"Fresno CA",1,"Comics",0
+"Fresno CA",2,"Dance",0
+"Fresno CA",1,"Design",1
+"Fresno CA",9,"Film & Video",0
+"Fresno CA",8,"Food",0
+"Fresno CA",13,"Games",1
+"Fresno CA",14,"Music",0
+"Fresno CA",3,"Photography",0
+"Fresno CA",6,"Publishing",0
+"Gainesville FL",5,"Art",0
+"Gainesville FL",2,"Comics",0
+"Gainesville FL",1,"Crafts",0
+"Gainesville FL",1,"Dance",0
+"Gainesville FL",9,"Design",0
+"Gainesville FL",7,"Film & Video",0
+"Gainesville FL",3,"Food",0
+"Gainesville FL",8,"Games",0
+"Gainesville FL",1,"Journalism",0
+"Gainesville FL",13,"Music",0
+"Gainesville FL",5,"Publishing",0
+"Gainesville FL",1,"Technology",0
+"Gainesville FL",1,"Theater",0
+"Grand Rapids MI",79,"Art",1
+"Grand Rapids MI",10,"Comics",0
+"Grand Rapids MI",1,"Crafts",1
+"Grand Rapids MI",19,"Design",0
+"Grand Rapids MI",8,"Fashion",0
+"Grand Rapids MI",30,"Film & Video",1
+"Grand Rapids MI",9,"Food",0
+"Grand Rapids MI",14,"Games",0
+"Grand Rapids MI",2,"Journalism",0
+"Grand Rapids MI",56,"Music",0
+"Grand Rapids MI",14,"Photography",1
+"Grand Rapids MI",33,"Publishing",0
+"Grand Rapids MI",4,"Technology",1
+"Grand Rapids MI",3,"Theater",1
+"Greensboro NC",13,"Art",0
+"Greensboro NC",4,"Comics",0
+"Greensboro NC",2,"Crafts",0
+"Greensboro NC",1,"Dance",0
+"Greensboro NC",1,"Design",1
+"Greensboro NC",1,"Fashion",1
+"Greensboro NC",24,"Film & Video",0
+"Greensboro NC",6,"Food",0
+"Greensboro NC",3,"Games",1
+"Greensboro NC",2,"Journalism",0
+"Greensboro NC",49,"Music",1
+"Greensboro NC",8,"Publishing",0
+"Greensboro NC",2,"Technology",0
+"Greensboro NC",6,"Theater",0
+"Greenville SC",12,"Art",0
+"Greenville SC",2,"Comics",0
+"Greenville SC",3,"Crafts",0
+"Greenville SC",3,"Design",1
+"Greenville SC",2,"Fashion",0
+"Greenville SC",28,"Film & Video",0
+"Greenville SC",6,"Food",0
+"Greenville SC",10,"Games",0
+"Greenville SC",29,"Music",0
+"Greenville SC",3,"Photography",0
+"Greenville SC",9,"Publishing",0
+"Greenville SC",3,"Technology",0
+"Greenville SC",3,"Theater",0
+"Hartford CT",8,"Art",0
+"Hartford CT",5,"Comics",0
+"Hartford CT",1,"Crafts",0
+"Hartford CT",1,"Dance",0
+"Hartford CT",2,"Design",1
+"Hartford CT",1,"Fashion",0
+"Hartford CT",19,"Film & Video",0
+"Hartford CT",5,"Food",0
+"Hartford CT",7,"Games",0
+"Hartford CT",28,"Music",0
+"Hartford CT",3,"Publishing",1
+"Hartford CT",1,"Technology",1
+"Hartford CT",2,"Theater",0
+"Honolulu HI",12,"Art",0
+"Honolulu HI",11,"Comics",0
+"Honolulu HI",3,"Crafts",0
+"Honolulu HI",4,"Dance",0
+"Honolulu HI",26,"Design",1
+"Honolulu HI",13,"Fashion",0
+"Honolulu HI",29,"Film & Video",0
+"Honolulu HI",11,"Food",0
+"Honolulu HI",2,"Games",1
+"Honolulu HI",1,"Journalism",0
+"Honolulu HI",44,"Music",0
+"Honolulu HI",11,"Photography",1
+"Honolulu HI",13,"Publishing",0
+"Honolulu HI",5,"Technology",0
+"Honolulu HI",6,"Theater",0
+"Houston TX",45,"Art",0
+"Houston TX",25,"Comics",0
+"Houston TX",17,"Crafts",1
+"Houston TX",12,"Dance",0
+"Houston TX",51,"Design",1
+"Houston TX",19,"Fashion",0
+"Houston TX",64,"Film & Video",1
+"Houston TX",33,"Food",0
+"Houston TX",56,"Games",1
+"Houston TX",6,"Journalism",0
+"Houston TX",132,"Music",0
+"Houston TX",11,"Photography",0
+"Houston TX",37,"Publishing",0
+"Houston TX",18,"Technology",0
+"Houston TX",17,"Theater",1
+"Huntington Beach CA",1,"Art",1
+"Huntington Beach CA",2,"Comics",0
+"Huntington Beach CA",2,"Crafts",0
+"Huntington Beach CA",15,"Design",1
+"Huntington Beach CA",4,"Fashion",0
+"Huntington Beach CA",8,"Film & Video",1
+"Huntington Beach CA",3,"Food",0
+"Huntington Beach CA",3,"Games",0
+"Huntington Beach CA",24,"Music",0
+"Huntington Beach CA",1,"Photography",0
+"Huntington Beach CA",10,"Publishing",0
+"Huntington Beach CA",7,"Technology",0
+"Indianapolis IN",17,"Art",0
+"Indianapolis IN",19,"Comics",0
+"Indianapolis IN",4,"Crafts",0
+"Indianapolis IN",2,"Dance",1
+"Indianapolis IN",14,"Design",0
+"Indianapolis IN",6,"Fashion",0
+"Indianapolis IN",36,"Film & Video",1
+"Indianapolis IN",10,"Food",0
+"Indianapolis IN",88,"Games",1
+"Indianapolis IN",3,"Journalism",0
+"Indianapolis IN",54,"Music",1
+"Indianapolis IN",2,"Photography",1
+"Indianapolis IN",29,"Publishing",0
+"Indianapolis IN",14,"Technology",0
+"Indianapolis IN",3,"Theater",1
+"Iowa City IA",6,"Art",0
+"Iowa City IA",3,"Comics",0
+"Iowa City IA",3,"Fashion",0
+"Iowa City IA",9,"Film & Video",0
+"Iowa City IA",1,"Food",0
+"Iowa City IA",4,"Games",0
+"Iowa City IA",21,"Music",0
+"Iowa City IA",4,"Photography",0
+"Iowa City IA",4,"Publishing",0
+"Iowa City IA",3,"Technology",0
+"Iowa City IA",2,"Theater",0
+"Irvine CA",7,"Art",0
+"Irvine CA",4,"Comics",0
+"Irvine CA",1,"Dance",0
+"Irvine CA",22,"Design",1
+"Irvine CA",4,"Fashion",0
+"Irvine CA",4,"Film & Video",1
+"Irvine CA",4,"Food",0
+"Irvine CA",20,"Games",1
+"Irvine CA",2,"Journalism",0
+"Irvine CA",15,"Music",1
+"Irvine CA",2,"Photography",0
+"Irvine CA",4,"Publishing",1
+"Irvine CA",24,"Technology",1
+"Ithaca NY",7,"Art",0
+"Ithaca NY",5,"Crafts",0
+"Ithaca NY",3,"Dance",0
+"Ithaca NY",1,"Design",1
+"Ithaca NY",6,"Fashion",0
+"Ithaca NY",27,"Film & Video",0
+"Ithaca NY",2,"Food",1
+"Ithaca NY",5,"Games",0
+"Ithaca NY",2,"Journalism",0
+"Ithaca NY",29,"Music",0
+"Ithaca NY",4,"Photography",0
+"Ithaca NY",4,"Publishing",1
+"Ithaca NY",4,"Technology",0
+"Ithaca NY",5,"Theater",0
+"Jacksonville FL",15,"Art",0
+"Jacksonville FL",20,"Comics",1
+"Jacksonville FL",1,"Dance",0
+"Jacksonville FL",4,"Design",1
+"Jacksonville FL",7,"Fashion",0
+"Jacksonville FL",12,"Film & Video",1
+"Jacksonville FL",8,"Food",0
+"Jacksonville FL",11,"Games",0
+"Jacksonville FL",35,"Music",0
+"Jacksonville FL",2,"Photography",0
+"Jacksonville FL",19,"Publishing",0
+"Jacksonville FL",4,"Technology",0
+"Jacksonville FL",4,"Theater",0
+"Jersey City NJ",9,"Art",0
+"Jersey City NJ",1,"Comics",1
+"Jersey City NJ",2,"Crafts",0
+"Jersey City NJ",1,"Dance",0
+"Jersey City NJ",2,"Design",0
+"Jersey City NJ",6,"Fashion",0
+"Jersey City NJ",7,"Film & Video",1
+"Jersey City NJ",8,"Food",0
+"Jersey City NJ",4,"Games",0
+"Jersey City NJ",1,"Journalism",0
+"Jersey City NJ",20,"Music",0
+"Jersey City NJ",2,"Photography",0
+"Jersey City NJ",9,"Publishing",0
+"Jersey City NJ",2,"Technology",0
+"Jersey City NJ",5,"Theater",0
+"Kalamazoo MI",7,"Art",0
+"Kalamazoo MI",1,"Comics",0
+"Kalamazoo MI",1,"Crafts",0
+"Kalamazoo MI",2,"Dance",0
+"Kalamazoo MI",1,"Fashion",0
+"Kalamazoo MI",8,"Film & Video",1
+"Kalamazoo MI",3,"Food",0
+"Kalamazoo MI",8,"Games",0
+"Kalamazoo MI",3,"Journalism",0
+"Kalamazoo MI",33,"Music",1
+"Kalamazoo MI",1,"Photography",0
+"Kalamazoo MI",7,"Publishing",0
+"Kalamazoo MI",1,"Technology",0
+"Kalamazoo MI",1,"Theater",1
+"Kansas City MO",49,"Art",1
+"Kansas City MO",13,"Comics",0
+"Kansas City MO",4,"Crafts",0
+"Kansas City MO",3,"Dance",1
+"Kansas City MO",22,"Design",0
+"Kansas City MO",16,"Fashion",0
+"Kansas City MO",64,"Film & Video",0
+"Kansas City MO",22,"Food",0
+"Kansas City MO",14,"Games",1
+"Kansas City MO",1,"Journalism",0
+"Kansas City MO",104,"Music",0
+"Kansas City MO",10,"Photography",0
+"Kansas City MO",28,"Publishing",0
+"Kansas City MO",8,"Technology",1
+"Kansas City MO",27,"Theater",0
+"Knoxville TN",17,"Art",0
+"Knoxville TN",1,"Comics",1
+"Knoxville TN",2,"Crafts",0
+"Knoxville TN",6,"Design",0
+"Knoxville TN",1,"Fashion",1
+"Knoxville TN",10,"Film & Video",1
+"Knoxville TN",7,"Food",0
+"Knoxville TN",5,"Games",0
+"Knoxville TN",2,"Journalism",0
+"Knoxville TN",44,"Music",1
+"Knoxville TN",3,"Photography",0
+"Knoxville TN",7,"Publishing",0
+"Knoxville TN",1,"Technology",1
+"Knoxville TN",4,"Theater",0
+"Lafayette LA",2,"Art",0
+"Lafayette LA",3,"Comics",0
+"Lafayette LA",2,"Dance",0
+"Lafayette LA",1,"Fashion",0
+"Lafayette LA",7,"Film & Video",0
+"Lafayette LA",5,"Food",0
+"Lafayette LA",23,"Music",0
+"Lafayette LA",1,"Photography",0
+"Lafayette LA",7,"Publishing",0
+"Lafayette LA",1,"Technology",0
+"Lafayette LA",7,"Theater",0
+"Lancaster PA",8,"Art",0
+"Lancaster PA",7,"Comics",0
+"Lancaster PA",10,"Design",0
+"Lancaster PA",2,"Fashion",0
+"Lancaster PA",7,"Film & Video",1
+"Lancaster PA",4,"Food",0
+"Lancaster PA",6,"Games",0
+"Lancaster PA",35,"Music",1
+"Lancaster PA",1,"Photography",0
+"Lancaster PA",12,"Publishing",0
+"Lancaster PA",1,"Technology",1
+"Lancaster PA",3,"Theater",0
+"Lansing MI",4,"Art",0
+"Lansing MI",13,"Comics",1
+"Lansing MI",2,"Crafts",0
+"Lansing MI",3,"Dance",0
+"Lansing MI",7,"Film & Video",1
+"Lansing MI",2,"Food",0
+"Lansing MI",5,"Games",0
+"Lansing MI",33,"Music",1
+"Lansing MI",1,"Photography",0
+"Lansing MI",5,"Publishing",0
+"Lansing MI",2,"Technology",0
+"Lansing MI",2,"Theater",0
+"Las Vegas NV",28,"Art",0
+"Las Vegas NV",42,"Comics",1
+"Las Vegas NV",2,"Crafts",1
+"Las Vegas NV",3,"Dance",1
+"Las Vegas NV",37,"Design",1
+"Las Vegas NV",19,"Fashion",0
+"Las Vegas NV",51,"Film & Video",1
+"Las Vegas NV",12,"Food",0
+"Las Vegas NV",46,"Games",1
+"Las Vegas NV",4,"Journalism",0
+"Las Vegas NV",47,"Music",1
+"Las Vegas NV",31,"Photography",1
+"Las Vegas NV",37,"Publishing",0
+"Las Vegas NV",12,"Technology",0
+"Las Vegas NV",7,"Theater",1
+"Lawrence KS",9,"Art",0
+"Lawrence KS",2,"Crafts",0
+"Lawrence KS",1,"Dance",0
+"Lawrence KS",17,"Film & Video",0
+"Lawrence KS",3,"Food",0
+"Lawrence KS",2,"Games",1
+"Lawrence KS",1,"Journalism",0
+"Lawrence KS",36,"Music",1
+"Lawrence KS",2,"Photography",0
+"Lawrence KS",6,"Publishing",0
+"Lawrence KS",5,"Technology",0
+"Lexington KY",16,"Art",0
+"Lexington KY",4,"Comics",0
+"Lexington KY",2,"Crafts",0
+"Lexington KY",2,"Dance",0
+"Lexington KY",4,"Design",0
+"Lexington KY",2,"Fashion",0
+"Lexington KY",13,"Film & Video",1
+"Lexington KY",14,"Food",1
+"Lexington KY",19,"Games",1
+"Lexington KY",1,"Journalism",0
+"Lexington KY",31,"Music",0
+"Lexington KY",3,"Photography",0
+"Lexington KY",9,"Publishing",0
+"Lexington KY",1,"Technology",1
+"Lexington KY",1,"Theater",1
+"Lincoln NE",5,"Art",0
+"Lincoln NE",1,"Comics",1
+"Lincoln NE",2,"Crafts",0
+"Lincoln NE",6,"Design",0
+"Lincoln NE",1,"Fashion",1
+"Lincoln NE",16,"Film & Video",0
+"Lincoln NE",5,"Food",0
+"Lincoln NE",6,"Games",0
+"Lincoln NE",34,"Music",0
+"Lincoln NE",2,"Photography",0
+"Lincoln NE",3,"Publishing",1
+"Lincoln NE",5,"Technology",0
+"Lincoln NE",9,"Theater",0
+"Little Rock AR",3,"Art",0
+"Little Rock AR",1,"Comics",0
+"Little Rock AR",1,"Dance",0
+"Little Rock AR",3,"Design",0
+"Little Rock AR",3,"Fashion",0
+"Little Rock AR",9,"Film & Video",0
+"Little Rock AR",7,"Food",0
+"Little Rock AR",15,"Games",1
+"Little Rock AR",1,"Journalism",0
+"Little Rock AR",15,"Music",0
+"Little Rock AR",1,"Photography",0
+"Little Rock AR",11,"Publishing",0
+"Little Rock AR",2,"Technology",0
+"Little Rock AR",2,"Theater",0
+"Long Beach CA",10,"Art",0
+"Long Beach CA",11,"Comics",0
+"Long Beach CA",1,"Crafts",0
+"Long Beach CA",7,"Dance",0
+"Long Beach CA",14,"Design",0
+"Long Beach CA",5,"Fashion",0
+"Long Beach CA",37,"Film & Video",0
+"Long Beach CA",12,"Food",0
+"Long Beach CA",5,"Games",1
+"Long Beach CA",41,"Music",0
+"Long Beach CA",6,"Photography",0
+"Long Beach CA",15,"Publishing",0
+"Long Beach CA",3,"Technology",0
+"Long Beach CA",5,"Theater",0
+"Los Angeles CA",385,"Art",1
+"Los Angeles CA",240,"Comics",1
+"Los Angeles CA",34,"Crafts",1
+"Los Angeles CA",88,"Dance",1
+"Los Angeles CA",320,"Design",1
+"Los Angeles CA",276,"Fashion",0
+"Los Angeles CA",3408,"Film & Video",1
+"Los Angeles CA",133,"Food",1
+"Los Angeles CA",238,"Games",1
+"Los Angeles CA",25,"Journalism",1
+"Los Angeles CA",1362,"Music",1
+"Los Angeles CA",133,"Photography",1
+"Los Angeles CA",411,"Publishing",1
+"Los Angeles CA",171,"Technology",1
+"Los Angeles CA",413,"Theater",0
+"Louisville KY",8,"Art",1
+"Louisville KY",6,"Comics",0
+"Louisville KY",3,"Crafts",0
+"Louisville KY",1,"Dance",1
+"Louisville KY",5,"Design",1
+"Louisville KY",4,"Fashion",0
+"Louisville KY",30,"Film & Video",0
+"Louisville KY",18,"Food",1
+"Louisville KY",15,"Games",0
+"Louisville KY",1,"Journalism",0
+"Louisville KY",47,"Music",0
+"Louisville KY",1,"Photography",1
+"Louisville KY",22,"Publishing",0
+"Louisville KY",8,"Technology",0
+"Louisville KY",7,"Theater",0
+"Madison WI",25,"Art",0
+"Madison WI",6,"Comics",1
+"Madison WI",4,"Crafts",0
+"Madison WI",1,"Dance",1
+"Madison WI",7,"Design",1
+"Madison WI",7,"Fashion",0
+"Madison WI",40,"Film & Video",1
+"Madison WI",14,"Food",0
+"Madison WI",32,"Games",0
+"Madison WI",3,"Journalism",0
+"Madison WI",106,"Music",1
+"Madison WI",11,"Photography",0
+"Madison WI",17,"Publishing",1
+"Madison WI",9,"Technology",0
+"Madison WI",14,"Theater",0
+"Memphis TN",9,"Art",0
+"Memphis TN",2,"Comics",1
+"Memphis TN",3,"Dance",0
+"Memphis TN",5,"Design",0
+"Memphis TN",4,"Fashion",0
+"Memphis TN",19,"Film & Video",0
+"Memphis TN",7,"Food",0
+"Memphis TN",9,"Games",0
+"Memphis TN",1,"Journalism",0
+"Memphis TN",53,"Music",1
+"Memphis TN",2,"Photography",0
+"Memphis TN",12,"Publishing",0
+"Memphis TN",2,"Technology",1
+"Memphis TN",4,"Theater",0
+"Mesa AZ",4,"Art",0
+"Mesa AZ",1,"Comics",0
+"Mesa AZ",1,"Dance",0
+"Mesa AZ",8,"Design",0
+"Mesa AZ",3,"Fashion",0
+"Mesa AZ",3,"Film & Video",1
+"Mesa AZ",3,"Food",0
+"Mesa AZ",21,"Games",1
+"Mesa AZ",9,"Music",0
+"Mesa AZ",1,"Photography",0
+"Mesa AZ",8,"Publishing",0
+"Miami FL",51,"Art",1
+"Miami FL",18,"Comics",0
+"Miami FL",3,"Crafts",0
+"Miami FL",9,"Dance",0
+"Miami FL",36,"Design",1
+"Miami FL",29,"Fashion",1
+"Miami FL",73,"Film & Video",0
+"Miami FL",17,"Food",0
+"Miami FL",28,"Games",0
+"Miami FL",1,"Journalism",0
+"Miami FL",56,"Music",1
+"Miami FL",9,"Photography",0
+"Miami FL",24,"Publishing",1
+"Miami FL",28,"Technology",1
+"Miami FL",7,"Theater",1
+"Milwaukee WI",22,"Art",0
+"Milwaukee WI",10,"Comics",0
+"Milwaukee WI",4,"Crafts",0
+"Milwaukee WI",3,"Dance",0
+"Milwaukee WI",13,"Design",0
+"Milwaukee WI",10,"Fashion",0
+"Milwaukee WI",50,"Film & Video",0
+"Milwaukee WI",18,"Food",0
+"Milwaukee WI",41,"Games",1
+"Milwaukee WI",72,"Music",0
+"Milwaukee WI",8,"Photography",0
+"Milwaukee WI",22,"Publishing",0
+"Milwaukee WI",7,"Technology",0
+"Milwaukee WI",18,"Theater",0
+"Minneapolis MN",105,"Art",0
+"Minneapolis MN",56,"Comics",0
+"Minneapolis MN",8,"Crafts",1
+"Minneapolis MN",39,"Dance",1
+"Minneapolis MN",54,"Design",1
+"Minneapolis MN",26,"Fashion",1
+"Minneapolis MN",130,"Film & Video",1
+"Minneapolis MN",70,"Food",0
+"Minneapolis MN",51,"Games",1
+"Minneapolis MN",10,"Journalism",0
+"Minneapolis MN",373,"Music",1
+"Minneapolis MN",25,"Photography",0
+"Minneapolis MN",124,"Publishing",0
+"Minneapolis MN",41,"Technology",0
+"Minneapolis MN",89,"Theater",1
+"Missoula MT",10,"Art",0
+"Missoula MT",2,"Comics",0
+"Missoula MT",2,"Crafts",0
+"Missoula MT",5,"Dance",0
+"Missoula MT",3,"Design",0
+"Missoula MT",32,"Film & Video",0
+"Missoula MT",8,"Food",0
+"Missoula MT",3,"Games",1
+"Missoula MT",26,"Music",0
+"Missoula MT",2,"Photography",0
+"Missoula MT",7,"Publishing",0
+"Missoula MT",3,"Technology",0
+"Missoula MT",5,"Theater",0
+"Mountain View CA",1,"Comics",1
+"Mountain View CA",2,"Crafts",0
+"Mountain View CA",1,"Dance",0
+"Mountain View CA",20,"Design",1
+"Mountain View CA",2,"Fashion",0
+"Mountain View CA",2,"Film & Video",1
+"Mountain View CA",4,"Food",0
+"Mountain View CA",16,"Games",1
+"Mountain View CA",1,"Music",1
+"Mountain View CA",8,"Publishing",0
+"Mountain View CA",23,"Technology",1
+"Mountain View CA",1,"Theater",1
+"Nashville TN",45,"Art",1
+"Nashville TN",11,"Comics",1
+"Nashville TN",5,"Crafts",1
+"Nashville TN",4,"Dance",1
+"Nashville TN",17,"Design",1
+"Nashville TN",23,"Fashion",1
+"Nashville TN",109,"Film & Video",1
+"Nashville TN",23,"Food",1
+"Nashville TN",21,"Games",1
+"Nashville TN",3,"Journalism",1
+"Nashville TN",1109,"Music",1
+"Nashville TN",8,"Photography",1
+"Nashville TN",57,"Publishing",1
+"Nashville TN",8,"Technology",1
+"Nashville TN",15,"Theater",1
+"New Haven CT",10,"Art",0
+"New Haven CT",3,"Comics",0
+"New Haven CT",1,"Crafts",0
+"New Haven CT",2,"Dance",0
+"New Haven CT",5,"Design",0
+"New Haven CT",1,"Fashion",1
+"New Haven CT",40,"Film & Video",0
+"New Haven CT",5,"Food",0
+"New Haven CT",8,"Games",0
+"New Haven CT",1,"Journalism",0
+"New Haven CT",50,"Music",1
+"New Haven CT",1,"Photography",1
+"New Haven CT",6,"Publishing",1
+"New Haven CT",2,"Technology",1
+"New Haven CT",13,"Theater",0
+"New Orleans LA",92,"Art",1
+"New Orleans LA",15,"Comics",0
+"New Orleans LA",4,"Crafts",0
+"New Orleans LA",8,"Dance",0
+"New Orleans LA",14,"Design",1
+"New Orleans LA",10,"Fashion",1
+"New Orleans LA",117,"Film & Video",0
+"New Orleans LA",24,"Food",0
+"New Orleans LA",14,"Games",1
+"New Orleans LA",8,"Journalism",0
+"New Orleans LA",154,"Music",0
+"New Orleans LA",7,"Photography",0
+"New Orleans LA",47,"Publishing",0
+"New Orleans LA",6,"Technology",1
+"New Orleans LA",48,"Theater",1
+"New York NY",903,"Art",0
+"New York NY",303,"Comics",1
+"New York NY",50,"Crafts",1
+"New York NY",527,"Dance",1
+"New York NY",578,"Design",1
+"New York NY",500,"Fashion",1
+"New York NY",2992,"Film & Video",1
+"New York NY",320,"Food",1
+"New York NY",267,"Games",1
+"New York NY",85,"Journalism",0
+"New York NY",2245,"Music",1
+"New York NY",305,"Photography",1
+"New York NY",747,"Publishing",1
+"New York NY",267,"Technology",1
+"New York NY",1340,"Theater",1
+"Northampton MA",8,"Art",0
+"Northampton MA",3,"Comics",0
+"Northampton MA",2,"Crafts",0
+"Northampton MA",1,"Dance",0
+"Northampton MA",1,"Design",1
+"Northampton MA",2,"Fashion",0
+"Northampton MA",9,"Film & Video",1
+"Northampton MA",5,"Food",0
+"Northampton MA",10,"Games",0
+"Northampton MA",1,"Journalism",0
+"Northampton MA",29,"Music",0
+"Northampton MA",4,"Photography",0
+"Northampton MA",9,"Publishing",0
+"Northampton MA",1,"Theater",1
+"Oakland CA",92,"Art",1
+"Oakland CA",17,"Comics",1
+"Oakland CA",3,"Crafts",1
+"Oakland CA",14,"Dance",0
+"Oakland CA",34,"Design",0
+"Oakland CA",22,"Fashion",0
+"Oakland CA",86,"Film & Video",1
+"Oakland CA",59,"Food",1
+"Oakland CA",51,"Games",0
+"Oakland CA",8,"Journalism",0
+"Oakland CA",179,"Music",0
+"Oakland CA",19,"Photography",0
+"Oakland CA",70,"Publishing",0
+"Oakland CA",16,"Technology",1
+"Oakland CA",20,"Theater",1
+"Oklahoma City OK",10,"Art",0
+"Oklahoma City OK",6,"Comics",0
+"Oklahoma City OK",6,"Crafts",0
+"Oklahoma City OK",4,"Design",0
+"Oklahoma City OK",14,"Film & Video",1
+"Oklahoma City OK",5,"Food",0
+"Oklahoma City OK",12,"Games",0
+"Oklahoma City OK",1,"Journalism",0
+"Oklahoma City OK",43,"Music",1
+"Oklahoma City OK",6,"Photography",0
+"Oklahoma City OK",8,"Publishing",0
+"Oklahoma City OK",2,"Technology",0
+"Oklahoma City OK",6,"Theater",0
+"Olympia WA",12,"Art",0
+"Olympia WA",1,"Comics",1
+"Olympia WA",1,"Crafts",0
+"Olympia WA",3,"Design",0
+"Olympia WA",3,"Fashion",0
+"Olympia WA",12,"Film & Video",1
+"Olympia WA",6,"Food",0
+"Olympia WA",11,"Games",0
+"Olympia WA",1,"Journalism",0
+"Olympia WA",35,"Music",0
+"Olympia WA",2,"Photography",0
+"Olympia WA",14,"Publishing",0
+"Olympia WA",2,"Technology",0
+"Olympia WA",5,"Theater",0
+"Omaha NE",4,"Art",1
+"Omaha NE",10,"Comics",0
+"Omaha NE",1,"Crafts",0
+"Omaha NE",8,"Design",0
+"Omaha NE",4,"Fashion",0
+"Omaha NE",19,"Film & Video",0
+"Omaha NE",9,"Food",0
+"Omaha NE",6,"Games",0
+"Omaha NE",2,"Journalism",0
+"Omaha NE",37,"Music",0
+"Omaha NE",3,"Photography",0
+"Omaha NE",13,"Publishing",0
+"Omaha NE",3,"Technology",0
+"Omaha NE",2,"Theater",1
+"Orange CA",3,"Art",1
+"Orange CA",2,"Comics",1
+"Orange CA",2,"Dance",0
+"Orange CA",6,"Design",0
+"Orange CA",2,"Fashion",0
+"Orange CA",87,"Film & Video",1
+"Orange CA",8,"Games",0
+"Orange CA",9,"Music",1
+"Orange CA",3,"Photography",0
+"Orange CA",4,"Publishing",1
+"Orange CA",5,"Technology",0
+"Orem UT",4,"Art",0
+"Orem UT",4,"Comics",0
+"Orem UT",1,"Crafts",0
+"Orem UT",8,"Design",0
+"Orem UT",7,"Fashion",0
+"Orem UT",3,"Film & Video",1
+"Orem UT",1,"Food",1
+"Orem UT",14,"Games",1
+"Orem UT",8,"Music",1
+"Orem UT",1,"Photography",0
+"Orem UT",4,"Publishing",0
+"Orem UT",6,"Technology",0
+"Orem UT",2,"Theater",0
+"Orlando FL",24,"Art",1
+"Orlando FL",44,"Comics",1
+"Orlando FL",3,"Crafts",1
+"Orlando FL",4,"Dance",1
+"Orlando FL",18,"Design",1
+"Orlando FL",16,"Fashion",0
+"Orlando FL",113,"Film & Video",0
+"Orlando FL",15,"Food",1
+"Orlando FL",55,"Games",1
+"Orlando FL",2,"Journalism",0
+"Orlando FL",152,"Music",0
+"Orlando FL",3,"Photography",1
+"Orlando FL",32,"Publishing",1
+"Orlando FL",30,"Technology",0
+"Orlando FL",30,"Theater",0
+"Palo Alto CA",6,"Art",0
+"Palo Alto CA",1,"Comics",1
+"Palo Alto CA",1,"Crafts",0
+"Palo Alto CA",2,"Dance",0
+"Palo Alto CA",27,"Design",1
+"Palo Alto CA",3,"Fashion",0
+"Palo Alto CA",12,"Film & Video",1
+"Palo Alto CA",3,"Food",0
+"Palo Alto CA",6,"Games",0
+"Palo Alto CA",3,"Journalism",0
+"Palo Alto CA",7,"Music",1
+"Palo Alto CA",1,"Photography",0
+"Palo Alto CA",10,"Publishing",0
+"Palo Alto CA",34,"Technology",1
+"Palo Alto CA",2,"Theater",1
+"Pasadena CA",4,"Art",0
+"Pasadena CA",3,"Comics",0
+"Pasadena CA",1,"Crafts",0
+"Pasadena CA",4,"Dance",0
+"Pasadena CA",3,"Design",0
+"Pasadena CA",2,"Fashion",0
+"Pasadena CA",22,"Film & Video",0
+"Pasadena CA",4,"Food",0
+"Pasadena CA",6,"Games",0
+"Pasadena CA",13,"Music",1
+"Pasadena CA",2,"Photography",0
+"Pasadena CA",6,"Publishing",0
+"Pasadena CA",12,"Technology",1
+"Pasadena CA",11,"Theater",0
+"Philadelphia PA",134,"Art",1
+"Philadelphia PA",50,"Comics",0
+"Philadelphia PA",13,"Crafts",0
+"Philadelphia PA",52,"Dance",1
+"Philadelphia PA",57,"Design",1
+"Philadelphia PA",48,"Fashion",0
+"Philadelphia PA",221,"Film & Video",0
+"Philadelphia PA",37,"Food",1
+"Philadelphia PA",56,"Games",1
+"Philadelphia PA",14,"Journalism",0
+"Philadelphia PA",307,"Music",0
+"Philadelphia PA",45,"Photography",1
+"Philadelphia PA",97,"Publishing",0
+"Philadelphia PA",23,"Technology",1
+"Philadelphia PA",103,"Theater",1
+"Phoenix AZ",28,"Art",1
+"Phoenix AZ",40,"Comics",1
+"Phoenix AZ",12,"Crafts",0
+"Phoenix AZ",7,"Dance",0
+"Phoenix AZ",39,"Design",0
+"Phoenix AZ",25,"Fashion",0
+"Phoenix AZ",67,"Film & Video",1
+"Phoenix AZ",19,"Food",0
+"Phoenix AZ",110,"Games",1
+"Phoenix AZ",3,"Journalism",0
+"Phoenix AZ",113,"Music",0
+"Phoenix AZ",11,"Photography",0
+"Phoenix AZ",46,"Publishing",0
+"Phoenix AZ",25,"Technology",0
+"Phoenix AZ",10,"Theater",1
+"Pittsburgh PA",55,"Art",0
+"Pittsburgh PA",42,"Comics",1
+"Pittsburgh PA",10,"Crafts",0
+"Pittsburgh PA",12,"Dance",0
+"Pittsburgh PA",31,"Design",0
+"Pittsburgh PA",27,"Fashion",0
+"Pittsburgh PA",96,"Film & Video",1
+"Pittsburgh PA",31,"Food",0
+"Pittsburgh PA",44,"Games",0
+"Pittsburgh PA",4,"Journalism",0
+"Pittsburgh PA",125,"Music",0
+"Pittsburgh PA",13,"Photography",0
+"Pittsburgh PA",60,"Publishing",0
+"Pittsburgh PA",30,"Technology",0
+"Pittsburgh PA",31,"Theater",0
+"Portland ME",18,"Art",0
+"Portland ME",11,"Comics",0
+"Portland ME",5,"Crafts",0
+"Portland ME",1,"Dance",1
+"Portland ME",10,"Design",0
+"Portland ME",6,"Fashion",0
+"Portland ME",42,"Film & Video",0
+"Portland ME",19,"Food",1
+"Portland ME",3,"Games",1
+"Portland ME",1,"Journalism",0
+"Portland ME",55,"Music",0
+"Portland ME",6,"Photography",0
+"Portland ME",20,"Publishing",0
+"Portland ME",1,"Technology",1
+"Portland ME",13,"Theater",0
+"Portland OR",180,"Art",0
+"Portland OR",97,"Comics",0
+"Portland OR",29,"Crafts",0
+"Portland OR",27,"Dance",1
+"Portland OR",143,"Design",0
+"Portland OR",56,"Fashion",1
+"Portland OR",272,"Film & Video",1
+"Portland OR",169,"Food",1
+"Portland OR",116,"Games",1
+"Portland OR",15,"Journalism",0
+"Portland OR",533,"Music",0
+"Portland OR",38,"Photography",0
+"Portland OR",266,"Publishing",1
+"Portland OR",57,"Technology",1
+"Portland OR",65,"Theater",1
+"Providence RI",35,"Art",0
+"Providence RI",6,"Comics",1
+"Providence RI",6,"Dance",0
+"Providence RI",16,"Design",0
+"Providence RI",8,"Fashion",0
+"Providence RI",73,"Film & Video",0
+"Providence RI",15,"Food",0
+"Providence RI",9,"Games",1
+"Providence RI",6,"Journalism",0
+"Providence RI",79,"Music",0
+"Providence RI",5,"Photography",0
+"Providence RI",31,"Publishing",0
+"Providence RI",9,"Technology",0
+"Providence RI",23,"Theater",0
+"Provo UT",4,"Art",1
+"Provo UT",8,"Comics",0
+"Provo UT",2,"Crafts",0
+"Provo UT",2,"Dance",0
+"Provo UT",28,"Design",1
+"Provo UT",29,"Fashion",1
+"Provo UT",57,"Film & Video",0
+"Provo UT",5,"Food",1
+"Provo UT",18,"Games",0
+"Provo UT",40,"Music",1
+"Provo UT",1,"Photography",1
+"Provo UT",15,"Publishing",0
+"Provo UT",26,"Technology",1
+"Provo UT",5,"Theater",1
+"Raleigh NC",16,"Art",0
+"Raleigh NC",11,"Comics",0
+"Raleigh NC",4,"Crafts",0
+"Raleigh NC",5,"Dance",0
+"Raleigh NC",23,"Design",0
+"Raleigh NC",15,"Fashion",0
+"Raleigh NC",26,"Film & Video",1
+"Raleigh NC",19,"Food",0
+"Raleigh NC",19,"Games",0
+"Raleigh NC",2,"Journalism",0
+"Raleigh NC",68,"Music",0
+"Raleigh NC",7,"Photography",0
+"Raleigh NC",16,"Publishing",0
+"Raleigh NC",13,"Technology",0
+"Raleigh NC",17,"Theater",0
+"Reno NV",27,"Art",1
+"Reno NV",2,"Design",1
+"Reno NV",8,"Fashion",0
+"Reno NV",12,"Film & Video",1
+"Reno NV",4,"Food",0
+"Reno NV",6,"Games",0
+"Reno NV",26,"Music",0
+"Reno NV",3,"Photography",0
+"Reno NV",14,"Publishing",0
+"Reno NV",4,"Technology",0
+"Reno NV",4,"Theater",0
+"Richmond VA",31,"Art",0
+"Richmond VA",18,"Comics",0
+"Richmond VA",8,"Crafts",0
+"Richmond VA",16,"Dance",1
+"Richmond VA",13,"Design",0
+"Richmond VA",6,"Fashion",0
+"Richmond VA",34,"Film & Video",1
+"Richmond VA",20,"Food",0
+"Richmond VA",16,"Games",0
+"Richmond VA",2,"Journalism",0
+"Richmond VA",73,"Music",0
+"Richmond VA",10,"Photography",0
+"Richmond VA",23,"Publishing",0
+"Richmond VA",8,"Technology",0
+"Richmond VA",12,"Theater",0
+"Riverside CA",5,"Art",0
+"Riverside CA",6,"Comics",0
+"Riverside CA",1,"Dance",0
+"Riverside CA",6,"Design",0
+"Riverside CA",4,"Fashion",0
+"Riverside CA",9,"Film & Video",0
+"Riverside CA",1,"Food",0
+"Riverside CA",3,"Games",0
+"Riverside CA",7,"Music",1
+"Riverside CA",3,"Photography",0
+"Riverside CA",10,"Publishing",0
+"Riverside CA",1,"Technology",0
+"Riverside CA",2,"Theater",0
+"Rochester NY",16,"Art",0
+"Rochester NY",6,"Comics",0
+"Rochester NY",3,"Crafts",0
+"Rochester NY",3,"Dance",0
+"Rochester NY",8,"Design",1
+"Rochester NY",5,"Fashion",0
+"Rochester NY",34,"Film & Video",1
+"Rochester NY",10,"Food",0
+"Rochester NY",33,"Games",1
+"Rochester NY",1,"Journalism",0
+"Rochester NY",77,"Music",1
+"Rochester NY",9,"Photography",0
+"Rochester NY",26,"Publishing",0
+"Rochester NY",8,"Technology",0
+"Rochester NY",9,"Theater",0
+"Sacramento CA",24,"Art",0
+"Sacramento CA",17,"Comics",0
+"Sacramento CA",2,"Crafts",0
+"Sacramento CA",5,"Dance",0
+"Sacramento CA",18,"Design",0
+"Sacramento CA",4,"Fashion",1
+"Sacramento CA",78,"Film & Video",1
+"Sacramento CA",7,"Food",1
+"Sacramento CA",29,"Games",0
+"Sacramento CA",5,"Journalism",0
+"Sacramento CA",73,"Music",0
+"Sacramento CA",3,"Photography",1
+"Sacramento CA",23,"Publishing",0
+"Sacramento CA",11,"Technology",0
+"Sacramento CA",11,"Theater",0
+"Salt Lake City UT",38,"Art",0
+"Salt Lake City UT",20,"Comics",0
+"Salt Lake City UT",12,"Crafts",0
+"Salt Lake City UT",7,"Dance",0
+"Salt Lake City UT",92,"Design",1
+"Salt Lake City UT",42,"Fashion",1
+"Salt Lake City UT",94,"Film & Video",1
+"Salt Lake City UT",26,"Food",0
+"Salt Lake City UT",75,"Games",1
+"Salt Lake City UT",3,"Journalism",0
+"Salt Lake City UT",99,"Music",1
+"Salt Lake City UT",9,"Photography",0
+"Salt Lake City UT",43,"Publishing",0
+"Salt Lake City UT",37,"Technology",1
+"Salt Lake City UT",12,"Theater",1
+"San Antonio TX",21,"Art",0
+"San Antonio TX",18,"Comics",1
+"San Antonio TX",5,"Crafts",0
+"San Antonio TX",3,"Dance",0
+"San Antonio TX",16,"Design",0
+"San Antonio TX",11,"Fashion",0
+"San Antonio TX",25,"Film & Video",1
+"San Antonio TX",12,"Food",0
+"San Antonio TX",24,"Games",0
+"San Antonio TX",3,"Journalism",0
+"San Antonio TX",49,"Music",0
+"San Antonio TX",5,"Photography",0
+"San Antonio TX",14,"Publishing",0
+"San Antonio TX",4,"Technology",1
+"San Antonio TX",9,"Theater",0
+"San Diego CA",71,"Art",0
+"San Diego CA",37,"Comics",0
+"San Diego CA",28,"Crafts",1
+"San Diego CA",14,"Dance",0
+"San Diego CA",114,"Design",1
+"San Diego CA",65,"Fashion",1
+"San Diego CA",124,"Film & Video",1
+"San Diego CA",51,"Food",0
+"San Diego CA",61,"Games",0
+"San Diego CA",5,"Journalism",0
+"San Diego CA",236,"Music",0
+"San Diego CA",16,"Photography",0
+"San Diego CA",81,"Publishing",0
+"San Diego CA",73,"Technology",1
+"San Diego CA",20,"Theater",1
+"San Francisco CA",268,"Art",0
+"San Francisco CA",87,"Comics",1
+"San Francisco CA",15,"Crafts",1
+"San Francisco CA",108,"Dance",1
+"San Francisco CA",310,"Design",1
+"San Francisco CA",133,"Fashion",1
+"San Francisco CA",497,"Film & Video",1
+"San Francisco CA",153,"Food",0
+"San Francisco CA",147,"Games",1
+"San Francisco CA",19,"Journalism",0
+"San Francisco CA",518,"Music",1
+"San Francisco CA",77,"Photography",0
+"San Francisco CA",257,"Publishing",0
+"San Francisco CA",237,"Technology",1
+"San Francisco CA",144,"Theater",0
+"San Jose CA",17,"Art",1
+"San Jose CA",12,"Comics",0
+"San Jose CA",2,"Crafts",0
+"San Jose CA",1,"Dance",1
+"San Jose CA",33,"Design",1
+"San Jose CA",17,"Fashion",0
+"San Jose CA",37,"Film & Video",1
+"San Jose CA",15,"Food",0
+"San Jose CA",53,"Games",1
+"San Jose CA",1,"Journalism",0
+"San Jose CA",66,"Music",0
+"San Jose CA",3,"Photography",1
+"San Jose CA",18,"Publishing",1
+"San Jose CA",46,"Technology",1
+"San Jose CA",7,"Theater",1
+"San Luis Obispo CA",4,"Art",0
+"San Luis Obispo CA",2,"Comics",0
+"San Luis Obispo CA",3,"Crafts",0
+"San Luis Obispo CA",1,"Dance",0
+"San Luis Obispo CA",13,"Design",1
+"San Luis Obispo CA",2,"Fashion",0
+"San Luis Obispo CA",5,"Film & Video",1
+"San Luis Obispo CA",6,"Food",0
+"San Luis Obispo CA",9,"Games",0
+"San Luis Obispo CA",20,"Music",0
+"San Luis Obispo CA",1,"Photography",0
+"San Luis Obispo CA",7,"Publishing",0
+"San Luis Obispo CA",4,"Technology",0
+"Santa Barbara CA",14,"Art",0
+"Santa Barbara CA",2,"Comics",1
+"Santa Barbara CA",5,"Dance",0
+"Santa Barbara CA",5,"Design",1
+"Santa Barbara CA",6,"Fashion",0
+"Santa Barbara CA",67,"Film & Video",1
+"Santa Barbara CA",10,"Food",0
+"Santa Barbara CA",3,"Games",1
+"Santa Barbara CA",1,"Journalism",0
+"Santa Barbara CA",26,"Music",1
+"Santa Barbara CA",8,"Publishing",1
+"Santa Barbara CA",10,"Technology",0
+"Santa Barbara CA",6,"Theater",0
+"Santa Cruz CA",18,"Art",0
+"Santa Cruz CA",1,"Comics",1
+"Santa Cruz CA",1,"Crafts",0
+"Santa Cruz CA",10,"Dance",1
+"Santa Cruz CA",10,"Design",0
+"Santa Cruz CA",9,"Fashion",0
+"Santa Cruz CA",17,"Film & Video",1
+"Santa Cruz CA",8,"Food",0
+"Santa Cruz CA",11,"Games",0
+"Santa Cruz CA",64,"Music",1
+"Santa Cruz CA",6,"Photography",0
+"Santa Cruz CA",29,"Publishing",1
+"Santa Cruz CA",7,"Technology",0
+"Santa Cruz CA",7,"Theater",0
+"Santa Fe NM",27,"Art",1
+"Santa Fe NM",4,"Comics",0
+"Santa Fe NM",2,"Crafts",0
+"Santa Fe NM",1,"Dance",0
+"Santa Fe NM",6,"Design",0
+"Santa Fe NM",5,"Fashion",0
+"Santa Fe NM",26,"Film & Video",0
+"Santa Fe NM",2,"Food",1
+"Santa Fe NM",3,"Games",1
+"Santa Fe NM",3,"Journalism",0
+"Santa Fe NM",25,"Music",0
+"Santa Fe NM",4,"Photography",0
+"Santa Fe NM",19,"Publishing",0
+"Santa Fe NM",2,"Technology",1
+"Santa Fe NM",6,"Theater",0
+"Santa Monica CA",15,"Art",0
+"Santa Monica CA",1,"Comics",1
+"Santa Monica CA",3,"Crafts",0
+"Santa Monica CA",3,"Dance",0
+"Santa Monica CA",16,"Design",1
+"Santa Monica CA",6,"Fashion",0
+"Santa Monica CA",32,"Film & Video",0
+"Santa Monica CA",6,"Food",0
+"Santa Monica CA",10,"Games",0
+"Santa Monica CA",1,"Journalism",0
+"Santa Monica CA",13,"Music",1
+"Santa Monica CA",3,"Photography",0
+"Santa Monica CA",11,"Publishing",0
+"Santa Monica CA",9,"Technology",0
+"Santa Monica CA",9,"Theater",0
+"Santa Rosa CA",5,"Art",0
+"Santa Rosa CA",3,"Comics",0
+"Santa Rosa CA",1,"Crafts",0
+"Santa Rosa CA",4,"Design",0
+"Santa Rosa CA",1,"Fashion",0
+"Santa Rosa CA",8,"Film & Video",0
+"Santa Rosa CA",10,"Food",1
+"Santa Rosa CA",5,"Games",0
+"Santa Rosa CA",16,"Music",0
+"Santa Rosa CA",5,"Publishing",0
+"Santa Rosa CA",3,"Technology",0
+"Santa Rosa CA",5,"Theater",0
+"Sarasota FL",8,"Art",0
+"Sarasota FL",1,"Comics",1
+"Sarasota FL",2,"Crafts",0
+"Sarasota FL",1,"Dance",0
+"Sarasota FL",7,"Design",0
+"Sarasota FL",2,"Fashion",0
+"Sarasota FL",22,"Film & Video",0
+"Sarasota FL",1,"Food",1
+"Sarasota FL",7,"Games",0
+"Sarasota FL",21,"Music",0
+"Sarasota FL",1,"Photography",0
+"Sarasota FL",9,"Publishing",0
+"Sarasota FL",6,"Technology",0
+"Sarasota FL",5,"Theater",0
+"Savannah GA",26,"Art",0
+"Savannah GA",21,"Comics",1
+"Savannah GA",1,"Crafts",1
+"Savannah GA",2,"Dance",1
+"Savannah GA",10,"Design",1
+"Savannah GA",15,"Fashion",0
+"Savannah GA",126,"Film & Video",1
+"Savannah GA",6,"Food",1
+"Savannah GA",13,"Games",0
+"Savannah GA",25,"Music",1
+"Savannah GA",4,"Photography",0
+"Savannah GA",16,"Publishing",1
+"Savannah GA",2,"Technology",1
+"Savannah GA",17,"Theater",0
+"Scottsdale AZ",8,"Art",0
+"Scottsdale AZ",10,"Comics",1
+"Scottsdale AZ",2,"Crafts",0
+"Scottsdale AZ",8,"Design",0
+"Scottsdale AZ",2,"Fashion",0
+"Scottsdale AZ",8,"Film & Video",0
+"Scottsdale AZ",3,"Food",0
+"Scottsdale AZ",5,"Games",0
+"Scottsdale AZ",8,"Music",1
+"Scottsdale AZ",9,"Publishing",0
+"Scottsdale AZ",4,"Technology",0
+"Seattle WA",160,"Art",0
+"Seattle WA",80,"Comics",0
+"Seattle WA",20,"Crafts",1
+"Seattle WA",47,"Dance",0
+"Seattle WA",132,"Design",0
+"Seattle WA",74,"Fashion",0
+"Seattle WA",351,"Film & Video",1
+"Seattle WA",94,"Food",0
+"Seattle WA",192,"Games",1
+"Seattle WA",11,"Journalism",0
+"Seattle WA",547,"Music",0
+"Seattle WA",41,"Photography",0
+"Seattle WA",212,"Publishing",0
+"Seattle WA",64,"Technology",0
+"Seattle WA",114,"Theater",0
+"Somerville MA",9,"Art",0
+"Somerville MA",6,"Comics",0
+"Somerville MA",1,"Crafts",0
+"Somerville MA",1,"Dance",0
+"Somerville MA",5,"Design",0
+"Somerville MA",7,"Fashion",0
+"Somerville MA",9,"Film & Video",1
+"Somerville MA",10,"Food",0
+"Somerville MA",5,"Games",0
+"Somerville MA",36,"Music",0
+"Somerville MA",3,"Photography",0
+"Somerville MA",12,"Publishing",0
+"Somerville MA",9,"Technology",0
+"Somerville MA",6,"Theater",0
+"Spokane WA",8,"Art",0
+"Spokane WA",12,"Comics",1
+"Spokane WA",2,"Crafts",0
+"Spokane WA",10,"Design",0
+"Spokane WA",8,"Fashion",0
+"Spokane WA",5,"Film & Video",1
+"Spokane WA",18,"Food",1
+"Spokane WA",7,"Games",0
+"Spokane WA",28,"Music",0
+"Spokane WA",1,"Photography",0
+"Spokane WA",11,"Publishing",0
+"Spokane WA",5,"Technology",0
+"Spokane WA",1,"Theater",1
+"Springfield MO",5,"Art",1
+"Springfield MO",17,"Comics",1
+"Springfield MO",2,"Crafts",0
+"Springfield MO",2,"Design",1
+"Springfield MO",4,"Fashion",0
+"Springfield MO",26,"Film & Video",0
+"Springfield MO",23,"Games",1
+"Springfield MO",32,"Music",0
+"Springfield MO",1,"Photography",0
+"Springfield MO",8,"Publishing",0
+"Springfield MO",3,"Technology",0
+"Springfield MO",2,"Theater",1
+"St. Louis MO",35,"Art",0
+"St. Louis MO",27,"Comics",0
+"St. Louis MO",6,"Crafts",0
+"St. Louis MO",2,"Dance",1
+"St. Louis MO",13,"Design",1
+"St. Louis MO",9,"Fashion",1
+"St. Louis MO",51,"Film & Video",1
+"St. Louis MO",31,"Food",0
+"St. Louis MO",62,"Games",1
+"St. Louis MO",4,"Journalism",0
+"St. Louis MO",127,"Music",0
+"St. Louis MO",14,"Photography",0
+"St. Louis MO",57,"Publishing",1
+"St. Louis MO",20,"Technology",0
+"St. Louis MO",11,"Theater",1
+"St. Paul MN",27,"Art",0
+"St. Paul MN",12,"Comics",0
+"St. Paul MN",4,"Dance",0
+"St. Paul MN",9,"Design",0
+"St. Paul MN",7,"Fashion",0
+"St. Paul MN",14,"Film & Video",1
+"St. Paul MN",13,"Food",0
+"St. Paul MN",21,"Games",0
+"St. Paul MN",3,"Journalism",0
+"St. Paul MN",73,"Music",1
+"St. Paul MN",4,"Photography",0
+"St. Paul MN",25,"Publishing",0
+"St. Paul MN",3,"Technology",1
+"St. Paul MN",15,"Theater",0
+"St. Petersburg FL",11,"Art",0
+"St. Petersburg FL",4,"Comics",0
+"St. Petersburg FL",2,"Dance",0
+"St. Petersburg FL",3,"Design",0
+"St. Petersburg FL",3,"Fashion",0
+"St. Petersburg FL",9,"Film & Video",0
+"St. Petersburg FL",2,"Food",0
+"St. Petersburg FL",3,"Games",0
+"St. Petersburg FL",1,"Journalism",0
+"St. Petersburg FL",20,"Music",0
+"St. Petersburg FL",1,"Photography",0
+"St. Petersburg FL",5,"Publishing",0
+"St. Petersburg FL",2,"Technology",0
+"St. Petersburg FL",4,"Theater",0
+"State College PA",7,"Art",0
+"State College PA",6,"Comics",0
+"State College PA",1,"Crafts",0
+"State College PA",3,"Design",0
+"State College PA",1,"Fashion",0
+"State College PA",17,"Film & Video",0
+"State College PA",1,"Food",0
+"State College PA",2,"Games",0
+"State College PA",2,"Journalism",0
+"State College PA",8,"Music",0
+"State College PA",1,"Photography",0
+"State College PA",5,"Publishing",0
+"State College PA",3,"Technology",0
+"State College PA",3,"Theater",0
+"Syracuse NY",14,"Art",0
+"Syracuse NY",3,"Comics",0
+"Syracuse NY",6,"Design",0
+"Syracuse NY",3,"Fashion",0
+"Syracuse NY",32,"Film & Video",0
+"Syracuse NY",6,"Food",0
+"Syracuse NY",13,"Games",0
+"Syracuse NY",37,"Music",0
+"Syracuse NY",3,"Photography",0
+"Syracuse NY",16,"Publishing",0
+"Syracuse NY",5,"Technology",0
+"Syracuse NY",4,"Theater",0
+"Tacoma WA",10,"Art",0
+"Tacoma WA",3,"Comics",0
+"Tacoma WA",2,"Crafts",0
+"Tacoma WA",4,"Design",0
+"Tacoma WA",7,"Fashion",0
+"Tacoma WA",15,"Film & Video",0
+"Tacoma WA",8,"Food",0
+"Tacoma WA",4,"Games",0
+"Tacoma WA",22,"Music",0
+"Tacoma WA",15,"Publishing",0
+"Tacoma WA",2,"Theater",0
+"Tallahassee FL",12,"Art",0
+"Tallahassee FL",5,"Comics",0
+"Tallahassee FL",4,"Crafts",0
+"Tallahassee FL",1,"Dance",0
+"Tallahassee FL",1,"Design",1
+"Tallahassee FL",4,"Fashion",0
+"Tallahassee FL",13,"Film & Video",0
+"Tallahassee FL",4,"Food",0
+"Tallahassee FL",5,"Games",0
+"Tallahassee FL",37,"Music",1
+"Tallahassee FL",1,"Photography",0
+"Tallahassee FL",7,"Publishing",0
+"Tallahassee FL",1,"Technology",1
+"Tallahassee FL",5,"Theater",0
+"Tampa FL",20,"Art",0
+"Tampa FL",16,"Comics",0
+"Tampa FL",6,"Crafts",0
+"Tampa FL",7,"Dance",0
+"Tampa FL",20,"Design",0
+"Tampa FL",18,"Fashion",1
+"Tampa FL",36,"Film & Video",1
+"Tampa FL",14,"Food",0
+"Tampa FL",22,"Games",0
+"Tampa FL",2,"Journalism",0
+"Tampa FL",63,"Music",0
+"Tampa FL",7,"Photography",0
+"Tampa FL",31,"Publishing",0
+"Tampa FL",9,"Technology",0
+"Tampa FL",12,"Theater",0
+"Tempe AZ",10,"Art",0
+"Tempe AZ",6,"Comics",0
+"Tempe AZ",6,"Dance",0
+"Tempe AZ",8,"Design",0
+"Tempe AZ",1,"Fashion",1
+"Tempe AZ",16,"Film & Video",0
+"Tempe AZ",2,"Food",0
+"Tempe AZ",13,"Games",0
+"Tempe AZ",23,"Music",0
+"Tempe AZ",2,"Publishing",1
+"Tempe AZ",5,"Technology",0
+"Tempe AZ",4,"Theater",0
+"Toledo OH",9,"Art",0
+"Toledo OH",3,"Comics",0
+"Toledo OH",2,"Crafts",0
+"Toledo OH",2,"Dance",0
+"Toledo OH",2,"Design",0
+"Toledo OH",1,"Fashion",0
+"Toledo OH",8,"Film & Video",1
+"Toledo OH",7,"Food",0
+"Toledo OH",7,"Games",0
+"Toledo OH",28,"Music",0
+"Toledo OH",1,"Photography",0
+"Toledo OH",6,"Publishing",0
+"Toledo OH",1,"Theater",1
+"Tucson AZ",30,"Art",0
+"Tucson AZ",16,"Comics",0
+"Tucson AZ",6,"Crafts",0
+"Tucson AZ",3,"Dance",1
+"Tucson AZ",26,"Design",0
+"Tucson AZ",4,"Fashion",1
+"Tucson AZ",46,"Film & Video",1
+"Tucson AZ",12,"Food",0
+"Tucson AZ",53,"Games",1
+"Tucson AZ",8,"Journalism",1
+"Tucson AZ",71,"Music",0
+"Tucson AZ",4,"Photography",0
+"Tucson AZ",49,"Publishing",1
+"Tucson AZ",4,"Technology",1
+"Tucson AZ",7,"Theater",1
+"Tulsa OK",8,"Art",0
+"Tulsa OK",4,"Comics",0
+"Tulsa OK",4,"Crafts",0
+"Tulsa OK",3,"Dance",0
+"Tulsa OK",10,"Design",0
+"Tulsa OK",7,"Fashion",0
+"Tulsa OK",19,"Film & Video",1
+"Tulsa OK",7,"Food",0
+"Tulsa OK",22,"Games",1
+"Tulsa OK",43,"Music",0
+"Tulsa OK",2,"Photography",0
+"Tulsa OK",12,"Publishing",0
+"Tulsa OK",6,"Technology",0
+"Tulsa OK",4,"Theater",0
+"Vancouver WA",3,"Art",0
+"Vancouver WA",1,"Comics",0
+"Vancouver WA",1,"Crafts",0
+"Vancouver WA",3,"Design",0
+"Vancouver WA",3,"Fashion",0
+"Vancouver WA",5,"Film & Video",1
+"Vancouver WA",8,"Food",0
+"Vancouver WA",5,"Games",0
+"Vancouver WA",12,"Music",0
+"Vancouver WA",19,"Publishing",1
+"Vancouver WA",5,"Technology",0
+"Vancouver WA",1,"Theater",1
+"Ventura CA",10,"Art",0
+"Ventura CA",7,"Comics",0
+"Ventura CA",3,"Design",0
+"Ventura CA",1,"Fashion",0
+"Ventura CA",14,"Film & Video",0
+"Ventura CA",2,"Food",0
+"Ventura CA",4,"Games",0
+"Ventura CA",9,"Music",0
+"Ventura CA",1,"Photography",0
+"Ventura CA",4,"Publishing",0
+"Ventura CA",4,"Technology",0
+"Ventura CA",1,"Theater",1
+"Virginia Beach VA",1,"Art",1
+"Virginia Beach VA",8,"Comics",0
+"Virginia Beach VA",4,"Crafts",0
+"Virginia Beach VA",7,"Design",0
+"Virginia Beach VA",4,"Fashion",0
+"Virginia Beach VA",12,"Film & Video",0
+"Virginia Beach VA",5,"Food",0
+"Virginia Beach VA",17,"Games",1
+"Virginia Beach VA",20,"Music",0
+"Virginia Beach VA",4,"Publishing",0
+"Virginia Beach VA",1,"Theater",1
+"Washington DC",82,"Art",0
+"Washington DC",30,"Comics",0
+"Washington DC",8,"Crafts",0
+"Washington DC",27,"Dance",0
+"Washington DC",33,"Design",1
+"Washington DC",33,"Fashion",0
+"Washington DC",165,"Film & Video",0
+"Washington DC",57,"Food",0
+"Washington DC",39,"Games",1
+"Washington DC",21,"Journalism",1
+"Washington DC",175,"Music",1
+"Washington DC",26,"Photography",0
+"Washington DC",119,"Publishing",1
+"Washington DC",35,"Technology",0
+"Washington DC",102,"Theater",1
+"Wichita KS",1,"Art",1
+"Wichita KS",3,"Comics",0
+"Wichita KS",1,"Crafts",0
+"Wichita KS",2,"Design",0
+"Wichita KS",5,"Fashion",0
+"Wichita KS",7,"Film & Video",0
+"Wichita KS",7,"Food",0
+"Wichita KS",8,"Games",0
+"Wichita KS",14,"Music",0
+"Wichita KS",1,"Photography",0
+"Wichita KS",6,"Publishing",0
+"Wichita KS",3,"Technology",0
+"Wichita KS",1,"Theater",1
+"Wilmington NC",6,"Art",0
+"Wilmington NC",2,"Crafts",0
+"Wilmington NC",9,"Design",0
+"Wilmington NC",4,"Fashion",0
+"Wilmington NC",44,"Film & Video",1
+"Wilmington NC",3,"Games",1
+"Wilmington NC",2,"Journalism",0
+"Wilmington NC",17,"Music",0
+"Wilmington NC",7,"Publishing",0
+"Wilmington NC",3,"Technology",0
+"Wilmington NC",8,"Theater",0
+"Winston-Salem NC",6,"Art",0
+"Winston-Salem NC",1,"Comics",0
+"Winston-Salem NC",1,"Crafts",0
+"Winston-Salem NC",1,"Dance",0
+"Winston-Salem NC",1,"Design",1
+"Winston-Salem NC",1,"Fashion",0
+"Winston-Salem NC",21,"Film & Video",0
+"Winston-Salem NC",10,"Food",1
+"Winston-Salem NC",2,"Games",1
+"Winston-Salem NC",1,"Journalism",0
+"Winston-Salem NC",19,"Music",0
+"Winston-Salem NC",4,"Publishing",0
+"Winston-Salem NC",3,"Technology",0
+"Winston-Salem NC",5,"Theater",0
+"York PA",7,"Art",0
+"York PA",20,"Crafts",1
+"York PA",2,"Design",0
+"York PA",2,"Fashion",0
+"York PA",4,"Film & Video",1
+"York PA",4,"Food",0
+"York PA",4,"Games",0
+"York PA",9,"Music",0
+"York PA",4,"Publishing",0
+"York PA",1,"Technology",0
+"Akron OH",62,"all",NULL
+"Albany NY",121,"all",NULL
+"Albuquerque NM",225,"all",NULL
+"Amherst MA",66,"all",NULL
+"Anaheim CA",59,"all",NULL
+"Anchorage AK",90,"all",NULL
+"Ann Arbor MI",252,"all",NULL
+"Asheville NC",230,"all",NULL
+"Ashland OR",72,"all",NULL
+"Athens GA",129,"all",NULL
+"Atlanta GA",962,"all",NULL
+"Austin TX",1756,"all",NULL
+"Baltimore MD",604,"all",NULL
+"Baton Rouge LA",72,"all",NULL
+"Bellingham WA",130,"all",NULL
+"Berkeley CA",285,"all",NULL
+"Birmingham AL",111,"all",NULL
+"Black Rock City NV",175,"all",NULL
+"Bloomington IN",116,"all",NULL
+"Boise ID",178,"all",NULL
+"Boston MA",1782,"all",NULL
+"Boulder CO",325,"all",NULL
+"Bozeman MT",123,"all",NULL
+"Buffalo NY",167,"all",NULL
+"Burbank CA",90,"all",NULL
+"Burlington VT",171,"all",NULL
+"Cambridge MA",235,"all",NULL
+"Chapel Hill NC",90,"all",NULL
+"Charleston SC",159,"all",NULL
+"Charlotte NC",240,"all",NULL
+"Charlottesville VA",163,"all",NULL
+"Chattanooga TN",111,"all",NULL
+"Chicago IL",2945,"all",NULL
+"Cincinnati OH",321,"all",NULL
+"Cleveland OH",334,"all",NULL
+"Colorado Springs CO",122,"all",NULL
+"Columbia MO",76,"all",NULL
+"Columbia SC",121,"all",NULL
+"Columbus OH",418,"all",NULL
+"Dallas TX",685,"all",NULL
+"Dayton OH",110,"all",NULL
+"Denton TX",124,"all",NULL
+"Denver CO",898,"all",NULL
+"Des Moines IA",77,"all",NULL
+"Detroit MI",527,"all",NULL
+"Duluth MN",58,"all",NULL
+"Durham NC",194,"all",NULL
+"Eugene OR",153,"all",NULL
+"Evanston IL",103,"all",NULL
+"Fayetteville AR",62,"all",NULL
+"Fort Collins CO",95,"all",NULL
+"Fort Lauderdale FL",90,"all",NULL
+"Fort Wayne IN",63,"all",NULL
+"Fort Worth TX",135,"all",NULL
+"Fresno CA",66,"all",NULL
+"Gainesville FL",57,"all",NULL
+"Grand Rapids MI",282,"all",NULL
+"Greensboro NC",122,"all",NULL
+"Greenville SC",113,"all",NULL
+"Hartford CT",83,"all",NULL
+"Honolulu HI",191,"all",NULL
+"Houston TX",543,"all",NULL
+"Huntington Beach CA",80,"all",NULL
+"Indianapolis IN",301,"all",NULL
+"Iowa City IA",60,"all",NULL
+"Irvine CA",113,"all",NULL
+"Ithaca NY",104,"all",NULL
+"Jacksonville FL",142,"all",NULL
+"Jersey City NJ",79,"all",NULL
+"Kalamazoo MI",77,"all",NULL
+"Kansas City MO",385,"all",NULL
+"Knoxville TN",110,"all",NULL
+"Lafayette LA",59,"all",NULL
+"Lancaster PA",96,"all",NULL
+"Lansing MI",79,"all",NULL
+"Las Vegas NV",378,"all",NULL
+"Lawrence KS",84,"all",NULL
+"Lexington KY",122,"all",NULL
+"Lincoln NE",95,"all",NULL
+"Little Rock AR",74,"all",NULL
+"Long Beach CA",172,"all",NULL
+"Los Angeles CA",7637,"all",NULL
+"Louisville KY",176,"all",NULL
+"Madison WI",296,"all",NULL
+"Memphis TN",132,"all",NULL
+"Mesa AZ",62,"all",NULL
+"Miami FL",389,"all",NULL
+"Milwaukee WI",298,"all",NULL
+"Minneapolis MN",1201,"all",NULL
+"Missoula MT",108,"all",NULL
+"Mountain View CA",81,"all",NULL
+"Nashville TN",1458,"all",NULL
+"New Haven CT",148,"all",NULL
+"New Orleans LA",568,"all",NULL
+"New York NY",11429,"all",NULL
+"Northampton MA",85,"all",NULL
+"Oakland CA",690,"all",NULL
+"Oklahoma City OK",123,"all",NULL
+"Olympia WA",108,"all",NULL
+"Omaha NE",121,"all",NULL
+"Orange CA",131,"all",NULL
+"Orem UT",63,"all",NULL
+"Orlando FL",541,"all",NULL
+"Palo Alto CA",118,"all",NULL
+"Pasadena CA",93,"all",NULL
+"Philadelphia PA",1257,"all",NULL
+"Phoenix AZ",555,"all",NULL
+"Pittsburgh PA",611,"all",NULL
+"Portland ME",211,"all",NULL
+"Portland OR",2063,"all",NULL
+"Providence RI",321,"all",NULL
+"Provo UT",240,"all",NULL
+"Raleigh NC",261,"all",NULL
+"Reno NV",110,"all",NULL
+"Richmond VA",290,"all",NULL
+"Riverside CA",58,"all",NULL
+"Rochester NY",248,"all",NULL
+"Sacramento CA",310,"all",NULL
+"Salt Lake City UT",609,"all",NULL
+"San Antonio TX",219,"all",NULL
+"San Diego CA",996,"all",NULL
+"San Francisco CA",2970,"all",NULL
+"San Jose CA",328,"all",NULL
+"San Luis Obispo CA",77,"all",NULL
+"Santa Barbara CA",163,"all",NULL
+"Santa Cruz CA",198,"all",NULL
+"Santa Fe NM",135,"all",NULL
+"Santa Monica CA",138,"all",NULL
+"Santa Rosa CA",66,"all",NULL
+"Sarasota FL",93,"all",NULL
+"Savannah GA",284,"all",NULL
+"Scottsdale AZ",67,"all",NULL
+"Seattle WA",2139,"all",NULL
+"Somerville MA",119,"all",NULL
+"Spokane WA",116,"all",NULL
+"Springfield MO",125,"all",NULL
+"St. Louis MO",469,"all",NULL
+"St. Paul MN",230,"all",NULL
+"St. Petersburg FL",70,"all",NULL
+"State College PA",60,"all",NULL
+"Syracuse NY",142,"all",NULL
+"Tacoma WA",92,"all",NULL
+"Tallahassee FL",100,"all",NULL
+"Tampa FL",283,"all",NULL
+"Tempe AZ",96,"all",NULL
+"Toledo OH",77,"all",NULL
+"Tucson AZ",339,"all",NULL
+"Tulsa OK",151,"all",NULL
+"Vancouver WA",66,"all",NULL
+"Ventura CA",60,"all",NULL
+"Virginia Beach VA",83,"all",NULL
+"Washington DC",952,"all",NULL
+"Wichita KS",59,"all",NULL
+"Wilmington NC",105,"all",NULL
+"Winston-Salem NC",76,"all",NULL
+"York PA",57,"all",NULL

@@ -1,263 +1,352 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<meta charset="utf-8" />
-	<link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
-	<link rel="icon" type="image/png" href="assets/img/favicon.png">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta charset="utf-8"/>
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
+    <link rel="icon" type="image/png" href="assets/img/favicon.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
 
-	<title>Data Visualisation Portfolio - Saminu Salisu</title>
+    <title>Sketches - 2016 Mining and Quarrying (Gold ) PRODUCTION Data (OUTPUT IN TONS) </title>
 
-	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport'/>
 
-	<!--     Fonts and icons     -->
-	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+    <!--     Fonts and icons     -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css"/>
 
-	<!-- CSS Files -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- CSS Files -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet"/>
     <link href="assets/css/material-kit.css" rel="stylesheet"/>
 
-	<!-- CSS Just for demo purpose, don't include it in your project -->
-	<link href="assets/css/demo.css" rel="stylesheet" />
+    <!-- CSS Just for demo purpose, don't include it in your project -->
+    <link href="assets/css/demo.css" rel="stylesheet"/>
+    <style>
 
+        svg {
+            font: 16px "Avenir";
+
+        }
+
+        div.tooltip {
+            position: absolute;
+            text-align: center;
+            width: 60px;
+            height: 45px;
+            padding: 2px;
+            font: 12px sans-serif;
+            background: lightsteelblue;
+            border: 0px;
+            border-radius: 8px;
+            pointer-events: none;
+        }
+    </style>
+
+    <script src="//d3js.org/d3.v4.min.js"></script>
 </head>
 
-<body class="index-page">
-<!-- Navbar -->
-<nav class="navbar navbar-transparent navbar-fixed-top navbar-color-on-scroll">
-	<div class="container">
+<body class="tutorial-page">
+
+<nav class="navbar navbar-transparent navbar-fixed-top navbar-color-on-scroll" role="navigation">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-	    	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-index">
-	        	<span class="sr-only">Toggle navigation</span>
-	        	<span class="icon-bar"></span>
-	        	<span class="icon-bar"></span>
-	        	<span class="icon-bar"></span>
-	    	</button>
-	    	<a href="http://www.creative-tim.com">
-	        	<div class="logo-container">
-	                <div class="logo">
-	                    <img src="assets/img/logo.png" alt="Creative Tim Logo" rel="tooltip" title="<b>Material Kit</b> was Designed & Coded with care by the staff from <b>Creative Tim</b>" data-placement="bottom" data-html="true">
-	                </div>
-	                <div class="brand">
-	                    Saminu Salisu
-	                </div>
+            <button id="menu-toggle" type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar bar1"></span>
+                <span class="icon-bar bar2"></span>
+                <span class="icon-bar bar3"></span>
+            </button>
+            <a href="http://www.creative-tim.com">
+                <div class="logo-container">
+                    <div class="logo">
+                        <img src="assets/img/logo.png" alt="Creative Tim Logo">
+                    </div>
+                    <div class="brand">
+                        S.Salisu
+                    </div>
+                </div>
+            </a>
+        </div>
 
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <!--<a href="index.html">Back to Kit</a>-->
+                </li>
+                <li>
+                    <!--<a href="https://github.com/timcreative/material-kit/issues">Have an issue?</a>-->
+                </li>
+            </ul>
 
-				</div>
-	      	</a>
-	    </div>
-
-	    <div class="collapse navbar-collapse" id="navigation-index">
-	    	<ul class="nav navbar-nav navbar-right">
-				<li>
-					<a href="components-documentation.html" target="_blank">
-						<i class="material-icons">dashboard</i> Components
-					</a>
-				</li>
-				<li>
-					<a href="http://demos.creative-tim.com/material-kit-pro/presentation.html?ref=utp-freebie" target="_blank">
-						<i class="material-icons">unarchive</i> Upgrade to PRO
-					</a>
-				</li>
-				<li>
-					<a rel="tooltip" title="Follow us on Twitter" data-placement="bottom" href="https://twitter.com/CreativeTim" target="_blank" class="btn btn-white btn-simple btn-just-icon">
-						<i class="fa fa-twitter"></i>
-					</a>
-				</li>
-				<li>
-					<a rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="https://www.facebook.com/CreativeTim" target="_blank" class="btn btn-white btn-simple btn-just-icon">
-						<i class="fa fa-facebook-square"></i>
-					</a>
-				</li>
-				<li>
-					<a rel="tooltip" title="Follow us on Instagram" data-placement="bottom" href="https://www.instagram.com/CreativeTimOfficial" target="_blank" class="btn btn-white btn-simple btn-just-icon">
-						<i class="fa fa-instagram"></i>
-					</a>
-				</li>
-
-	    	</ul>
-	    </div>
-	</div>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
 </nav>
-<!-- End Navbar -->
 
 <div class="wrapper">
-	<div class="header header-filter" style="background-image: url('assets/img/bg2.jpeg');">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2">
-					<div class="brand">
-						<h1 class="text-center">I am Saminu Salisu</h1>
-						<h3 class="text-center">I build visualisations to make your data understandable in both 2D and 3D</h3>
-					</div>
-				</div>
-			</div>
+    <div class="header header-filter"
+         style="background-image: url('http://prominentcargomovers.com/images/mining.jpg');">
+         <!--style="background-image: url('https://images.unsplash.com/photo-1423655156442-ccc11daa4e99?crop=entropy&dpr=2&fit=crop&fm=jpg&h=750&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1450');">-->
+        <div class="container">
+            <div class="row">
+                <div class=" text-center col-md-6 col-md-offset-3">
+                    <h3 class="title text-center">2016 Mining and Quarrying (Solid Mineral) PRODUCTION Data (OUTPUT
+                        IN
+                        TONS)</h3>
+                </div>
+            </div>
+        </div>
+    </div>
 
-		</div>
-	</div>
+    <div class="main main-raised">
+        <div class="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <span style="position: absolute; "><select name="mineral" id="selectCity"></select></span>
+                        <svg font-family="sans-serif" font-size="10"
+                             text-anchor="middle"></svg>
+                    </div>
+                </div>
 
-	<div class="main main-raised">
+            </div>
+        </div>
+    </div>
 
-		<div class="section section-examples">
-	        <div class="container-fluid text-center">
-	            <div class="row">
-					<h2 class="text-center">Recent Data Vis Projects</h2>
-
-					<div class="col-md-6">
-	                    <a href="examples/landing-page.html" target="_blank">
-	                        <!--<img src="assets/img/landing.jpg" alt="Rounded Image" class="img-rounded img-raised img-responsive">-->
-	                        <button class="btn  btn-simple btn-primary btn-lg">View Landing Page</button>
-	                    </a>
-	                </div>
-	                <div class="col-md-6">
-	                    <a href="examples/profile-page.html" target="_blank">
-	                        <!--<img src="assets/img/profile.jpg" alt="Rounded Image" class="img-rounded img-raised img-responsive">-->
-	                        <button class="btn btn-simple btn-primary btn-lg">View Profile Page</button>
-	                    </a>
-	                </div>
-	            </div>
-	        </div>
-		</div>
-
-	    <div class="section section-download">
-	        <div class="container">
-	            <div class="row text-center">
-	                <div class="col-md-8 col-md-offset-2">
-	                    <h2>Do you love this UI Kit?</h2>
-	                    <h4>Cause if you do, it can be yours for FREE. Hit the button below to navigate to Creative Tim where you can find the kit. Start a new project or give an old Bootstrap project a new look!</h4>
-	                </div>
-	                <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-4">
-	                    <a href="http://www.creative-tim.com/product/material-kit" class="btn btn-primary btn-lg">
-							<i class="material-icons">cloud_download</i> Free Download
-						</a>
-	                </div>
-				</div>
-
-				<br><br>
-
-				<div class="row text-center">
-					<div class="col-md-8 col-md-offset-2">
-	                    <h2>Want more?</h2>
-	                    <h4>We've just launched <a href="http://demos.creative-tim.com/material-kit-pro/presentation.html?ref=utp-freebie" target="_blank">Material Kit PRO</a>. It has a huge number of components, sections and example pages. Start Your Development With A Badass Bootstrap UI Kit inspired by Material Design.</h4>
-	                </div>
-					<div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-4">
-						<a href="http://demos.creative-tim.com/material-kit-pro/presentation.html?ref=utp-freebie" class="btn btn-upgrade btn-lg" target="_blank">
-							<i class="material-icons">unarchive</i> Upgrade to PRO
-						</a>
-					</div>
-	            </div>
-
-	            <div class="row sharing-area text-center">
-	                    <h3>Thank you for supporting us!</h3>
-	                    <a href="#" class="btn btn-twitter">
-	                        <i class="fa fa-twitter"></i>
-	                        Tweet
-	                    </a>
-	                    <a href="#" class="btn btn-facebook">
-	                        <i class="fa fa-facebook-square"></i>
-	                        Share
-	                    </a>
-						<a href="#" class="btn btn-google-plus">
-	                        <i class="fa fa-google-plus"></i>
-	                        Share
-	                    </a>
-						<a href="#" class="btn btn-github">
-	                        <i class="fa fa-github"></i>
-	                    	Star
-	                    </a>
-	            </div>
-	        </div>
-	    </div>
-
-	</div>
-    <footer class="footer">
-	    <div class="container">
-	        <nav class="pull-left">
-	            <ul>
-					<li>
-						<a href="http://www.creative-tim.com">
-							Creative Tim
-						</a>
-					</li>
-					<li>
-						<a href="http://presentation.creative-tim.com">
-						   About Us
-						</a>
-					</li>
-					<li>
-						<a href="http://blog.creative-tim.com">
-						   Blog
-						</a>
-					</li>
-					<li>
-						<a href="http://www.creative-tim.com/license">
-							Licenses
-						</a>
-					</li>
-	            </ul>
-	        </nav>
-	        <div class="copyright pull-right">
-	            &copy; 2016, made with <i class="material-icons">favorite</i> by Creative Tim for a better web.
-	        </div>
-	    </div>
-	</footer>
 </div>
-
-<!-- Sart Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-	<div class="modal-dialog">
-		<div class="modal-content">
-			<div class="modal-header">
-				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-					<i class="material-icons">clear</i>
-				</button>
-				<h4 class="modal-title">Modal title</h4>
-			</div>
-			<div class="modal-body">
-				<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
-				</p>
-			</div>
-			<div class="modal-footer">
-				<button type="button" class="btn btn-default btn-simple">Nice Button</button>
-				<button type="button" class="btn btn-danger btn-simple" data-dismiss="modal">Close</button>
-			</div>
-		</div>
-	</div>
-</div>
-<!--  End Modal -->
-
+<footer class="footer footer-transparent">
+    <div class="container">
+        <nav class="pull-left">
+            <ul>
+                <li>
+                    <a href="http://www.creative-tim.com">
+                        Creative Tim
+                    </a>
+                </li>
+                <li>
+                    <a href="http://presentation.creative-tim.com">
+                        About Us
+                    </a>
+                </li>
+                <li>
+                    <a href="http://blog.creative-tim.com">
+                        Blog
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.creative-tim.com/license">
+                        Licenses
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="social-area pull-right">
+            <a class="btn btn-social btn-twitter btn-just-icon" href="https://twitter.com/CreativeTim">
+                <i class="fa fa-twitter"></i>
+            </a>
+            <a class="btn btn-social btn-facebook btn-just-icon" href="https://www.facebook.com/CreativeTim">
+                <i class="fa fa-facebook-square"></i>
+            </a>
+            <a class="btn btn-social btn-google btn-just-icon" href="https://plus.google.com/+CreativetimPage">
+                <i class="fa fa-google-plus"></i>
+            </a>
+        </div>
+        <div class="copyright">
+            &copy; S.Salisu
+        </div>
+    </div>
+</footer>
 
 </body>
-	<!--   Core JS Files   -->
-	<script src="assets/js/jquery.min.js" type="text/javascript"></script>
-	<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
-	<script src="assets/js/material.min.js"></script>
+<!--   Core JS Files   -->
+<script src="assets/js/jquery.min.js" type="text/javascript"></script>
+<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="assets/js/material.min.js"></script>
 
-	<!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
-	<script src="assets/js/nouislider.min.js" type="text/javascript"></script>
+<!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+<script src="assets/js/nouislider.min.js" type="text/javascript"></script>
 
-	<!--  Plugin for the Datepicker, full documentation here: http://www.eyecon.ro/bootstrap-datepicker/ -->
-	<script src="assets/js/bootstrap-datepicker.js" type="text/javascript"></script>
+<!--  Plugin for the Datepicker, full documentation here: http://www.eyecon.ro/bootstrap-datepicker/ -->
+<script src="assets/js/bootstrap-datepicker.js" type="text/javascript"></script>
 
-	<!-- Control Center for Material Kit: activating the ripples, parallax effects, scripts from the example pages etc -->
-	<script src="assets/js/material-kit.js" type="text/javascript"></script>
+<!-- Control Center for Material Kit: activating the ripples, parallax effects, scripts from the example pages etc -->
+<script src="assets/js/material-kit.js" type="text/javascript"></script>
 
-	<script type="text/javascript">
+<script>
 
-		$().ready(function(){
-			// the body of this function is in assets/material-kit.js
-			materialKit.initSliders();
-            window_width = $(window).width();
+    $().ready(function () {
 
-            if (window_width >= 992){
-                big_image = $('.wrapper > .header');
+        $(window).on('scroll', materialKit.checkScrollForTransparentNavbar);
 
-				$(window).on('scroll', materialKitDemo.checkScrollForParallax);
-			}
+    });
 
-		});
-	</script>
+</script>
+
+<script>
+    var width = 960,
+            height = 900;
+
+    var svg = d3.select("svg")
+            .attr("width", width)
+            .attr("height", height);
+
+    // Define the div for the tooltip
+    var div = d3.select("body").append("div")
+            .attr("class", "tooltip")
+            .style("opacity", 0);
+
+    var tooltip = d3.select("body")
+            .append("div")
+            .style("position", "absolute")
+            .style("z-index", "10")
+            .style("visibility", "hidden")
+            .style("color", "white")
+            .style("padding", "8px")
+            .style("background-color", "rgba(0, 0, 0, 0.75)")
+            .style("border-radius", "6px")
+            .style("font", "12px sans-serif")
+            .text("tooltip");
+
+
+    svg.append("text")
+            .attr("x", 100)
+            .attr("y", -10)
+            .attr("dy", "3.5em")
+            .attr("text-anchor", "start")
+            .style("font-size", "28px")
+            .style("font-weight", "bold");
+    //            .text("States Mineral Resources Production");
+
+    var pack = d3.pack()
+            .size([width - 150, height])
+            .padding(1.5);
+
+    var defaultData = [],
+            titles = [];
+
+    d3.queue()
+            .defer(d3.csv, "/data/mineralData.csv")
+            .await(ready);
+
+    function ready(error, data) {
+        if (error) throw error;
+
+        var keys = data.map(function (d) {
+            return Object.keys(d)
+        });
+        var cleanArray = keys[0].splice(1, (keys[0].length));
+
+
+        function updateMineral(min_id) {
+
+            //clean Data
+            data.forEach(function (d) {
+                var str = d[min_id];
+                str = str.replace(/[^\d\.\-]/g, "");
+                //
+                d.value = +str;
+                d.Call_Type = d["State"];
+                return d;
+            });
+
+            //draw burbles
+            var color = d3.scaleOrdinal()
+                    .domain(data.map(function (d) {
+                        return d.Call_Type;
+                    }))
+                    .range(['#fbb4ae', '#b3cde3', '#ccebc5', '#decbe4', '#fed9a6',
+                        '#ffe9a8', '#b9bfe3', '#fddaec', '#cccccc']);
+
+            var root = d3.hierarchy({children: data})
+                    .sum(function (d) {
+                        return d.value;
+                    });
+
+            // transition
+            var t = d3.transition()
+                    .duration(750);
+
+            pack(root);
+            d3.selectAll(".node").remove();
+
+
+            var node = svg.selectAll(".node")
+                    .data(pack(root).leaves())
+                    .enter().append("g")
+                    .attr("class", "node")
+                    .attr("transform", function (d) {
+                        return "translate(" + d.x + "," + d.y + ")";
+                    });
+
+            //update circle
+            var circle = node.append("circle")
+                    .attr("id", function (d) {
+                        return d.id;
+                    }).on("mouseover", function (d) {
+                        tooltip.html(d.data.Call_Type + "<br>" + d.data.value + " TONS");
+                        tooltip.style("visibility", "visible");
+                    })
+                    .on("mousemove", function () {
+                        return tooltip.style("top", (d3.event.pageY - 10) + "px")
+                                .style("left", (d3.event.pageX + 10) + "px");
+                    })
+                    .on("mouseout", function () {
+                        return tooltip.style("visibility", "hidden");
+                    });
+
+            circle.transition(t)
+                    .attr("r", function (d) {
+                        console.log(d);
+                        return d.r;
+                    })
+                    .style("fill", function (d) {
+                        return color(d.data.Call_Type);
+                    });
+
+            //exit
+            circle.exit()
+                    .transition(t)
+                    .attr("opacity", 1e-6)
+                    .remove();
+
+
+            var text = node.append("text")
+                    .text(function (d) {
+                        if (d.data.value > 0 || d.data.Call_Type == "Other" || d.data.Call_Type == "Fire") {
+                            return d.data.Call_Type;
+                        }
+                        return "";
+                    })
+                    .attr("opacity", 1)
+                    .transition(t);
+
+        }
+
+        //update on change select
+        d3.select("#selectCity")
+                .style("top", height - ( height - 100 ) + "px")
+                .style("left", width - 80 + "px")
+                .style("position", "absolute")
+                .on("change", function () {
+                    console.log('"' + d3.select(this).property("value") + '"');
+                    updateMineral(d3.select(this).property("value"))
+                })
+                .selectAll("option")
+                .data(cleanArray)
+                .enter()
+                .append("option")
+                .text(function (d) {
+                    return d;
+                })
+                .attr("value", function (d) {
+                    return d;
+                });
+
+        updateMineral("Limestone");
+
+        //update select
+    }
+
+</script>
 </html>
-
