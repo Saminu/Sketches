@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7bcd8fb3-494d-4e11-b7d8-2ae6fde12e73" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bubble3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/city_data_2.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/city_map_5.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/project_raw_4.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/unique_subs.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bubble.html" afterPath="$PROJECT_DIR$/bubble.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bubble2.html" afterPath="$PROJECT_DIR$/bubble2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-    </list>
+    <list default="true" id="7bcd8fb3-494d-4e11-b7d8-2ae6fde12e73" name="Default" comment="" />
     <ignored path="Sketches.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -34,8 +24,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="93" column="83" selection-start-line="93" selection-start-column="83" selection-end-line="93" selection-end-column="83" />
+            <state relative-caret-position="344">
+              <caret line="96" column="22" selection-start-line="96" selection-start-column="22" selection-end-line="96" selection-end-column="22" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -816,12 +806,12 @@
       <workItem from="1490902453109" duration="2741000" />
       <workItem from="1491228430977" duration="123000" />
       <workItem from="1491260163425" duration="15606000" />
-      <workItem from="1491397489169" duration="10351000" />
+      <workItem from="1491397489169" duration="10424000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35594000" />
+    <option name="totallyTimeSpent" value="35667000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="80" y="24" width="1356" height="780" extended-state="0" />
@@ -1217,8 +1207,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="93" column="83" selection-start-line="93" selection-start-column="83" selection-end-line="93" selection-end-column="83" />
+        <state relative-caret-position="344">
+          <caret line="96" column="22" selection-start-line="96" selection-start-column="22" selection-end-line="96" selection-end-column="22" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
