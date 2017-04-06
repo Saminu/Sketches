@@ -22,6 +22,7 @@
     <!-- CSS Just for demo purpose, don't include it in your project -->
     <link href="assets/css/demo.css" rel="stylesheet"/>
     <style>
+        @import url("http://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.5.4/bootstrap-select.min.css");
 
         svg {
             font: 16px "Avenir";
@@ -39,6 +40,11 @@
             border: 0px;
             border-radius: 8px;
             pointer-events: none;
+        }
+
+        .area {
+            fill: steelblue;
+            clip-path: url(#clip);
         }
     </style>
 
@@ -86,25 +92,36 @@
 
 <div class="wrapper">
     <div class="header header-filter"
-         style="background-image: url('https://images.unsplash.com/photo-1423655156442-ccc11daa4e99?crop=entropy&dpr=2&fit=crop&fm=jpg&h=750&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1450');">
+         style="background-image: url('http://images.wisegeek.com/large-gas-station-at-night.jpg');">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-md-offset-3">
-                    <h3 class="title text-center">2016 Mining and Quarrying (Gold ) PRODUCTION Data (OUTPUT IN
-                        TONS)</h3>
+                <div class=" text-center col-md-6 col-md-offset-3">
+                    <h3 class="title text-center">Automotive Gas Oil (Diesel) Price Watch (February 2017)</h3>
                 </div>
             </div>
         </div>
     </div>
 
     <div class="main main-raised">
-        <div class="section">
+        <div class="">
             <div class="container">
-                <div class="row">
+                <div class="row tim-row">
                     <div class="col-md-12">
-                        <button onclick="dataCln({})"></button>
-                        <svg font-family="sans-serif" font-size="10"
-                             text-anchor="middle"></svg>
+                        <h2 class="text-center">Diesel Price Watch (February 2017)</h2>
+                        <p> Average price paid by consumers for automotive gas oil (diesel) increased by 3.68%
+                            month-on-month and 68.74% year-on-year to N249.38 in February 2017 from N240.52 in January
+                            2017. States with the highest average price of diesel were Adamawa (N280), Ebonyi (N272.5) &
+                            Cross Borno (271) . States with the lowest average price of diesel were Oyo (N226.67),
+                            Bauchi (N226) and Osun (N220).</p>
+                        <em>Data source: National Bureau of Statistics Nigeria</em>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-md-12">
+                        <span style="position: absolute; "><select class="selectpicker" data-style="btn-primary"  name="mineral" id="selectState"></select></span>
+                        <svg id="barChart" width="960" height="500"></svg>
+
                     </div>
                 </div>
 
@@ -151,7 +168,7 @@
             </a>
         </div>
         <div class="copyright">
-            &copy; 2016 Creative Tim, made with love
+            &copy; S.Salisu
         </div>
     </div>
 </footer>
@@ -170,6 +187,7 @@
 
 <!-- Control Center for Material Kit: activating the ripples, parallax effects, scripts from the example pages etc -->
 <script src="assets/js/material-kit.js" type="text/javascript"></script>
+<script src="js/barChart.js" type="text/javascript"></script>
 
 <script>
 
@@ -182,164 +200,155 @@
 </script>
 
 <script>
-    var width = 960,
-            height = 960;
 
-    var svg = d3.select("svg")
+
+    var svg = d3.select("#barChart"),
+            margin = {top: 20, right: 20, bottom: 30, left: 60},
+            width = +svg.attr("width") - margin.left - margin.right,
+            height = +svg.attr("height") - margin.top - margin.bottom;
+
+    var parseDate = d3.timeParse("%Y-%m-%d");
+
+    var x = d3.scaleTime().range([0, width]),
+            y = d3.scaleLinear().range([height, 0]);
+
+    var xAxis = d3.axisBottom(x),
+            yAxis = d3.axisLeft(y);
+
+    var zoom = d3.zoom()
+            .scaleExtent([1, 32])
+            .translateExtent([[0, 0], [width, height]])
+            .extent([[0, 0], [width, height]])
+            .on("zoom", zoomed);
+
+    var area = d3.area()
+            .curve(d3.curveMonotoneX)
+            .x(function (d) {
+                return x(d.date);
+            })
+            .y0(height)
+            .y1(function (d) {
+                return y(d.price);
+            });
+
+    svg.append("defs").append("clipPath")
+            .attr("id", "clip")
+            .append("rect")
             .attr("width", width)
             .attr("height", height);
 
-    // Define the div for the tooltip
-    var div = d3.select("body").append("div")
-            .attr("class", "tooltip")
-            .style("opacity", 0);
+    var g = svg.append("g")
+            .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-    svg.append("text")
-            .attr("x", 100)
-            .attr("y", -10)
-            .attr("dy", "3.5em")
-            .attr("text-anchor", "start")
-            .style("font-size", "28px")
-            .style("font-weight", "bold");
-    //            .text("States Mineral Resources Production");
+    d3.queue()
+            .defer(d3.csv, "data/Petrol_Prices.csv")
+            .await(ready);
 
-    var pack = d3.pack()
-            .size([width - 150, height])
-            .padding(1.5);
-
-    var defaultData = [],
-            titles = [];
-
-    //    d3.csv("/data/bubble.csv", dataCln, function (error, data) {
-    d3.csv("/data/mineralData.csv", dataCln, function (error, data) {
+    function ready(error, data) {
         if (error) throw error;
 
-        var color = d3.scaleOrdinal()
-                .domain(data.map(function (d) {
-                    return d.Call_Type;
-                }))
-                .range(['#fbb4ae', '#b3cde3', '#ccebc5', '#decbe4', '#fed9a6',
-                    '#ffe9a8', '#b9bfe3', '#fddaec', '#cccccc']);
-
-        var root = d3.hierarchy({children: data})
-                .sum(function (d) {
-                    return d.value;
-                });
-
-        var node = svg.selectAll(".node")
-                .data(pack(root).leaves())
-                .enter().append("g")
-                .attr("class", "node")
-                .attr("transform", function (d) {
-                    return "translate(" + d.x + "," + d.y + ")";
-                });
-
-
-        node.append("circle")
-                .attr("id", function (d) {
-                    return d.id;
-                })
-                .attr("r", function (d) {
-                    return d.r;
-                })
-                .style("fill", function (d) {
-                    return color(d.data.Call_Type);
-                })
-                .on("mouseover", function (d) {
-                    div.transition()
-                            .duration(200)
-                            .style("opacity", .9);
-
-                    var duration = 300;
-                    data.forEach(function (d, i) {
-//                        console.log(d.value);
-                        node.transition().duration(duration).delay(i * duration)
-                                .attr("r", d.value);
-                    });
-
-
-                    div.html(d.data.Call_Type + ": <br>" + d.data.value)
-                            .style("left", (d3.event.pageX) + "px")
-                            .style("top", (d3.event.pageY - 28) + "px");
-                })
-                .on("mouseout", function (d) {
-                    div.transition()
-                            .duration(500)
-                            .style("opacity", 0);
-                });
-
-
-        node.append("text")
-                .text(function (d) {
-                    if (d.data.value > 100 || d.data.Call_Type == "Other" || d.data.Call_Type == "Fire") {
-                        return d.data.Call_Type;
-                    }
-                    return "";
-                });
-
+        //
         var keys = data.map(function (d) {
-            console.log(Object.keys(d));
             return Object.keys(d)
         });
-
         var cleanArray = keys[0].splice(1, (keys[0].length));
 
-        titles = cleanArray;
+        console.log(cleanArray);
 
-        var legend = svg.selectAll(".legend")
-                .data(cleanArray).enter()
-                .append("g")
-                .attr("class", "legend")
-                .attr("transform", "translate(" + (width - 100) + "," + 120 + ")");
+        function updatePrices(min_id) {
+            data.forEach(function (d) {
+                var str = d[min_id];
 
-        legend.append("rect")
-                .attr("x", 0)
-                .attr("y", function (d, i) {
-                    return 20 * i;
+                d.date = parseDate(d.Date);
+                d.price = +str;
+                return d;
+            });
+
+
+            x.domain(d3.extent(data, function (d) {
+//            console.log(d);
+                return d.date;
+            }));
+            y.domain([0, d3.max(data, function (d) {
+                return d.price;
+            })]);
+
+            //remove old paths and axis
+            d3.selectAll(".area").remove();
+            d3.selectAll(".axis").remove();
+
+            g.append("path")
+                    .datum(data)
+                    .attr("class", "area")
+                    .attr("d", area);
+
+            g.append("g")
+                    .attr("class", "axis axis--x")
+                    .attr("transform", "translate(0," + height + ")")
+                    .call(xAxis);
+
+            g.append("g")
+                    .attr("class", "axis axis--y")
+                    .call(yAxis);
+
+            var d0 = new Date(2016, 7, 1),
+                    d1 = new Date(2016, 12, 1);
+
+            // Gratuitous intro zoom!
+            svg.call(zoom).transition()
+                    .duration(1500)
+                    .call(zoom.transform, d3.zoomIdentity
+                            .scale(width / (x(d1) - x(d0)))
+                            .translate(-x(d0), 0));
+        }
+
+        updatePrices("STATES' AVERAGE");
+
+        //update on change select
+        d3.select("#selectState")
+                .style("top", height - ( height - 100 ) + "px")
+                .style("left", width + 80 + "px")
+                .style("position", "absolute")
+                .attr("size", 10)
+                .on("change", function () {
+                    updatePrices(d3.select(this).property("value"));
+                    d3.select(this).attr("selected", "true");
                 })
-                .attr("width", 15)
-                .attr("height", 15)
-                .style("fill", function (d) {
-                    return color(d.Call_Type)
-                });
-
-
-        legend.append("text")
-                .attr("x", 25)
-                .attr("text-anchor", "start")
-                .attr("dy", "1em")
-                .attr("y", function (d, i) {
-                    return 20 * i;
-                })
+                .selectAll("option")
+                .data(cleanArray)
+                .enter()
+                .append("option")
                 .text(function (d) {
                     return d;
-//                    return d.Call_Type;
                 })
-                .attr("font-size", "12px");
-
-
-        legend.append("text")
-                .attr("x", 31)
-                .attr("dy", "-.2em")
-                .attr("y", -10)
-                .text("Minerals")
-                .attr("font-size", "17px");
-
-
-        legend.on("mousedown", function (d) {
-            console.log(d)
-        });
-    });
-
-    function dataCln(d, i) {
-        var item = "Gold";
-        var str = d[item];
-        str = str.replace(/[^\d\.\-]/g, "");
-        //
-        d.value = +str;
-        d.Call_Type = d["State"];
-        return d;
+                .attr("value", function (d) {
+                    return d;
+                });
     }
 
+
+    function zoomed() {
+        var t = d3.event.transform, xt = t.rescaleX(x);
+        g.select(".area").attr("d", area.x(function (d) {
+            return xt(d.date);
+        }));
+        g.select(".axis--x").call(xAxis.scale(xt));
+    }
+
+
+    //    module sample
+    var Search = (function () {
+        var pubs = {};
+
+        pubs.carSearch = carSearch;
+        function carSearch(color) {
+        }
+
+        pubs.peopleSearch = peopleSearch;
+        function peopleSearch(name) {
+        }
+
+        return pubs;
+    })();
 </script>
 </html>

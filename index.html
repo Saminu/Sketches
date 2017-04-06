@@ -87,7 +87,7 @@
 <div class="wrapper">
     <div class="header header-filter"
          style="background-image: url('http://prominentcargomovers.com/images/mining.jpg');">
-         <!--style="background-image: url('https://images.unsplash.com/photo-1423655156442-ccc11daa4e99?crop=entropy&dpr=2&fit=crop&fm=jpg&h=750&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1450');">-->
+        <!--style="background-image: url('https://images.unsplash.com/photo-1423655156442-ccc11daa4e99?crop=entropy&dpr=2&fit=crop&fm=jpg&h=750&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1450');">-->
         <div class="container">
             <div class="row">
                 <div class=" text-center col-md-6 col-md-offset-3">
@@ -107,6 +107,7 @@
                         <span style="position: absolute; "><select name="mineral" id="selectCity"></select></span>
                         <svg font-family="sans-serif" font-size="10"
                              text-anchor="middle"></svg>
+                        <svg id="bar-chart"></svg>
                     </div>
                 </div>
 
@@ -172,6 +173,7 @@
 
 <!-- Control Center for Material Kit: activating the ripples, parallax effects, scripts from the example pages etc -->
 <script src="assets/js/material-kit.js" type="text/javascript"></script>
+<script src="js/barChart.js" type="text/javascript"></script>
 
 <script>
 
@@ -237,16 +239,28 @@
         });
         var cleanArray = keys[0].splice(1, (keys[0].length));
 
-
         function updateMineral(min_id) {
-
             //clean Data
             data.forEach(function (d) {
                 var str = d[min_id];
                 str = str.replace(/[^\d\.\-]/g, "");
-                //
+
+                //value for bubble chart
                 d.value = +str;
+
+                // states title
                 d.Call_Type = d["State"];
+
+                //total values across states for a specific
+
+                var total = d.TOTAL;
+                total = total.replace(/[^\d\.\-]/g, "");
+
+                d.TOTAL = total;
+
+
+//                console.log(total)
+
                 return d;
             });
 
@@ -297,7 +311,6 @@
 
             circle.transition(t)
                     .attr("r", function (d) {
-                        console.log(d);
                         return d.r;
                     })
                     .style("fill", function (d) {
@@ -320,7 +333,6 @@
                     })
                     .attr("opacity", 1)
                     .transition(t);
-
         }
 
         //update on change select
@@ -345,7 +357,6 @@
 
         updateMineral("Limestone");
 
-        //update select
     }
 
 </script>
