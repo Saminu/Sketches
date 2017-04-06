@@ -340,6 +340,7 @@
                 .style("top", height - ( height - 100 ) + "px")
                 .style("left", width - 80 + "px")
                 .style("position", "absolute")
+                .attr("size", 10)
                 .on("change", function () {
                     console.log('"' + d3.select(this).property("value") + '"');
                     updateMineral(d3.select(this).property("value"))
