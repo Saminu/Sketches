@@ -6,7 +6,7 @@
     <link rel="icon" type="image/png" href="assets/img/favicon.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
 
-    <title>Sketches - Nigeria Automotive Gas Oil (Diesel) Price Watch (February 2017) </title>
+    <title>Sketches - Nigerian Premium Motor Spirit (Petrol) Price Watch (February 2017) </title>
 
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport'/>
 
@@ -187,7 +187,7 @@
         <div class="container">
             <div class="row">
                 <div class=" text-center col-md-6 col-md-offset-3">
-                    <h3 class="title text-center">Automotive Gas Oil (Diesel) Price Watch (February 2017)</h3>
+                    <h3 class="title text-center">Premium Motor Spirit (Petrol) Price Watch (February 2017)</h3>
                 </div>
             </div>
         </div>
@@ -198,7 +198,7 @@
             <div class="container">
                 <div class="row tim-row">
                     <div class="col-md-12">
-                        <h2 class="text-center">Diesel Price Watch (February 2017)</h2>
+                        <h2 class="text-center">Premium Motor Spirit (Petrol) Price Watch (February 2017)</h2>
                         <p> Average price paid by consumers for automotive gas oil (diesel) increased by 3.68%
                             month-on-month and 68.74% year-on-year to N249.38 in February 2017 from N240.52 in January
                             2017. States with the highest average price of diesel were Adamawa (N280), Ebonyi (N272.5) &
@@ -341,9 +341,10 @@
 
     d3.queue()
             .defer(d3.csv, "data/Petrol_Prices.csv")
+            .defer(d3.csv, "data/PMS_Fuel_feb_17.csv")
             .await(ready);
 
-    function ready(error, data) {
+    function ready(error, data, petrol) {
         if (error) throw error;
 
         //
@@ -351,8 +352,6 @@
             return Object.keys(d)
         });
         var cleanArray = keys[0].splice(1, (keys[0].length));
-
-        console.log(cleanArray);
 
         function updatePrices(min_id) {
             data.forEach(function (d) {
@@ -423,6 +422,8 @@
                 .attr("value", function (d) {
                     return d;
                 });
+
+        transpose(petrol);
     }
 
 
@@ -435,25 +436,38 @@
     }
 
     //CSV Data Transpose
-    function transposeSheet(sheet) {
 
-        var transpose = [];
-        var transposeCols = [];
-        sheet.colNames.forEach(function (d) {
-            var row = new Object();
-            row[sheet.rowName] = d;
-            transpose.push(row);
-        });
-        sheet.data.forEach(function (d, j) {
-            transposeCols[j] = d[sheet.rowName];
-            sheet.colNames.forEach(function (c,i) {
-                transpose[i][d[sheet.rowName]]=d[c];
-            });
-        });
+    transpose = function(a) {
 
-        return {data: transpose, rowName : sheet.rowName, colNames : transposeCols};
+        // Calculate the width and height of the Array
+        var w = a.length ? a.length : 0,
+                h = a[0] instanceof Array ? a[0].length : 0;
 
-    }
+        console.log(w)
+
+        // In case it is a zero matrix, no transpose routine needed.
+        if(h === 0 || w === 0) { return []; }
+
+        /**
+         * @var {Number} i Counter
+         * @var {Number} j Counter
+         * @var {Array} t Transposed data is stored in this array.
+         */
+        var i, j, t = [];
+
+        // Loop through every item in the outer array (height)
+        for(i=0; i<h; i++) {
+            // Insert a new row (array)
+            t[i] = [];
+            // Loop through every item per item in outer array (width)
+            for(j=0; j<w; j++) {
+                // Save transposed data.
+                t[i][j] = a[j][i];
+            }
+        }
+
+        return t;
+    };
 
     //    module sample
     var Search = (function () {
