@@ -22,7 +22,7 @@
     <!-- CSS Just for demo purpose, don't include it in your project -->
     <link href="assets/css/demo.css" rel="stylesheet"/>
     <style>
-        @import url("http://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.5.4/bootstrap-select.min.css");
+        /*@import url("http://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.5.4/bootstrap-select.min.css");*/
 
         svg {
             font: 16px "Avenir";
@@ -46,6 +46,97 @@
             fill: steelblue;
             clip-path: url(#clip);
         }
+    </style>
+    <style type="text/css">
+        select {
+            /*width: 12em;*/
+            height: 3em;
+            line-height: 3em;
+            vertical-align: middle;
+            /*padding-right: 2.5em;*/
+            text-indent: 0.2em;
+            text-align: left;
+            box-shadow: inset 0 0 3px #606060;
+            border: 1px solid #acacac;
+            -moz-border-radius: 6px;
+            -webkit-border-radius: 6px;
+            border-radius: 6px;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none; /*IMPORTANT*/
+            font-family: Arial, Calibri, Tahoma, Verdana;
+            font-size: 1.5em;
+            font-weight: 500;
+            color: steelblue;
+            cursor: pointer;
+            outline: none;
+        }
+
+        select::-ms-expand {
+            display: none;
+        }
+
+        /*FOR IE*/
+        select option {
+            padding: 0.3em;
+            font-size: 1em;
+            font-weight: normal;
+        }
+
+        select option[selected] {
+            font-weight: bold
+        }
+
+        select option:nth-child(even) {
+            background-color: #f5f5f5;
+        }
+
+        select:hover {
+            font-weight: 700;
+        }
+
+        select:focus {
+            box-shadow: inset 0 0 5px #000099;
+            font-weight: 600;
+        }
+
+        /*LABEL FOR SELECT*/
+        label {
+            position: relative;
+            display: inline-block;
+        }
+
+        /*label::after {*/
+            /*!*'AIRPLANE' GLYPGH on PULL-DOWN BUTTON (U+2708)*!*/
+            /*content: "\2708";*/
+            /*!*position: absolute;*!*/
+            /*top: 0;*/
+            /*right: 0;*/
+            /*bottom: 0;*/
+            /*width: 2.5em;*/
+            /*line-height: 3em;*/
+            /*vertical-align: middle;*/
+            /*text-align: center;*/
+            /*background: #000099;*/
+            /*color: #fefefe;*/
+            /*font-size: 1.5em;*/
+            /*font-weight: 500;*/
+            /*-moz-border-radius: 0 6px 6px 0;*/
+            /*-webkit-border-radius: 0 6px 6px 0;*/
+            /*border-radius: 0 6px 6px 0;*/
+            /*pointer-events: none;*/
+        /*}*/
+
+        /*'ENVELOPE' GLYPGH on PULL-DOWN BUTTON (U+2709)*/
+        /*#selectState label::after {*/
+            /*content: "\2709";*/
+        /*}*/
+
+        /*'SINGLE BAR NOTE' GLYPH ON PULL-DOWN BUTTON (U+266B)*/
+        /*#selectState label::after {*/
+            /*content: "\266b";*/
+        /*}*/
+
     </style>
 
     <script src="//d3js.org/d3.v4.min.js"></script>
@@ -119,7 +210,14 @@
                 <div class="row">
 
                     <div class="col-md-12">
-                        <span style="position: absolute; "><select class="selectpicker" data-style="btn-primary"  name="mineral" id="selectState"></select></span>
+                        <span style="position: absolute; ">
+                            <label>
+                            <select class="selectpicker" data-style="btn-primary" name="mineral"
+                                    id="selectState">
+                            </select>
+
+                             </label>
+                        </span>
                         <svg id="barChart" width="960" height="500"></svg>
 
                     </div>
@@ -309,7 +407,7 @@
                 .style("top", height - ( height - 100 ) + "px")
                 .style("left", width + 80 + "px")
                 .style("position", "absolute")
-                .attr("size", 10)
+                .attr("size", 5)
                 .on("change", function () {
                     updatePrices(d3.select(this).property("value"));
                     d3.select(this).attr("selected", "true");
