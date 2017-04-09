@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bcd8fb3-494d-4e11-b7d8-2ae6fde12e73" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/T4/css/main.css" afterPath="$PROJECT_DIR$/T4/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/T4/index.html" afterPath="$PROJECT_DIR$/T4/index.html" />
     </list>
     <ignored path="Sketches.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,38 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PMS-Petrol.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PMS-Petrol.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/T4/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="289" column="0" selection-start-line="289" selection-start-column="0" selection-end-line="289" selection-end-column="0" />
-              <folding>
-                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#style#1;n#head#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h3#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#9742#9748#0" expanded="true" />
-                <element signature="e#15292#15631#0" expanded="false" />
-                <element signature="e#18004#18954#0" expanded="false" />
-                <element signature="e#19008#19149#0" expanded="false" />
-                <element signature="e#19206#19432#0" expanded="false" />
-                <marker date="1491605098000" expanded="true" signature="14203:14214" ph="..." />
-                <marker date="1491605098000" expanded="true" signature="14331:14342" ph="..." />
-                <marker date="1491605098000" expanded="true" signature="14331:14350" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/T4/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="166" column="0" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
+            <state relative-caret-position="228">
+              <caret line="77" column="54" selection-start-line="77" selection-start-column="54" selection-end-line="77" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -145,6 +117,7 @@
         <option value="$PROJECT_DIR$/data/PMS_Fuel_feb_17.csv" />
         <option value="$PROJECT_DIR$/PMS-Petrol.html" />
         <option value="$PROJECT_DIR$/T4/css/main.css" />
+        <option value="$PROJECT_DIR$/T4/index.html" />
       </list>
     </option>
   </component>
@@ -218,24 +191,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="T4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sketches" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sketches" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="T4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -913,12 +868,12 @@
       <workItem from="1491228430977" duration="123000" />
       <workItem from="1491260163425" duration="15606000" />
       <workItem from="1491397489169" duration="10674000" />
-      <workItem from="1491418175510" duration="26475000" />
+      <workItem from="1491418175510" duration="26561000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62392000" />
+    <option name="totallyTimeSpent" value="62478000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="80" y="24" width="1356" height="780" extended-state="0" />
@@ -1360,20 +1315,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Diesel.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="309" column="0" selection-start-line="309" selection-start-column="0" selection-end-line="309" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#9340#9346#0" expanded="true" />
-            <element signature="e#14484#15029#0" expanded="false" />
-            <element signature="e#15085#15311#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tutorial.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1065">
@@ -1382,10 +1323,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/T4/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="166" column="0" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PMS-Petrol.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="289" column="0" selection-start-line="289" selection-start-column="0" selection-end-line="289" selection-end-column="0" />
+        <state relative-caret-position="165">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#1;n#head#0;n#html#0;n#!!top" expanded="false" />
@@ -1407,10 +1356,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/T4/css/main.css">
+    <entry file="file://$PROJECT_DIR$/Diesel.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="166" column="0" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
+        <state relative-caret-position="270">
+          <caret line="309" column="0" selection-start-line="309" selection-start-column="0" selection-end-line="309" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#9340#9346#0" expanded="true" />
+            <element signature="e#14484#15029#0" expanded="false" />
+            <element signature="e#15085#15311#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/T4/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="77" column="54" selection-start-line="77" selection-start-column="54" selection-end-line="77" selection-end-column="54" />
           <folding />
         </state>
       </provider>
