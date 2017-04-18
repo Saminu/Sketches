@@ -40,7 +40,7 @@ function BarChart() {
 
             yScale
                 .domain([0, d3.max(data, function (d) {
-                    console.log(d)
+                    // console.log(d)
                     return d[y]
                 })])
                 .range([innerHeight, 0]);
@@ -67,6 +67,7 @@ function BarChart() {
                     return xScale(d[x]);
                 })
                 .attr("y", function (d) {
+                    console.log(d.date);
                     return yScale(d[y]);
                 })
                 .attr("width", xScale.bandwidth())

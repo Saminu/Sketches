@@ -20,7 +20,24 @@
     <link href="assets/css/material-kit.css" rel="stylesheet"/>
 
     <!-- CSS Just for demo purpose, don't include it in your project -->
+    <script src="//d3js.org/d3.v4.min.js"></script>
     <link href="assets/css/demo.css" rel="stylesheet"/>
+    <script src="/js/barChart.js"></script>
+    <script>
+
+
+        d3.csv("/data/slider.csv", function (d) {
+
+            var chart = BarChart().width(800).height(500).y(function (d) {
+                return +d.price;
+            }).x(function (d) {
+                return +d.price;
+            });
+//            console.log(d);
+            d3.select("#barChart").datum(d).call(chart)
+
+        });
+    </script>
 </head>
 
 <body class="tutorial-page">
@@ -83,113 +100,115 @@
 
                 <div class="row">
                     <div class="col-md-12">
-                        <iframe height='799' scrolling='no' title='D3 Assignment' src='//codepen.io/Vordez/embed/MajzYx/?height=799&theme-id=light&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/Vordez/pen/MajzYx/'>D3 Assignment</a> by Vordez (<a href='http://codepen.io/Vordez'>@Vordez</a>) on <a href='http://codepen.io'>CodePen</a>.
-                        </iframe>
+                        <svg id="barChart"></svg>
+                        <!--<iframe height='799' scrolling='no' title='D3 Assignment' src='//codepen.io/Vordez/embed/MajzYx/?height=799&theme-id=light&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/Vordez/pen/MajzYx/'>D3 Assignment</a> by Vordez (<a href='http://codepen.io/Vordez'>@Vordez</a>) on <a href='http://codepen.io'>CodePen</a>.-->
+                        <!--</iframe>-->
                         <!--<iframe height='765' scrolling='no' title='Using D3.js to visualise Hierarchical Classification' src='//codepen.io/sqpdln/embed/xbGwKv/?height=265&theme-id=light&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/sqpdln/pen/xbGwKv/'>Using D3.js to visualise Hierarchical Classification</a> by Lars G (<a href='http://codepen.io/sqpdln'>@sqpdln</a>) on <a href='http://codepen.io'>CodePen</a>.-->
                         <!--</iframe>-->
-                         <!--<iframe src="http://embed.vida.io/documents/SodotqYWppo6NWK9m" width="100%" height="840" seamless frameBorder="0" scrolling="no"></iframe>                    </div>-->
+                        <!--<iframe src="http://embed.vida.io/documents/SodotqYWppo6NWK9m" width="100%" height="840" seamless frameBorder="0" scrolling="no"></iframe>                    </div>-->
+                    </div>
                 </div>
-            </div>
 
-            <div class="row tim-row">
-                <h2 class="text-center">File Structure</h2>
-                <legend></legend>
-                <div class="col-md-8 col-md-offset-2">
-                    <p>
-                        Once you have downloaded the archive and opened it, you will find the following structure:
-                    </p>
-                    <p>
-                        Let's take it one by one:
-                    </p>
-                    <p>
-                        x_material_kit<br>
-                        --assets<br>
-                        ---css<br>
-                        -----bootstrap.min.css<br>
-                        -----material-kit.css<br>
-                        -----demo.css<br>
-                        ---img<br>
-                        ---js<br>
-                        -----bootstrap-datepicker.js<br>
-                        -----bootstrap.min.js<br>
-                        -----jquery.min.js<br>
-                        -----material-kit.js<br>
-                        -----material.min.js<br>
-                        -----nouislider.min.js<br>
-                        ----sass<br>
-                        -----material-kit<br>
-                        -----material-kit.scss<br>
-                        --examples<br>
-                        --components-documentation.html<br>
-                        --Creative Tim License.pdf
-                        --index.html<br>
-                        --template.html<br>
-                        --tutorial.html<br>
-                    </p>
+                <div class="row tim-row">
+                    <h2 class="text-center">File Structure</h2>
+                    <legend></legend>
+                    <div class="col-md-8 col-md-offset-2">
+                        <p>
+                            Once you have downloaded the archive and opened it, you will find the following structure:
+                        </p>
+                        <p>
+                            Let's take it one by one:
+                        </p>
+                        <p>
+                            x_material_kit<br>
+                            --assets<br>
+                            ---css<br>
+                            -----bootstrap.min.css<br>
+                            -----material-kit.css<br>
+                            -----demo.css<br>
+                            ---img<br>
+                            ---js<br>
+                            -----bootstrap-datepicker.js<br>
+                            -----bootstrap.min.js<br>
+                            -----jquery.min.js<br>
+                            -----material-kit.js<br>
+                            -----material.min.js<br>
+                            -----nouislider.min.js<br>
+                            ----sass<br>
+                            -----material-kit<br>
+                            -----material-kit.scss<br>
+                            --examples<br>
+                            --components-documentation.html<br>
+                            --Creative Tim License.pdf
+                            --index.html<br>
+                            --template.html<br>
+                            --tutorial.html<br>
+                        </p>
+                    </div>
                 </div>
-            </div>
 
-            <div class="row tim-row">
-                <h2 class="text-center">Restyled Components</h2>
-                <legend></legend>
-                <div class="col-md-8 col-md-offset-2">
-                    <p>
-                        Here is the list of Bootstrap 3 components that were restyled in <b>Material Kit</b>:
-                    <ul>
-                        <li> Buttons</li>
-                        <li> Inputs</li>
-                        <li> Select</li>
-                        <li> Textarea</li>
-                        <li> Menu</li>
-                        <li> Dropdown</li>
-                        <li> Progress Bars</li>
-                        <li> Navigation Menu</li>
-                        <li> Pagination</li>
-                        <li> Labels</li>
-                        <li> Notifications</li>
-                        <li> Typography</li>
-                        <li> Images</li>
-                        <li> Tables</li>
-                        <li> Tooltips</li>
-                        <li> Popovers</li>
-                        <li> Modal</li>
-                        <li> Carousel</li>
-                    </ul>
-                    </p>
+                <div class="row tim-row">
+                    <h2 class="text-center">Restyled Components</h2>
+                    <legend></legend>
+                    <div class="col-md-8 col-md-offset-2">
+                        <p>
+                            Here is the list of Bootstrap 3 components that were restyled in <b>Material Kit</b>:
+                        <ul>
+                            <li> Buttons</li>
+                            <li> Inputs</li>
+                            <li> Select</li>
+                            <li> Textarea</li>
+                            <li> Menu</li>
+                            <li> Dropdown</li>
+                            <li> Progress Bars</li>
+                            <li> Navigation Menu</li>
+                            <li> Pagination</li>
+                            <li> Labels</li>
+                            <li> Notifications</li>
+                            <li> Typography</li>
+                            <li> Images</li>
+                            <li> Tables</li>
+                            <li> Tooltips</li>
+                            <li> Popovers</li>
+                            <li> Modal</li>
+                            <li> Carousel</li>
+                        </ul>
+                        </p>
+                    </div>
                 </div>
-            </div>
 
-            <div class="row tim-row">
-                <h2 class="text-center">New Components</h2>
-                <legend></legend>
-                <div class="col-md-8 col-md-offset-2">
-                    <p>
-                        Besides giving the existing Bootstrap elements a new look, we added new ones, so that the
-                        interface and consistent and homogenous.
-                    </p>
-                    <p>
-                        Going through them, we added:
-                    <ul>
-                        <li> Tags</li>
-                        <li> Checkboxes</li>
-                        <li> Radio Buttons</li>
-                        <li> Sliders</li>
-                        <li> Toggle Buttons</li>
-                        <li> Raised Areas</li>
-                        <li> Cards with tabs</li>
-                        <li> Datepicker</li>
-                        <li> Material Icons</li>
-                    </ul>
-                    </p>
-                    <p>
-                        For more details regarding the components, go to our <a href="components-documentation.html">Components
-                        Page</a>.
-                    </p>
+                <div class="row tim-row">
+                    <h2 class="text-center">New Components</h2>
+                    <legend></legend>
+                    <div class="col-md-8 col-md-offset-2">
+                        <p>
+                            Besides giving the existing Bootstrap elements a new look, we added new ones, so that the
+                            interface and consistent and homogenous.
+                        </p>
+                        <p>
+                            Going through them, we added:
+                        <ul>
+                            <li> Tags</li>
+                            <li> Checkboxes</li>
+                            <li> Radio Buttons</li>
+                            <li> Sliders</li>
+                            <li> Toggle Buttons</li>
+                            <li> Raised Areas</li>
+                            <li> Cards with tabs</li>
+                            <li> Datepicker</li>
+                            <li> Material Icons</li>
+                        </ul>
+                        </p>
+                        <p>
+                            For more details regarding the components, go to our <a
+                                href="components-documentation.html">Components
+                            Page</a>.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
 </div>
 <footer class="footer footer-transparent">
