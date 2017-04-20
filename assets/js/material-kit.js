@@ -46,7 +46,7 @@ $(document).ready(function(){
 
     // Active Carousel
 	$('.carousel').carousel({
-      interval: 400000
+      interval: 4000
     });
 
 });

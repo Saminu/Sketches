@@ -453,3 +453,7 @@ label {
     position: relative;
     display: inline-block;
 }
+
+.carousel-caption h4, h3, h2{
+    color: black;
+}
