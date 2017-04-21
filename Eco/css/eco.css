@@ -1106,3 +1106,7 @@ form .form-control:focus {
 .pre-loader {
   background: #339999;
 }
+
+header .navbar-default.scrolled .navbar-brand{
+  padding: 0;
+}

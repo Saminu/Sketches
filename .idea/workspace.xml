@@ -2,11 +2,109 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bcd8fb3-494d-4e11-b7d8-2ae6fde12e73" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Eco/index.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Oleose/Eco/index.html" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/css/ajax-loader.gif" afterPath="$PROJECT_DIR$/Eco/css/ajax-loader.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/css/animate.css" afterPath="$PROJECT_DIR$/Eco/css/animate.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/css/bootstrap.css" afterPath="$PROJECT_DIR$/Eco/css/bootstrap.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/css/eco.css" afterPath="$PROJECT_DIR$/Eco/css/eco.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/Eco/css/font-awesome.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/css/slick.css" afterPath="$PROJECT_DIR$/Eco/css/slick.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/favicon.png" afterPath="$PROJECT_DIR$/Eco/favicon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/Eco/fonts/FontAwesome.otf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/fonts/flexslider-icon.eot" afterPath="$PROJECT_DIR$/Eco/fonts/flexslider-icon.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/fonts/flexslider-icon.svg" afterPath="$PROJECT_DIR$/Eco/fonts/flexslider-icon.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/fonts/flexslider-icon.ttf" afterPath="$PROJECT_DIR$/Eco/fonts/flexslider-icon.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/fonts/flexslider-icon.woff" afterPath="$PROJECT_DIR$/Eco/fonts/flexslider-icon.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/Eco/fonts/fontawesome-webfont.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/Eco/fonts/fontawesome-webfont.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/Eco/fonts/fontawesome-webfont.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/Eco/fonts/fontawesome-webfont.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/img/eco/Slides/eco-slide2.png" afterPath="$PROJECT_DIR$/Eco/img/eco/Slides/eco-slide2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/img/eco/Slides/family-eco.png" afterPath="$PROJECT_DIR$/Eco/img/eco/Slides/family-eco.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/img/eco/Slides/hand-eco.png" afterPath="$PROJECT_DIR$/Eco/img/eco/Slides/hand-eco.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/img/eco/bk-eco-ga.jpg" afterPath="$PROJECT_DIR$/Eco/img/eco/bk-eco-ga.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/img/eco/bk-eco.jpg" afterPath="$PROJECT_DIR$/Eco/img/eco/bk-eco.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/img/eco/eco-angled2.png" afterPath="$PROJECT_DIR$/Eco/img/eco/eco-angled2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/img/eco/iphone-eco.png" afterPath="$PROJECT_DIR$/Eco/img/eco/iphone-eco.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/img/eco/logo.png" afterPath="$PROJECT_DIR$/Eco/img/eco/logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/img/eco/screens/calendar.jpg" afterPath="$PROJECT_DIR$/Eco/img/eco/screens/calendar.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/img/eco/screens/menu.jpg" afterPath="$PROJECT_DIR$/Eco/img/eco/screens/menu.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/img/eco/screens/options.jpg" afterPath="$PROJECT_DIR$/Eco/img/eco/screens/options.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/img/eco/screens/profile.jpg" afterPath="$PROJECT_DIR$/Eco/img/eco/screens/profile.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/img/eco/screens/sales.jpg" afterPath="$PROJECT_DIR$/Eco/img/eco/screens/sales.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/img/eco/screens/signup.jpg" afterPath="$PROJECT_DIR$/Eco/img/eco/screens/signup.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/img/eco/screens/weather.jpg" afterPath="$PROJECT_DIR$/Eco/img/eco/screens/weather.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/img/transparent.png" afterPath="$PROJECT_DIR$/Eco/img/transparent.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/Eco/js/bootstrap.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/jquery-1.11.1.min.js" afterPath="$PROJECT_DIR$/Eco/js/jquery-1.11.1.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/jquery-1.11.1.min.map" afterPath="$PROJECT_DIR$/Eco/js/jquery-1.11.1.min.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/less-1.7.0.min.js" afterPath="$PROJECT_DIR$/Eco/js/less-1.7.0.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/modernizr.custom.32033.js" afterPath="$PROJECT_DIR$/Eco/js/modernizr.custom.32033.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/placeholdem.min.js" afterPath="$PROJECT_DIR$/Eco/js/placeholdem.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/rs-plugin/assets/arrow_large_left.png" afterPath="$PROJECT_DIR$/Eco/js/rs-plugin/assets/arrow_large_left.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/rs-plugin/assets/arrow_large_right.png" afterPath="$PROJECT_DIR$/Eco/js/rs-plugin/assets/arrow_large_right.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/rs-plugin/assets/arrow_left.png" afterPath="$PROJECT_DIR$/Eco/js/rs-plugin/assets/arrow_left.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/rs-plugin/assets/arrow_left2.png" afterPath="$PROJECT_DIR$/Eco/js/rs-plugin/assets/arrow_left2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/rs-plugin/assets/arrow_right.png" afterPath="$PROJECT_DIR$/Eco/js/rs-plugin/assets/arrow_right.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/rs-plugin/assets/arrow_right2.png" afterPath="$PROJECT_DIR$/Eco/js/rs-plugin/assets/arrow_right2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/rs-plugin/assets/arrowleft.png" afterPath="$PROJECT_DIR$/Eco/js/rs-plugin/assets/arrowleft.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/rs-plugin/assets/arrowright.png" afterPath="$PROJECT_DIR$/Eco/js/rs-plugin/assets/arrowright.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/rs-plugin/assets/arrows.psd" afterPath="$PROJECT_DIR$/Eco/js/rs-plugin/assets/arrows.psd" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/rs-plugin/assets/black50.png" afterPath="$PROJECT_DIR$/Eco/js/rs-plugin/assets/black50.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/rs-plugin/assets/boxed_bgtile.png" afterPath="$PROJECT_DIR$/Eco/js/rs-plugin/assets/boxed_bgtile.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/rs-plugin/assets/bullet.png" afterPath="$PROJECT_DIR$/Eco/js/rs-plugin/assets/bullet.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/rs-plugin/assets/bullet_boxed.png" afterPath="$PROJECT_DIR$/Eco/js/rs-plugin/assets/bullet_boxed.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/rs-plugin/assets/bullets.png" afterPath="$PROJECT_DIR$/Eco/js/rs-plugin/assets/bullets.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/rs-plugin/assets/bullets.psd" afterPath="$PROJECT_DIR$/Eco/js/rs-plugin/assets/bullets.psd" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/rs-plugin/assets/bullets2.png" afterPath="$PROJECT_DIR$/Eco/js/rs-plugin/assets/bullets2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/rs-plugin/assets/coloredbg.png" afterPath="$PROJECT_DIR$/Eco/js/rs-plugin/assets/coloredbg.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/rs-plugin/assets/grain.png" afterPath="$PROJECT_DIR$/Eco/js/rs-plugin/assets/grain.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/rs-plugin/assets/gridtile.png" afterPath="$PROJECT_DIR$/Eco/js/rs-plugin/assets/gridtile.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/rs-plugin/assets/gridtile_3x3.png" afterPath="$PROJECT_DIR$/Eco/js/rs-plugin/assets/gridtile_3x3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/rs-plugin/assets/gridtile_3x3_white.png" afterPath="$PROJECT_DIR$/Eco/js/rs-plugin/assets/gridtile_3x3_white.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/rs-plugin/assets/gridtile_white.png" afterPath="$PROJECT_DIR$/Eco/js/rs-plugin/assets/gridtile_white.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/rs-plugin/assets/large_left.png" afterPath="$PROJECT_DIR$/Eco/js/rs-plugin/assets/large_left.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/rs-plugin/assets/large_right.png" afterPath="$PROJECT_DIR$/Eco/js/rs-plugin/assets/large_right.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/rs-plugin/assets/loader.gif" afterPath="$PROJECT_DIR$/Eco/js/rs-plugin/assets/loader.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/rs-plugin/assets/loader2.gif" afterPath="$PROJECT_DIR$/Eco/js/rs-plugin/assets/loader2.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/rs-plugin/assets/navigdots.png" afterPath="$PROJECT_DIR$/Eco/js/rs-plugin/assets/navigdots.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/rs-plugin/assets/navigdots_bgtile.png" afterPath="$PROJECT_DIR$/Eco/js/rs-plugin/assets/navigdots_bgtile.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/rs-plugin/assets/shadow1.png" afterPath="$PROJECT_DIR$/Eco/js/rs-plugin/assets/shadow1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/rs-plugin/assets/shadow2.png" afterPath="$PROJECT_DIR$/Eco/js/rs-plugin/assets/shadow2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/rs-plugin/assets/shadow3.png" afterPath="$PROJECT_DIR$/Eco/js/rs-plugin/assets/shadow3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/rs-plugin/assets/small_arrows.psd" afterPath="$PROJECT_DIR$/Eco/js/rs-plugin/assets/small_arrows.psd" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/rs-plugin/assets/small_left.png" afterPath="$PROJECT_DIR$/Eco/js/rs-plugin/assets/small_left.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/rs-plugin/assets/small_left_boxed.png" afterPath="$PROJECT_DIR$/Eco/js/rs-plugin/assets/small_left_boxed.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/rs-plugin/assets/small_right.png" afterPath="$PROJECT_DIR$/Eco/js/rs-plugin/assets/small_right.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/rs-plugin/assets/small_right_boxed.png" afterPath="$PROJECT_DIR$/Eco/js/rs-plugin/assets/small_right_boxed.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/rs-plugin/assets/timer.png" afterPath="$PROJECT_DIR$/Eco/js/rs-plugin/assets/timer.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/rs-plugin/assets/timerdot.png" afterPath="$PROJECT_DIR$/Eco/js/rs-plugin/assets/timerdot.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/rs-plugin/assets/transparent.jpg" afterPath="$PROJECT_DIR$/Eco/js/rs-plugin/assets/transparent.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/rs-plugin/assets/white50.png" afterPath="$PROJECT_DIR$/Eco/js/rs-plugin/assets/white50.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/rs-plugin/css/settings-ie8.css" afterPath="$PROJECT_DIR$/Eco/js/rs-plugin/css/settings-ie8.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/rs-plugin/css/settings.css" afterPath="$PROJECT_DIR$/Eco/js/rs-plugin/css/settings.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/rs-plugin/font/revicons.eot" afterPath="$PROJECT_DIR$/Eco/js/rs-plugin/font/revicons.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/rs-plugin/font/revicons.svg" afterPath="$PROJECT_DIR$/Eco/js/rs-plugin/font/revicons.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/rs-plugin/font/revicons.ttf" afterPath="$PROJECT_DIR$/Eco/js/rs-plugin/font/revicons.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/rs-plugin/font/revicons.woff" afterPath="$PROJECT_DIR$/Eco/js/rs-plugin/font/revicons.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/rs-plugin/images/decor_inside.png" afterPath="$PROJECT_DIR$/Eco/js/rs-plugin/images/decor_inside.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/rs-plugin/images/decor_inside_white.png" afterPath="$PROJECT_DIR$/Eco/js/rs-plugin/images/decor_inside_white.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/rs-plugin/images/decor_testimonial.png" afterPath="$PROJECT_DIR$/Eco/js/rs-plugin/images/decor_testimonial.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/rs-plugin/images/gradient/g30.png" afterPath="$PROJECT_DIR$/Eco/js/rs-plugin/images/gradient/g30.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/rs-plugin/images/gradient/g40.png" afterPath="$PROJECT_DIR$/Eco/js/rs-plugin/images/gradient/g40.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/rs-plugin/js/jquery.themepunch.plugins.min.js" afterPath="$PROJECT_DIR$/Eco/js/rs-plugin/js/jquery.themepunch.plugins.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/rs-plugin/js/jquery.themepunch.revolution.js" afterPath="$PROJECT_DIR$/Eco/js/rs-plugin/js/jquery.themepunch.revolution.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/rs-plugin/js/jquery.themepunch.revolution.min.js" afterPath="$PROJECT_DIR$/Eco/js/rs-plugin/js/jquery.themepunch.revolution.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/scripts.js" afterPath="$PROJECT_DIR$/Eco/js/scripts.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/slick.min.js" afterPath="$PROJECT_DIR$/Eco/js/slick.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Oleose/Eco/js/waypoints.min.js" afterPath="$PROJECT_DIR$/Eco/js/waypoints.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/diesel.png" afterPath="$PROJECT_DIR$/Eco/img/diesel.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/nigerian_mining_data.png" afterPath="$PROJECT_DIR$/Eco/img/nigerian_mining_data.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/timesets.png" afterPath="$PROJECT_DIR$/Eco/img/timesets.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Diesel.html" afterPath="$PROJECT_DIR$/Diesel.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/demo.css" afterPath="$PROJECT_DIR$/assets/css/demo.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/material-kit.js" afterPath="$PROJECT_DIR$/assets/js/material-kit.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_copy.html" afterPath="$PROJECT_DIR$/index_copy.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logo.svg" afterPath="$PROJECT_DIR$/logo.svg" />
     </list>
     <ignored path="Sketches.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,15 +144,116 @@
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Oleose/Eco/index.html">
+        <entry file="file://$PROJECT_DIR$/Eco/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="142" column="30" selection-start-line="142" selection-start-column="30" selection-end-line="142" selection-end-column="30" />
+            <state relative-caret-position="330">
+              <caret line="1415" column="25" selection-start-line="1415" selection-start-column="25" selection-end-line="1415" selection-end-column="25" />
               <folding>
+                <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#g#0;n#g#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#stop#0;n#linearGradient#0;n#g#0;n#symbol#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#1;n#linearGradient#0;n#g#0;n#symbol#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#0;n#radialGradient#0;n#g#0;n#symbol#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#1;n#radialGradient#0;n#g#0;n#symbol#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#2;n#radialGradient#0;n#g#0;n#symbol#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#0;n#linearGradient#0;n#g#0;n#g#0;n#symbol#1;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#1;n#linearGradient#0;n#g#0;n#g#0;n#symbol#1;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#0;n#radialGradient#0;n#g#1;n#g#0;n#symbol#1;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#1;n#radialGradient#0;n#g#1;n#g#0;n#symbol#1;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#2;n#radialGradient#0;n#g#1;n#g#0;n#symbol#1;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#0;n#radialGradient#0;n#g#5;n#g#0;n#symbol#1;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#1;n#radialGradient#0;n#g#5;n#g#0;n#symbol#1;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#2;n#radialGradient#0;n#g#5;n#g#0;n#symbol#1;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#0;n#linearGradient#0;n#g#0;n#symbol#2;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#1;n#linearGradient#0;n#g#0;n#symbol#2;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#0;n#radialGradient#0;n#g#0;n#symbol#2;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#1;n#radialGradient#0;n#g#0;n#symbol#2;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#2;n#radialGradient#0;n#g#0;n#symbol#2;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#0;n#linearGradient#0;n#g#0;n#symbol#3;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#1;n#linearGradient#0;n#g#0;n#symbol#3;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#0;n#radialGradient#0;n#g#0;n#symbol#3;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#1;n#radialGradient#0;n#g#0;n#symbol#3;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#2;n#radialGradient#0;n#g#0;n#symbol#3;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#0;n#linearGradient#0;n#g#0;n#symbol#4;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#1;n#linearGradient#0;n#g#0;n#symbol#4;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#0;n#radialGradient#0;n#g#0;n#symbol#4;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#1;n#radialGradient#0;n#g#0;n#symbol#4;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#2;n#radialGradient#0;n#g#0;n#symbol#4;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#0;n#linearGradient#0;n#g#0;n#symbol#5;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#1;n#linearGradient#0;n#g#0;n#symbol#5;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#2;n#linearGradient#0;n#g#0;n#symbol#5;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#3;n#linearGradient#0;n#g#0;n#symbol#5;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#0;n#radialGradient#0;n#g#0;n#symbol#5;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#1;n#radialGradient#0;n#g#0;n#symbol#5;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#2;n#radialGradient#0;n#g#0;n#symbol#5;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#li#0;n#ul#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#li#1;n#ul#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#li#2;n#ul#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#script#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PMS-Petrol.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PMS-Petrol.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="213" column="35" selection-start-line="213" selection-start-column="35" selection-end-line="213" selection-end-column="35" />
+              <folding>
+                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#1;n#head#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#script#8;n#html#0;n#!!top" expanded="false" />
+                <element signature="e#12334#17277#0" expanded="false" />
+                <element signature="e#15291#15630#0" expanded="false" />
+                <element signature="e#17301#17946#0" expanded="false" />
+                <element signature="e#18003#18953#0" expanded="false" />
+                <element signature="e#19007#19148#0" expanded="false" />
+                <element signature="e#19205#19431#0" expanded="false" />
+                <marker date="1492501828000" expanded="true" signature="14202:14213" ph="..." />
+                <marker date="1492501828000" expanded="true" signature="14330:14341" ph="..." />
+                <marker date="1492501828000" expanded="true" signature="14330:14349" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+              <folding>
+                <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#script#7;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#script#8;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Diesel.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Diesel.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="241" column="105" selection-start-line="241" selection-start-column="50" selection-end-line="241" selection-end-column="105" />
+              <folding>
+                <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#g#0;n#g#0;n#svg#0;n#div#0;n#div#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="e#16989#17206#0" expanded="false" />
+                <element signature="e#17268#17813#0" expanded="false" />
+                <element signature="e#17869#18095#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -108,6 +307,9 @@
         <option value="$PROJECT_DIR$/assets/js/material-kit.js" />
         <option value="$PROJECT_DIR$/index_copy.html" />
         <option value="$PROJECT_DIR$/Oleose/Eco/index.html" />
+        <option value="$PROJECT_DIR$/Eco/css/slick.css" />
+        <option value="$PROJECT_DIR$/Eco/css/eco.css" />
+        <option value="$PROJECT_DIR$/Eco/index.html" />
       </list>
     </option>
   </component>
@@ -178,24 +380,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Oleose" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sketches" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sketches" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Oleose" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Eco" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -207,10 +391,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Sketches" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Oleose" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -219,6 +399,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sketches" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sketches" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -248,12 +442,14 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/img" />
-      <recent name="$PROJECT_DIR$/data" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Eco/img" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/assets/img" />
+      <recent name="$PROJECT_DIR$/data" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
@@ -903,16 +1099,16 @@
       <workItem from="1492183922191" duration="4265000" />
       <workItem from="1492360121573" duration="6355000" />
       <workItem from="1492523379794" duration="7416000" />
-      <workItem from="1492684047363" duration="39000" />
+      <workItem from="1492684047363" duration="6685000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87066000" />
+    <option name="totallyTimeSpent" value="93712000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="73" y="25" width="1356" height="780" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -923,7 +1119,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26744187" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26744187" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15753424" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -990,41 +1186,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/T4/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="172" column="0" selection-start-line="172" selection-start-column="0" selection-end-line="172" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bubble.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/mineralData.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="240" selection-start-line="0" selection-start-column="240" selection-end-line="0" selection-end-column="244" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bubble2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3060">
@@ -1043,6 +1204,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
           <caret line="172" column="0" selection-start-line="172" selection-start-column="0" selection-end-line="172" selection-end-column="0" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#script#7;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#script#8;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1064,6 +1233,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
           <caret line="172" column="0" selection-start-line="172" selection-start-column="0" selection-end-line="172" selection-end-column="0" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#script#7;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#script#8;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1085,6 +1262,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
           <caret line="172" column="0" selection-start-line="172" selection-start-column="0" selection-end-line="172" selection-end-column="0" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#script#7;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#script#8;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1106,6 +1291,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#script#7;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#script#8;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1120,6 +1313,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#script#7;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#script#8;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1244,13 +1445,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2100">
-          <caret line="175" column="21" selection-start-line="175" selection-start-column="21" selection-end-line="175" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1276,32 +1470,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PMS-Petrol.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="183" column="0" selection-start-line="183" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Diesel.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="145" column="0" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/nigerian_mining_data.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/nouislider.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1316,6 +1495,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
           <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1335,15 +1517,149 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Oleose/Eco/index.html">
+    <entry file="file://$PROJECT_DIR$/Oleose/Freeze/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="142" column="30" selection-start-line="142" selection-start-column="30" selection-end-line="142" selection-end-column="30" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eco/img/timesets.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eco/img/diesel.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eco/img/nigerian_mining_data.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Diesel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="241" column="105" selection-start-line="241" selection-start-column="50" selection-end-line="241" selection-end-column="105" />
           <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#g#0;n#g#0;n#svg#0;n#div#0;n#div#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#16989#17206#0" expanded="false" />
+            <element signature="e#17268#17813#0" expanded="false" />
+            <element signature="e#17869#18095#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eco/css/eco.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="1111" column="1" selection-start-line="1111" selection-start-column="1" selection-end-line="1111" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eco/css/slick.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#script#7;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#script#8;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PMS-Petrol.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="213" column="35" selection-start-line="213" selection-start-column="35" selection-end-line="213" selection-end-column="35" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#1;n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#script#8;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#12334#17277#0" expanded="false" />
+            <element signature="e#15291#15630#0" expanded="false" />
+            <element signature="e#17301#17946#0" expanded="false" />
+            <element signature="e#18003#18953#0" expanded="false" />
+            <element signature="e#19007#19148#0" expanded="false" />
+            <element signature="e#19205#19431#0" expanded="false" />
+            <marker date="1492501828000" expanded="true" signature="14202:14213" ph="..." />
+            <marker date="1492501828000" expanded="true" signature="14330:14341" ph="..." />
+            <marker date="1492501828000" expanded="true" signature="14330:14349" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eco/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="1415" column="25" selection-start-line="1415" selection-start-column="25" selection-end-line="1415" selection-end-column="25" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#g#0;n#g#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#stop#0;n#linearGradient#0;n#g#0;n#symbol#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#linearGradient#0;n#g#0;n#symbol#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#radialGradient#0;n#g#0;n#symbol#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#radialGradient#0;n#g#0;n#symbol#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#2;n#radialGradient#0;n#g#0;n#symbol#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#linearGradient#0;n#g#0;n#g#0;n#symbol#1;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#linearGradient#0;n#g#0;n#g#0;n#symbol#1;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#radialGradient#0;n#g#1;n#g#0;n#symbol#1;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#radialGradient#0;n#g#1;n#g#0;n#symbol#1;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#2;n#radialGradient#0;n#g#1;n#g#0;n#symbol#1;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#radialGradient#0;n#g#5;n#g#0;n#symbol#1;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#radialGradient#0;n#g#5;n#g#0;n#symbol#1;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#2;n#radialGradient#0;n#g#5;n#g#0;n#symbol#1;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#linearGradient#0;n#g#0;n#symbol#2;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#linearGradient#0;n#g#0;n#symbol#2;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#radialGradient#0;n#g#0;n#symbol#2;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#radialGradient#0;n#g#0;n#symbol#2;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#2;n#radialGradient#0;n#g#0;n#symbol#2;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#linearGradient#0;n#g#0;n#symbol#3;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#linearGradient#0;n#g#0;n#symbol#3;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#radialGradient#0;n#g#0;n#symbol#3;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#radialGradient#0;n#g#0;n#symbol#3;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#2;n#radialGradient#0;n#g#0;n#symbol#3;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#linearGradient#0;n#g#0;n#symbol#4;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#linearGradient#0;n#g#0;n#symbol#4;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#radialGradient#0;n#g#0;n#symbol#4;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#radialGradient#0;n#g#0;n#symbol#4;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#2;n#radialGradient#0;n#g#0;n#symbol#4;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#linearGradient#0;n#g#0;n#symbol#5;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#linearGradient#0;n#g#0;n#symbol#5;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#2;n#linearGradient#0;n#g#0;n#symbol#5;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#3;n#linearGradient#0;n#g#0;n#symbol#5;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#radialGradient#0;n#g#0;n#symbol#5;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#radialGradient#0;n#g#0;n#symbol#5;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#2;n#radialGradient#0;n#g#0;n#symbol#5;n#svg#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#li#0;n#ul#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#li#1;n#ul#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#li#2;n#ul#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#script#8;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
