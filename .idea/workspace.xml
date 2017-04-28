@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bcd8fb3-494d-4e11-b7d8-2ae6fde12e73" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Eco/efcc-recovery-timeline.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Eco/petrol.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Eco/exports.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Eco/css/eco.css" afterPath="$PROJECT_DIR$/Eco/css/eco.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Eco/less/eco.less" afterPath="$PROJECT_DIR$/Eco/less/eco.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Eco/mining.html" afterPath="$PROJECT_DIR$/Eco/mining.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PMS-Petrol.html" afterPath="$PROJECT_DIR$/PMS-Petrol.html" />
     </list>
     <ignored path="Sketches.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -149,11 +144,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="efcc-recovery-timeline.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="efcc-recovery-timeline.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Eco/efcc-recovery-timeline.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="111" column="14" selection-start-line="111" selection-start-column="14" selection-end-line="111" selection-end-column="14" />
+            <state relative-caret-position="195">
+              <caret line="109" column="18" selection-start-line="109" selection-start-column="18" selection-end-line="109" selection-end-column="18" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -163,6 +158,18 @@
                 <element signature="n#section#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#4;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#5;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="exports.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Eco/exports.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="105" column="138" selection-start-line="105" selection-start-column="138" selection-end-line="105" selection-end-column="138" />
+              <folding>
+                <element signature="n#style#0;n#iframe#0;n#div#0;n#div#1;n#div#0;n#section#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -335,6 +342,7 @@
         <option value="$PROJECT_DIR$/Eco/petrol.html" />
         <option value="$PROJECT_DIR$/Eco/less/eco.less" />
         <option value="$PROJECT_DIR$/Eco/efcc-recovery-timeline.html" />
+        <option value="$PROJECT_DIR$/Eco/exports.html" />
       </list>
     </option>
   </component>
@@ -1099,12 +1107,12 @@
       <workItem from="1492684047363" duration="13749000" />
       <workItem from="1493018042718" duration="25000" />
       <workItem from="1493284562288" duration="129000" />
-      <workItem from="1493384081500" duration="3023000" />
+      <workItem from="1493384081500" duration="4818000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103953000" />
+    <option name="totallyTimeSpent" value="105748000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="73" y="25" width="1356" height="780" extended-state="0" />
@@ -1186,13 +1194,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/president-buhari-approval.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="195" column="27" selection-start-line="195" selection-start-column="27" selection-end-line="195" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
@@ -1773,8 +1774,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Eco/efcc-recovery-timeline.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="111" column="14" selection-start-line="111" selection-start-column="14" selection-end-line="111" selection-end-column="14" />
+        <state relative-caret-position="195">
+          <caret line="109" column="18" selection-start-line="109" selection-start-column="18" selection-end-line="109" selection-end-column="18" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -1784,6 +1785,16 @@
             <element signature="n#section#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#4;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#5;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eco/exports.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="105" column="138" selection-start-line="105" selection-start-column="138" selection-end-line="105" selection-end-column="138" />
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#div#0;n#div#1;n#div#0;n#section#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
