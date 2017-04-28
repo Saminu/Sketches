@@ -11,7 +11,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>2016 Mining and Quarrying (Gold ) PRODUCTION Data (OUTPUT IN TONS) | NG ATLAS - Nigeria Data Research Centre</title>
+    <title>Nigerian Premium Motor Spirit (Petrol) Price Watch (February 2017) | NG ATLAS - Nigeria Data Research
+        Centre</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
     <link rel="shortcut icon" href="favicon.png">
@@ -37,55 +38,54 @@
 <body>
 
 <div class="pre-loader">
-	<div class="load-con">
-		<img src="img/logo.png" class="animated fadeInDown" alt="">
-		<div class="spinner">
-			<div class="bounce1"></div>
-			<div class="bounce2"></div>
-			<div class="bounce3"></div>
-		</div>
-	</div>
+    <div class="load-con">
+        <img src="img/logo.png" class="animated fadeInDown" alt="">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div>
 </div>
 
-
 <header>
-	<nav class="navbar navbar-inverse navbar-fixed-top second" >
-		<div class="container">
-			<!-- Brand and toggle get grouped for better mobile display -->
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse"
-						data-target="#bs-example-navbar-collapse-1">
-					<span class="fa fa-bars fa-lg"></span>
-				</button>
-				<a style="padding: 0;" class="navbar-brand" href="index.html">
-					<img style="max-height: 61px" src="img/logo.png" alt="" class="logo img-responsive">
-				</a>
-			</div>
+    <nav class="navbar navbar-inverse navbar-fixed-top second">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1">
+                    <span class="fa fa-bars fa-lg"></span>
+                </button>
+                <a style="padding: 0;" class="navbar-brand" href="index.html">
+                    <img style="max-height: 61px" src="img/logo.png" alt="" class="logo img-responsive">
+                </a>
+            </div>
 
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="mining.html">Solid Minerals</a>
-					</li>
-					<li><a href="#reviews">Gas (Petrol / Diesel)</a>
-					</li>
-					<li><a href="#demo">Food </a>
-					</li>
-					<li><a href="#about">Power</a>
-					</li>
-					<li><a href="#support">Transportation</a>
-					</li>
-					<li><a href="#screens">Research Lab</a>
-					</li>
-					<li><a class="getApp" href="#getApp">Contact Us</a>
-					</li>
-				</ul>
-			</div>
-			<!-- /.navbar-collapse -->
-		</div>
-		<!-- /.container-->
-	</nav>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="mining.html">Solid Minerals</a>
+                    </li>
+                    <li><a href="#reviews">Gas (Petrol / Diesel)</a>
+                    </li>
+                    <li><a href="#demo">Food </a>
+                    </li>
+                    <li><a href="#about">Power</a>
+                    </li>
+                    <li><a href="#support">Transportation</a>
+                    </li>
+                    <li><a href="#screens">Research Lab</a>
+                    </li>
+                    <li><a class="getApp" href="#getApp">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-->
+    </nav>
 </header>
 
 <div class="spacer"></div>
@@ -94,18 +94,19 @@
     <section id="features">
         <div class="container">
             <div class="section-heading scrollpoint sp-effect3 section-chart">
-				<h2>2016 Mining and Quarrying (Solid Mineral) PRODUCTION Data <br> (OUTPUT IN TONS)</h2>
+                <h2>Premium Motor Spirit (Petrol) Price Watch (Jan 2016 - Feb 2017)</h2>
                 <div class="divider"></div>
-				<p> Average price paid by consumers for automotive gas oil (diesel) increased by 3.68%
-					month-on-month and 68.74% year-on-year to N249.38 in February 2017 from N240.52 in January
-					2017.</p>
+                <p> Average price paid by consumers for automotive gas oil (diesel) increased by 3.68%
+                    month-on-month and 68.74% year-on-year to N249.38 in February 2017 from N240.52 in January
+                    2017. States with the highest average price of diesel were Adamawa (N280), Ebonyi (N272.5) &
+                    Cross Borno (271) . States with the lowest average price of diesel were Oyo (N226.67),
+                    Bauchi (N226) and Osun (N220).</p>
+                <em>Data source: National Bureau of Statistics Nigeria</em>
             </div>
             <div class="row">
                 <div class="col-md-12 col-sm-12">
-					<span style="position: absolute; "><select name="mineral" id="selectCity"></select></span>
-					<svg font-family="sans-serif" font-size="10"
-						 text-anchor="middle"></svg>
-					<svg id="bar-chart"></svg>
+                    <span class="selectpicker" style="position: absolute; "><select name="mineral" id="selectState"></select></span>
+                    <svg id="barChart" width="960" height="500"></svg>
                 </div>
             </div>
         </div>
@@ -375,6 +376,7 @@
             </div>
         </div>
     </footer>
+
 </div>
 <script src="js/jquery-1.11.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
@@ -392,184 +394,282 @@
 <script src="//d3js.org/d3.v4.min.js"></script>
 
 <script>
-	var width = 960,
-			height = 600;
 
-	var svg = d3.select("svg")
-			.attr("width", width)
-			.attr("height", height);
+    var svg = d3.select("#barChart"),
+            margin = {top: 20, right: 20, bottom: 30, left: 60},
+            width = +svg.attr("width") - margin.left - margin.right,
+            height = +svg.attr("height") - margin.top - margin.bottom;
 
-	// Define the div for the tooltip
-	var div = d3.select("body").append("div")
-			.attr("class", "tooltip")
-			.style("opacity", 0);
+    var parseDate = d3.timeParse("%Y-%m-%d");
+    var formatTime = d3.timeFormat("%e %B");
 
-	var tooltip = d3.select("body")
-			.append("div")
-			.style("position", "absolute")
-			.style("z-index", "10")
-			.style("visibility", "hidden")
-			.style("color", "white")
-			.style("padding", "8px")
-			.style("background-color", "rgba(0, 0, 0, 0.75)")
-			.style("border-radius", "6px")
-			.style("font", "12px sans-serif")
-			.text("tooltip");
+    var x = d3.scaleTime().range([0, width]),
+            y = d3.scaleLinear().range([height, 0]);
 
+    var xAxis = d3.axisBottom(x),
+            yAxis = d3.axisLeft(y);
 
-	svg.append("text")
-			.attr("x", 100)
-			.attr("y", -10)
-			.attr("dy", "3.5em")
-			.attr("text-anchor", "start")
-			.style("font-size", "28px")
-			.style("font-weight", "bold");
-	//            .text("States Mineral Resources Production");
+    var zoom = d3.zoom()
+            .scaleExtent([1, 32])
+            .translateExtent([[0, 0], [width, height]])
+            .extent([[0, 0], [width, height]])
+            .on("zoom", zoomed);
 
-	var pack = d3.pack()
-			.size([width - 150, height])
-			.padding(1.5);
+    var area = d3.area()
+            .curve(d3.curveMonotoneX)
+            .x(function (d) {
+                return x(d.date);
+            })
+            .y0(height)
+            .y1(function (d) {
+                return y(d.price);
+            });
 
-	var defaultData = [],
-			titles = [];
+    svg.append("defs").append("clipPath")
+            .attr("id", "clip")
+            .append("rect")
+            .attr("width", width)
+            .attr("height", height);
 
-	d3.queue()
-			.defer(d3.csv, "data/mineralData.csv")
-			.await(ready);
-
-	function ready(error, data) {
-		if (error) throw error;
-
-		var keys = data.map(function (d) {
-			console.log(d)
-			return Object.keys(d)
-		});
-		var cleanArray = keys[0].splice(1, (keys[0].length));
-
-		function updateMineral(min_id) {
-			//clean Data
-			data.forEach(function (d) {
-				var str = d[min_id];
-				str = str.replace(/[^\d\.\-]/g, "");
-
-				//value for bubble chart
-				d.value = +str;
-
-				// states title
-				d.Call_Type = d["State"];
-
-				//total values across states for a specific
-
-				var total = d.TOTAL;
-				total = total.replace(/[^\d\.\-]/g, "");
-
-				d.TOTAL = total;
+    var tooltip = d3.select("body").append("div")
+            .attr("class", "tooltip")
+            .style("opacity", 0);
 
 
-//                console.log(total)
+    var g = svg.append("g")
+            .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-				return d;
-			});
+    d3.queue()
+    //            .defer(d3.csv, "data/Petrol_Prices.csv")
+            .defer(d3.csv, "data/PMS_Fuel_feb_17.csv")
+            .await(ready);
 
-			//draw burbles
-			var color = d3.scaleOrdinal()
-					.domain(data.map(function (d) {
-						return d.Call_Type;
-					}))
-					.range(['#fbb4ae', '#b3cde3', '#ccebc5', '#decbe4', '#fed9a6',
-						'#ffe9a8', '#b9bfe3', '#fddaec', '#cccccc']);
+    function ready(error, data) {
+        if (error) throw error;
 
-			var root = d3.hierarchy({children: data})
-					.sum(function (d) {
-						return d.value;
-					});
+        //
+        var keys = data.map(function (d) {
+            return Object.keys(d)
+        });
+        var cleanArray = keys[0].splice(1, (keys[0].length));
 
-			// transition
-			var t = d3.transition()
-					.duration(750);
+        function updatePrices(min_id) {
+            data.forEach(function (d) {
+                var str = d[min_id];
 
-			pack(root);
-			d3.selectAll(".node").remove();
-
-
-			var node = svg.selectAll(".node")
-					.data(pack(root).leaves())
-					.enter().append("g")
-					.attr("class", "node")
-					.attr("transform", function (d) {
-						return "translate(" + d.x + "," + d.y + ")";
-					});
-
-			//update circle
-			var circle = node.append("circle")
-					.attr("id", function (d) {
-						return d.id;
-					}).on("mouseover", function (d) {
-						tooltip.html(d.data.Call_Type + "<br>" + d.data.value + " TONS");
-						tooltip.style("visibility", "visible");
-					})
-					.on("mousemove", function () {
-						return tooltip.style("top", (d3.event.pageY - 10) + "px")
-								.style("left", (d3.event.pageX + 10) + "px");
-					})
-					.on("mouseout", function () {
-						return tooltip.style("visibility", "hidden");
-					});
-
-			circle.transition(t)
-					.attr("r", function (d) {
-						return d.r;
-					})
-					.style("fill", function (d) {
-						return color(d.data.Call_Type);
-					});
-
-			//exit
-			circle.exit()
-					.transition(t)
-					.attr("opacity", 1e-6)
-					.remove();
+                d.date = parseDate(d.Date);
+                console.log(d.date);
+                d.price = +str;
+                return d;
+            });
 
 
-			var text = node.append("text")
-					.attr("class", "bubble-label")
-					.html(function (d) {
-						if (d.data.value > 0 || d.data.Call_Type == "Other" || d.data.Call_Type == "Fire") {
-							return d.data.Call_Type;
-						}
-						return "";
-					})
-					.attr("opacity", 1)
-					.transition(t);
+            x.domain(d3.extent(data, function (d) {
+//            console.log(d);
+                return d.date;
+            }));
+            y.domain([0, d3.max(data, function (d) {
+                return d.price;
+            })]);
+
+            //remove old paths and axis
+            d3.selectAll(".area").remove();
+            d3.selectAll(".axis").remove();
+            d3.selectAll(".dots").remove();
+            d3.selectAll(".dot-line").remove();
+
+            g.append("path")
+                    .datum(data)
+                    .attr("class", "area")
+                    .attr("d", area);
+
+            //dots
+            g.selectAll(".dot")
+                    .data(data)
+                    .enter().append("circle")
+                    .attr("class", "dots")
+                    .attr("r", 4.5)
+                    .style("fill","rgb(227, 0, 125)")
+                    .attr("cx", function (d) {
+                        return x(d.date);
+                    })
+                    .attr("cy", function (d) {
+                        return y(d.price);
+                    })
+                    .on("mouseover", function (d) {
+                        //tool tip
+                        tooltip.transition()
+                                .duration(200)
+                                .style("opacity", .9);
+
+                        tooltip.html(
+                                "<strong style='color: blue'>N " +
+                                d.price + "</strong>" + "<br>" +
+                                "<em style='font-size: xx-small'>" +
+                                formatTime(d.date) + "</em>"
+                        )
+                                .style("left", (d3.event.pageX) + "px")
+                                .style("top", (d3.event.pageY - 28) + "px");
+
+                        //line
+                        var dotX = x(d.date);
+                        var dotY = y(d.price);
+
+                        var myLine = g.append("svg:line")
+                                .attr("class", 'dot-line')
+                                .attr("x1", 0)
+                                .attr("y1", dotY)
+                                .attr("x2", dotX)
+                                .attr("y2", dotY)
+                                .style("stroke-dasharray", ("3, 3"))
+                                .style("stroke-opacity", 0.9)
+                                .style("stroke", "red");
+
+                    })
+                    .on("mouseout", function () {
+                        tooltip.transition()
+                                .duration(400)
+                                .style("opacity", 0.0);
+
+                        d3.selectAll(".dot-line").transition()
+                                .duration(400)
+                                .style("opacity", 0.0);
+
+                    });
 
 
-		}
+            g.append("g")
+                    .attr("class", "axis axis--x")
+                    .attr("transform", "translate(0," + height + ")")
+                    .call(xAxis);
 
-		//update on change select
-		d3.select("#selectCity")
-				.style("top", height - ( height - 100 ) + "px")
-				.style("left", width - 80 + "px")
-				.style("position", "absolute")
-				.attr("size", 10)
-				.on("change", function () {
-//					console.log('"' + d3.select(this).property("value") + '"');
-					updateMineral(d3.select(this).property("value"))
-				})
-				.selectAll("option")
-				.data(cleanArray)
-				.enter()
-				.append("option")
-				.text(function (d) {
-					return d;
-				})
-				.attr("value", function (d) {
-					return d;
-				});
+            g.append("g")
+                    .attr("class", "axis axis--y")
+                    .call(yAxis);
 
-		updateMineral("Limestone");
+            var d0 = new Date(2016, 7, 1),
+                    d1 = new Date(2016, 12, 1);
 
-	}
+            // Gratuitous intro zoom!
+            svg.call(zoom).transition()
+                    .duration(1500)
+                    .call(zoom.transform, d3.zoomIdentity
+                            .scale(width / (x(d1) - x(d0)))
+                            .translate(-x(d0), 0));
+        }
 
+        updatePrices("AVERAGE");
+
+        //update on change select
+        d3.select("#selectState")
+                .style("top", height - ( height - 100 ) + "px")
+                .style("left", width + 80 + "px")
+                .style("position", "absolute")
+                .attr("size", 5)
+                .on("change", function () {
+                    updatePrices(d3.select(this).property("value"));
+                    d3.select(this).attr("selected", "true");
+
+                    d3.select("#changeState")
+                            .html("<strong>" + d3.select(this).property("value") + "</strong>" + " State")
+                })
+                .selectAll("option")
+                .data(cleanArray)
+                .enter()
+                .append("option")
+                .text(function (d) {
+                    return d;
+                })
+                .attr("value", function (d) {
+                    return d;
+                });
+    }
+
+    function zoomed() {
+        var t = d3.event.transform, xt = t.rescaleX(x);
+
+        g.select(".area").attr("d", area.x(function (d) {
+            return xt(d.date);
+        }));
+
+        //update dots
+        g.selectAll(".dots")
+                .attr("cx", function (d) {
+                    return xt(d.date)
+                });
+
+        //update lines
+//        g.selectAll(".dot-line")
+//                .attr("x2", function (d) {
+//                    return xt(d.date)
+//                });
+//                .attr("y2", function (d) {
+//                    return xt(d.date)
+//                });
+
+        g.select(".axis--x").call(xAxis.scale(xt));
+    }
+
+    //CSV Data Transpose
+
+    transpose = function (a) {
+
+        // Calculate the width and height of the Array
+        var w = a.length ? a.length : 0,
+//                h = a[0] instanceof Array ? a[0].length : 0;
+                h = a[0] instanceof Array ? Object.size(a[0]) : 0;
+
+        // In case it is a zero matrix, no transpose routine needed.
+        if (h === 0 || w === 0) {
+            return [];
+        }
+
+        /**
+         * @var {Number} i Counter
+         * @var {Number} j Counter
+         * @var {Array} t Transposed data is stored in this array.
+         */
+        var i, j, t = [];
+
+        // Loop through every item in the outer array (height)
+        for (i = 0; i < h; i++) {
+
+            // Insert a new row (array)
+            t[i] = [];
+
+            // Loop through every item per item in outer array (width)
+            for (j = 0; j < w; j++) {
+
+                // Save transposed data.
+                t[i][j] = a[j][i];
+            }
+        }
+        return t;
+    };
+
+    //object size
+    Object.size = function (obj) {
+        var size = 0, key;
+        for (key in obj) {
+            if (obj.hasOwnProperty(key)) size++;
+        }
+        return size;
+    };
+
+    //    module sample
+    var Search = (function () {
+        var pubs = {};
+
+        pubs.carSearch = carSearch;
+        function carSearch(color) {
+        }
+
+        pubs.peopleSearch = peopleSearch;
+        function peopleSearch(name) {
+        }
+
+        return pubs;
+    })();
 </script>
 
 </body>
