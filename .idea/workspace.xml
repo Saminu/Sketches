@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7bcd8fb3-494d-4e11-b7d8-2ae6fde12e73" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Eco/mining.html" afterPath="$PROJECT_DIR$/Eco/mining.html" />
-    </list>
+    <list default="true" id="7bcd8fb3-494d-4e11-b7d8-2ae6fde12e73" name="Default" comment="" />
     <ignored path="Sketches.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -90,12 +87,13 @@
       <file leaf-file-name="mining.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Eco/mining.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="99" column="18" selection-start-line="99" selection-start-column="18" selection-end-line="99" selection-end-column="18" />
+            <state relative-caret-position="270">
+              <caret line="98" column="39" selection-start-line="98" selection-start-column="39" selection-end-line="98" selection-end-column="39" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#0;n#section#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#section#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -1099,12 +1097,12 @@
       <workItem from="1493284562288" duration="129000" />
       <workItem from="1493384081500" duration="6231000" />
       <workItem from="1493495521445" duration="487000" />
-      <workItem from="1493496958006" duration="172000" />
+      <workItem from="1493496958006" duration="243000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107820000" />
+    <option name="totallyTimeSpent" value="107891000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="73" y="25" width="1356" height="780" extended-state="0" />
@@ -1726,12 +1724,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Eco/mining.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="99" column="18" selection-start-line="99" selection-start-column="18" selection-end-line="99" selection-end-column="18" />
+        <state relative-caret-position="270">
+          <caret line="98" column="39" selection-start-line="98" selection-start-column="39" selection-end-line="98" selection-end-column="39" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#0;n#section#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#section#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
