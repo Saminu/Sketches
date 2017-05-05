@@ -1,0 +1,32 @@
+{"nodes":[
+  {"name":"Budget Disbursement - March 2017"},
+  {"name":"FGN"},
+  {"name":"STATES"},
+  {"name":"LGC"},
+  {"name":"13% Derivation Fund"},
+  {"name":"Cost of Collection NCS"},
+  {"name":"Transfer to Excess PPT"},
+  {"name":"Cost of collection FIRS"},
+  {"name":"Cost of Collection DPR"},
+  {"name":"FIRS Refund and Mobilisation for Auditors"},
+  {"name":"Statutory Account"},
+  {"name":"Exchange gain"},
+  {"name":"NNPC Refund"},
+  {"name":"Excess PPT Savings Account"},
+  {"name":"Excess PPT Savings Account 2"}
+],
+  "links":[
+    {"source":0,"target":1,"value":180513904309},
+    {"source":0,"target":2,"value":116518013440},
+    {"source":0,"target":3,"value":87469447361},
+    {"source":0,"target":4,"value":35802608131},
+    {"source":0,"target":5,"value":2936391960},
+    {"source":0,"target":6,"value":31471374614},
+    {"source":0,"target":7,"value":414799202},
+    {"source":0,"target":8,"value":1735829714},
+    {"source":10,"target":0,"value":290163252794},
+    {"source":11,"target":0,"value":40329551570},
+    {"source":12,"target":0,"value":6330391543},
+    {"source":13,"target":0,"value":49923887343},
+    {"source":14,"target":0,"value":10976112655}
+  ]}

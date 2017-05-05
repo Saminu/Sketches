@@ -1,0 +1,596 @@
+<!doctype html>
+<!--[if lt IE 7]>
+<html lang="en" class="no-js ie6"><![endif]-->
+<!--[if IE 7]>
+<html lang="en" class="no-js ie7"><![endif]-->
+<!--[if IE 8]>
+<html lang="en" class="no-js ie8"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="UTF-8">
+    <title>Nigerian Premium Motor Spirit (Petrol) Price Watch (February 2017) | NG ATLAS - Nigeria Data Research
+        Centre</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <link rel="shortcut icon" href="favicon.png">
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="js/rs-plugin/css/settings.css">
+
+    <script type="text/javascript" src="js/modernizr.custom.32033.js"></script>
+
+    <link rel="stylesheet" href="css/eco.css">
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style>
+        .node rect {
+            cursor: move;
+            fill-opacity: .9;
+            shape-rendering: crispEdges;
+        }
+
+        .node text {
+            pointer-events: none;
+            text-shadow: 0 1px 0 #fff;
+        }
+
+        .link {
+            fill: none;
+            stroke: #000;
+            stroke-opacity: .15;
+        }
+
+        .link:hover {
+            stroke-opacity: .25;
+        }
+
+        svg {
+            /*position: absolute;*/
+        }
+
+        canvas {
+            position: absolute;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<div class="pre-loader">
+    <div class="load-con">
+        <img src="img/logo.png" class="animated fadeInDown" alt="">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div>
+</div>
+
+<header>
+    <nav class="navbar navbar-inverse navbar-fixed-top second">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1">
+                    <span class="fa fa-bars fa-lg"></span>
+                </button>
+                <a style="padding: 0;" class="navbar-brand" href="index.html">
+                    <img style="max-height: 61px" src="img/logo.png" alt="" class="logo img-responsive">
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="mining.html">Solid Minerals</a>
+                    </li>
+                    <li><a href="petrol.html">Gas (Petrol / Diesel)</a>
+                    </li>
+                    <li><a href="#demo">Food </a>
+                    </li>
+                    <li><a href="#about">Power</a>
+                    </li>
+                    <li><a href="#support">Transportation</a>
+                    </li>
+                    <li><a href="#screens">Research Lab</a>
+                    </li>
+                    <li><a class="getApp" href="#getApp">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-->
+    </nav>
+</header>
+
+<div class="spacer"></div>
+<div class="wrapper">
+
+    <section id="features">
+        <div class="container">
+            <div class="section-heading scrollpoint sp-effect3 section-chart">
+                <h2>The Federation Account Allocation Committee (FAAC) disbursed the sum of N466.93bn to the three tiers of
+                    government in March 2017 from the revenue generated in February 2017</h2>
+                <div class="divider"></div>
+                <p> The amount disbursed comprised of N290.16bn from the Statutory Account; N40.33bn from exchange gain;
+                    N60.89bn from Excess Petroleum Product Tax (PPT) Account; N69.21bn from Valued Added Tax (VAT) while the
+                    sum of N6.33bn was refunded to the Federal Government from the Nigerian National Petroleum Corporation
+                    (NNPC).</p>
+                <p> The amount disbursed comprised of N290.16bn from the Statutory Account; N40.33bn from exchange gain;
+                    N60.89bn from Excess Petroleum Product Tax (PPT) Account; N69.21bn from Valued Added Tax (VAT) while the
+                    sum of N6.33bn was refunded to the Federal Government from the Nigerian National Petroleum Corporation
+                    (NNPC).</p>
+                <em>Data source: National Bureau of Statistics Nigeria</em>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <!--<span class="selectpicker" style="position: absolute; ">-->
+                        <!--<select name="mineral" id="selectState"></select></span>-->
+                    <canvas width="1000" height="1000" ></canvas>
+                    <svg width="1000" height="1000" ></svg>
+
+                </div>
+            </div>
+            <div class="section-heading scrollpoint sp-effect3 section-chart">
+                <div class="divider"></div>
+                <p> Revenue generating agencies, Nigeria Customs Service (NCS), Federal Inland Revenue Service (FIRS) and
+                    Department of Petroleum Resources (DPR) received N2.94bn, N4.15bn and N1.74bn respectively as cost of
+                    revenue collection.</p>
+                <p> Further breakdown of revenue allocation distribution to the Federal Government of Nigeria (FGN) revealed
+                    that the sum of N150.76bn was disbursed to the FGN consolidated revenue account; N3.24bn shared as share of
+                    derivation and ecology; N1.62bn as stabilization fund; N5.44bn for the development of natural resources; and
+                    N3.86bn to the Federal Capital Territory (FCT) Abuja.</p>
+                <em>Data source: National Bureau of Statistics Nigeria</em>
+            </div>
+        </div>
+    </section>
+
+    <section id="reviews">
+        <div class="container">
+            <div class="section-heading inverse scrollpoint sp-effect3">
+                <h1>Reviews</h1>
+                <div class="divider"></div>
+                <p>Read What's The People Are Saying About Us</p>
+            </div>
+            <div class="row">
+                <div class="col-md-10 col-md-push-1 scrollpoint sp-effect3">
+                    <div class="review-filtering">
+                        <div class="review">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <div class="review-person">
+                                        <img src="http://api.randomuser.me/portraits/women/94.jpg" alt=""
+                                             class="img-responsive">
+                                    </div>
+                                </div>
+                                <div class="col-md-10">
+                                    <div class="review-comment">
+                                        <h3>“I love Oleose, I highly recommend it, Everyone Try It Now”</h3>
+                                        <p>
+                                            - Krin Fox
+                                            <span>
+                                                    <i class="fa fa-star fa-lg"></i>
+                                                    <i class="fa fa-star fa-lg"></i>
+                                                    <i class="fa fa-star fa-lg"></i>
+                                                    <i class="fa fa-star fa-lg"></i>
+                                                    <i class="fa fa-star-o fa-lg"></i>
+                                                </span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review rollitin">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <div class="review-person">
+                                        <img src="http://api.randomuser.me/portraits/men/70.jpg" alt=""
+                                             class="img-responsive">
+                                    </div>
+                                </div>
+                                <div class="col-md-10">
+                                    <div class="review-comment">
+                                        <h3>“Oleaose Is The Best Stable, Fast App I Have Ever Experienced”</h3>
+                                        <p>
+                                            - Theodore Willis
+                                            <span>
+                                                    <i class="fa fa-star fa-lg"></i>
+                                                    <i class="fa fa-star fa-lg"></i>
+                                                    <i class="fa fa-star fa-lg"></i>
+                                                    <i class="fa fa-star-half-o fa-lg"></i>
+                                                    <i class="fa fa-star-o fa-lg"></i>
+                                                </span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review rollitin">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <div class="review-person">
+                                        <img src="http://api.randomuser.me/portraits/men/93.jpg" alt=""
+                                             class="img-responsive">
+                                    </div>
+                                </div>
+                                <div class="col-md-10">
+                                    <div class="review-comment">
+                                        <h3>“Keep It Up Guys Your Work Rules, Cheers :)”</h3>
+                                        <p>
+                                            - Ricky Grant
+                                            <span>
+                                                    <i class="fa fa-star fa-lg"></i>
+                                                    <i class="fa fa-star fa-lg"></i>
+                                                    <i class="fa fa-star fa-lg"></i>
+                                                    <i class="fa fa-star-half-o fa-lg"></i>
+                                                    <i class="fa fa-star-o fa-lg"></i>
+                                                </span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section hidden id="screens">
+        <div class="container">
+
+            <div class="section-heading scrollpoint sp-effect3">
+                <h1>Screens</h1>
+                <div class="divider"></div>
+                <p>See what’s included in the App</p>
+            </div>
+
+            <div class="filter scrollpoint sp-effect3">
+                <a href="javascript:void(0)" class="button js-filter-all active">All Screens</a>
+                <a href="javascript:void(0)" class="button js-filter-one">User Access</a>
+                <a href="javascript:void(0)" class="button js-filter-two">Social Network</a>
+                <a href="javascript:void(0)" class="button js-filter-three">Media Players</a>
+            </div>
+            <div class="slider filtering scrollpoint sp-effect5">
+                <div class="one">
+                    <img src="img/eco/screens/profile.jpg" alt="">
+                    <h4>Profile Page</h4>
+                </div>
+                <div class="two">
+                    <img src="img/eco/screens/menu.jpg" alt="">
+                    <h4>Toggel Menu</h4>
+                </div>
+                <div class="three">
+                    <img src="img/eco/screens/weather.jpg" alt="">
+                    <h4>Weather Forcast</h4>
+                </div>
+                <div class="one">
+                    <img src="img/eco/screens/signup.jpg" alt="">
+                    <h4>Sales Analysis</h4>
+                </div>
+                <div class="one">
+                    <img src="img/eco/screens/calendar.jpg" alt="">
+                    <h4>Event Calendar</h4>
+                </div>
+                <div class="two">
+                    <img src="img/eco/screens/options.jpg" alt="">
+                    <h4>Some Options</h4>
+                </div>
+                <div class="three">
+                    <img src="img/eco/screens/sales.jpg" alt="">
+                    <h4>Lorem ipsum dolor</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="demo">
+        <div class="container">
+            <div class="section-heading scrollpoint sp-effect3">
+                <h1>Video</h1>
+                <div class="divider"></div>
+                <p>Take a closer look in more detail</p>
+            </div>
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 scrollpoint sp-effect2">
+                    <div class="video-container">
+                        <iframe src="http://player.vimeo.com/video/70984663"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section hidden id="getApp">
+        <div class="container-fluid">
+            <div class="section-heading inverse scrollpoint sp-effect3">
+                <h1>Get App</h1>
+                <div class="divider"></div>
+                <p>Choose your native platform and get started!</p>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="hanging-phone scrollpoint sp-effect2 hidden-xs">
+                        <img src="img/eco/eco-angled2.png" alt="">
+                    </div>
+                    <div class="platforms">
+                        <a href="#" class="btn btn-primary inverse scrollpoint sp-effect1">
+                            <i class="fa fa-android fa-3x pull-left"></i>
+                            <span>Download for</span><br>
+                            <b>Android</b>
+                        </a>
+
+                        <a href="#" class="btn btn-primary inverse scrollpoint sp-effect2">
+                            <i class="fa fa-apple fa-3x pull-left"></i>
+                            <span>Download for</span><br>
+                            <b>Apple IOS</b>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="support" class="doublediagonal">
+        <div class="container">
+            <div class="section-heading scrollpoint sp-effect3">
+                <h1>Contact</h1>
+                <div class="divider"></div>
+                <p>For more info and support, contact us!</p>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-8 col-sm-8 scrollpoint sp-effect1">
+                            <form role="form">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Your name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Your email">
+                                </div>
+                                <div class="form-group">
+                                    <textarea cols="30" rows="10" class="form-control"
+                                              placeholder="Your message"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                            </form>
+                        </div>
+                        <div class="col-md-4 col-sm-4 contact-details scrollpoint sp-effect2">
+                            <div class="media">
+                                <a class="pull-left" href="#">
+                                    <i class="fa fa-map-marker fa-2x"></i>
+                                </a>
+                                <div class="media-body">
+                                    <h4 class="media-heading">81 A, Church Road, Hendon London, UK</h4>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <a class="pull-left" href="#">
+                                    <i class="fa fa-envelope fa-2x"></i>
+                                </a>
+                                <div class="media-body">
+                                    <h4 class="media-heading">
+                                        <a href="mailto:support@oleose.com">support@oleose.com</a>
+                                    </h4>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <a class="pull-left" href="#">
+                                    <i class="fa fa-phone fa-2x"></i>
+                                </a>
+                                <div class="media-body">
+                                    <h4 class="media-heading">+1 234 567890</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <a href="#" class="scrollpoint sp-effect3">
+                <img src="img/logo.png" alt="" class="logo">
+            </a>
+            <div class="social">
+                <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-twitter fa-lg"></i></a>
+                <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-google-plus fa-lg"></i></a>
+                <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-facebook fa-lg"></i></a>
+            </div>
+            <div class="rights">
+                <p>Copyright &copy; 2017</p>
+            </div>
+        </div>
+    </footer>
+
+</div>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/placeholdem.min.js"></script>
+<script src="js/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+<script src="js/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+<script src="js/waypoints.min.js"></script>
+<script src="js/scripts.js"></script>
+<script>
+    $(document).ready(function () {
+        appMaster.preLoader();
+    });
+</script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/d3/4.8.0/d3.js" charset="utf-8" type="text/javascript"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/d3-sankey/0.4.2/d3-sankey.js" charset="utf-8" type="text/javascript"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/d3-timer/1.0.5/d3-timer.js" charset="utf-8" type="text/javascript"></script>
+
+<script>
+    var margin = {top: 1, right: 1, bottom: 6, left: 1},
+            width = 960 - margin.left - margin.right,
+            height = 500 - margin.top - margin.bottom;
+
+    var formatNumber = d3.format(",.0f"),
+            format = function(d) { return formatNumber(d) + " TWh"; },
+            color = d3.scaleOrdinal(d3.schemeCategory20);
+
+    var svg = d3.select("svg")
+            .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.top + margin.bottom)
+            .append("g")
+            .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+    var sankey = d3.sankey()
+            .nodeWidth(15)
+            .nodePadding(10)
+            .size([width, height]);
+
+    var path = sankey.link();
+
+    var freqCounter = 1;
+
+
+    d3.json("data/budget.json", function(energy) {
+
+        sankey
+                .nodes(energy.nodes)
+                .links(energy.links)
+                .layout(32);
+
+        var link = svg.append("g").selectAll(".link")
+                .data(energy.links)
+                .enter().append("path")
+                .attr("class", "link")
+                .attr("d", path)
+                .style("stroke-width", function(d) { return Math.max(1, d.dy); })
+                .sort(function(a, b) { return b.dy - a.dy; });
+
+        link.append("title")
+                .text(function(d) { return d.source.name + " → " + d.target.name + "\n" + format(d.value); });
+
+        var node = svg.append("g").selectAll(".node")
+                .data(energy.nodes)
+                .enter().append("g")
+                .attr("class", "node")
+                .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; })
+                .call(d3.drag()
+                        .subject(function(d) { return d; })
+                        .on("start", function() { this.parentNode.appendChild(this); })
+                        .on("drag", dragmove));
+
+        node.append("rect")
+                .attr("height", function(d) { return d.dy; })
+                .attr("width", sankey.nodeWidth())
+                .style("fill", function(d) { return d.color = color(d.name.replace(/ .*/, "")); })
+                .style("stroke", "none")
+                .append("title")
+                .text(function(d) { return d.name + "\n" + format(d.value); });
+
+        node.append("text")
+                .attr("x", -6)
+                .attr("y", function(d) { return d.dy / 2; })
+                .attr("dy", ".35em")
+                .attr("text-anchor", "end")
+                .attr("transform", null)
+                .html(function(d) {
+                    return "<tspan x='0' dy='1.2em'>" + d.name + "</tspan>" +
+                            "<tspan x='0' dy='1.2em'> NGN " + d.value + "</tspan>";
+                })
+                .filter(function(d) { return d.x < width / 2; })
+                .attr("x", 6 + sankey.nodeWidth())
+                .attr("text-anchor", "start");
+
+        function dragmove(d) {
+            d3.select(this).attr("transform", "translate(" + d.x + "," + (d.y = Math.max(0, Math.min(height - d.dy, d3.event.y))) + ")");
+            sankey.relayout();
+            link.attr("d", path);
+        }
+
+        var linkExtent = d3.extent(energy.links, function (d) {return d.value});
+        var frequencyScale = d3.scaleLinear().domain(linkExtent).range([0.05,1]);
+        var particleSize = d3.scaleLinear().domain(linkExtent).range([1,5]);
+
+
+        energy.links.forEach(function (link) {
+            link.freq = frequencyScale(link.value);
+            link.particleSize = 2;
+            link.particleColor = d3.scaleLinear().domain([0,1])
+                    .range([link.source.color, link.target.color]);
+        })
+
+        var t = d3.timer(tick, 1000);
+        var particles = [];
+
+        function tick(elapsed, time) {
+
+            particles = particles.filter(function (d) {return d.current < d.path.getTotalLength()});
+
+            d3.selectAll("path.link")
+                    .each(
+                            function (d) {
+//        if (d.freq < 1) {
+                                for (var x = 0;x<2;x++) {
+                                    var offset = (Math.random() - .5) * (d.dy - 4);
+                                    if (Math.random() < d.freq) {
+                                        var length = this.getTotalLength();
+                                        particles.push({link: d, time: elapsed, offset: offset, path: this, length: length, animateTime: length, speed: 0.5 + (Math.random())})
+                                    }
+                                }
+
+//        }
+                                /*        else {
+                                 for (var x = 0; x<d.freq; x++) {
+                                 var offset = (Math.random() - .5) * d.dy;
+                                 particles.push({link: d, time: elapsed, offset: offset, path: this})
+                                 }
+                                 } */
+                            });
+
+            particleEdgeCanvasPath(elapsed);
+        }
+
+        function particleEdgeCanvasPath(elapsed) {
+            var context = d3.select("canvas").node().getContext("2d");
+
+            context.clearRect(0,0,1000,1000);
+
+            context.fillStyle = "gray";
+            context.lineWidth = "1px";
+            for (var x in particles) {
+                var currentTime = elapsed - particles[x].time;
+//        var currentPercent = currentTime / 1000 * particles[x].path.getTotalLength();
+                particles[x].current = currentTime * 0.15 * particles[x].speed;
+                var currentPos = particles[x].path.getPointAtLength(particles[x].current);
+                context.beginPath();
+                context.fillStyle = particles[x].link.particleColor(0);
+                context.arc(currentPos.x,currentPos.y + particles[x].offset,particles[x].link.particleSize,0,2*Math.PI);
+                context.fill();
+            }
+        }
+
+
+    });
+
+</script>
+
+</body>
+
+</html>
